@@ -43,9 +43,7 @@ function criarCardFilme(filme) {
     
     // Adiciona interatividade
     card.addEventListener("click", () => {
-        // Exemplo: redirecionar para página de detalhes
-        // window.location.href = `detalhes.html?id=${filme.id}`;
-        console.log(`Clicou em: ${filme.titulo}`);
+        window.location.href = `detalhes.html?id=${filme.id}`;
     });
     
     return card;
