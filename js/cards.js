@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
 async function carregarFilmes() {
     try {
         // Caminho relativo à pasta js a partir da pasta pages
-        const response = await fetch("../js/filmes.json");
+        const response = await fetch("../data/filmes.json");
         const filmes = await response.json();
         
         const grid = document.getElementById("catalogo-grid");

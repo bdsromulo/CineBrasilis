@@ -13,7 +13,7 @@ async function carregarDetalhesFilme() {
     }
 
     try {
-        const response = await fetch("../js/filmes.json");
+        const response = await fetch("../data/filmes.json");
         const filmes = await response.json();
         
         // Busca o filme pelo ID
