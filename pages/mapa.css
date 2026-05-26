@@ -1,0 +1,80 @@
+#mapa-brasil-container {
+    width: 100%;
+    height: 500px;
+    border: 1px solid #ccc;
+}
+
+.container-principal {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 40px;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#mapa-brasil-container {
+    flex: 3;
+    width: 100%;
+    max-width: 700px;
+}
+
+#info-estado-container {
+    flex: 2;
+    width:100%;
+    position: sticky;
+    top: 20px;
+}
+
+#mapa-brasil-container svg {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.estado {
+    fill: #6f9c76; 
+    stroke: #ffffff; 
+    stroke-width: 0.5px;
+    cursor: pointer;
+    transition: fill 0.2s ease;
+}
+
+.estado:hover {
+    fill: #4caf50; 
+}
+
+.estado.ativo {
+    fill: #1b5e20; 
+}
+
+@media (max-width: 992px) {
+    .container-principal {
+        gap: 20px; /* Reduz o espaço entre o mapa e o card */
+        padding: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container-principal {
+        flex-direction: column; /* Coloca o card debaixo do mapa */
+        align-items: center;
+        gap: 30px;
+    }
+
+    #mapa-brasil-container {
+        max-width: 100%;
+    }
+
+    #info-estado-container {
+        position: static; /* Desliga o sticky, pois o card agora está no final da página */
+        max-width: 100%;
+    }
+
+    .estado {
+        stroke-width: 1.5px; /* Aumenta ligeiramente a borda para facilitar o toque */
+    }
+}
