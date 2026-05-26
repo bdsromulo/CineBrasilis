@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home - Cine Brasilis</title>
     <link rel="stylesheet" href="/style/global.css">
+    <link rel="stylesheet" href="/style/home.css">
 </head>
 <body>
     <header>
@@ -42,6 +43,22 @@
             </p>
         </section>
 
+        <section class="carrossel-section">
+            <h2>Filmes em Destaque</h2>
+            
+            <div class="carrossel-container">
+                <button id="btn-ant" class="carrossel-btn left">❮</button>
+                
+                <div class="carrossel-janela">
+                    <div id="carrossel-track" class="carrossel-track">
+                        <!-- Cards via home.js -->
+                    </div>
+                </div>
+
+                <button id="btn-prox" class="carrossel-btn right">❯</button>
+            </div>
+        </section>
+
         <section>
             <h3>Explore o Cine Brasilis</h3>
             <ul>
@@ -66,5 +83,6 @@
         </p>
         <p>UTFPR | 2026</p>
     </footer>
+    <script src="/js/home.js"></script>
 </body>
 </html>
