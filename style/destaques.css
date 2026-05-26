@@ -1,10 +1,7 @@
-
-
-/* --- Estilos Genéricos de Destaques --- */
-#destaques-container {
+.destaques-container {
     display: flex;
     flex-direction: column;
-    gap: 50px; /* Distância entre as prateleiras */
+    gap: 50px; /* DistÃ¢ncia entre as prateleiras */
     margin-bottom: 50px;
 }
 
