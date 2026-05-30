@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="450" viewBox="0 0 300 450">
+  <rect width="300" height="450" fill="#e8e8e8"/>
+  <rect x="90" y="140" width="120" height="90" rx="8" fill="#c0c0c0"/>
+  <circle cx="120" cy="165" r="14" fill="#a0a0a0"/>
+  <polygon points="90,230 150,170 210,230" fill="#a0a0a0"/>
+  <polygon points="150,200 210,170 210,230" fill="#b0b0b0"/>
+  <text x="150" y="290" font-family="Arial, sans-serif" font-size="14" fill="#999" text-anchor="middle">Sem pôster</text>
+</svg>

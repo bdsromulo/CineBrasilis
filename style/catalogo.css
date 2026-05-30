@@ -1,4 +1,107 @@
-/* Estilos para o Grid e Cards do Catalogo */
+/* ---------------------------------------------------------------------------
+   CabeÃ§alho do catÃ¡logo
+--------------------------------------------------------------------------- */
+.catalogo-header {
+    margin-bottom: 8px;
+}
+
+.catalogo-header h2 {
+    margin: 0 0 4px;
+    font-size: 1.8rem;
+}
+
+.catalogo-subtitulo {
+    margin: 0;
+    color: #666;
+    font-size: 0.95rem;
+}
+
+/* ---------------------------------------------------------------------------
+   Barra de filtros
+--------------------------------------------------------------------------- */
+.filtros-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 12px;
+    align-items: center;
+}
+
+.filtro-input,
+.filtro-select {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 0.95rem;
+    background: #fff;
+    color: #333;
+    cursor: pointer;
+}
+
+.filtro-input {
+    flex: 1;
+    min-width: 200px;
+}
+
+.filtro-select {
+    min-width: 160px;
+}
+
+.filtro-input:focus,
+.filtro-select:focus {
+    outline: none;
+    border-color: #4a5c2f;
+}
+
+.filtro-btn-limpar {
+    padding: 8px 16px;
+    background: transparent;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    color: #666;
+    cursor: pointer;
+    transition: border-color 0.2s, color 0.2s;
+    white-space: nowrap;
+}
+
+.filtro-btn-limpar:hover {
+    border-color: #999;
+    color: #333;
+}
+
+/* Contagem de resultados */
+.catalogo-contagem {
+    margin: 0 0 16px;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+/* Mensagem de lista vazia */
+.catalogo-vazio {
+    grid-column: 1 / -1;
+    text-align: center;
+    color: #999;
+    padding: 40px 0;
+    font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+    .filtros-container {
+        flex-direction: column;
+    }
+
+    .filtro-input,
+    .filtro-select,
+    .filtro-btn-limpar {
+        width: 100%;
+        min-width: unset;
+    }
+}
+
+/* ---------------------------------------------------------------------------
+   Estilos para o Grid e Cards do Catalogo
+--------------------------------------------------------------------------- */
 .catalogo-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -53,7 +156,7 @@
     color: #666;
 }
 
-/* --- Estilos de Paginação --- */
+/* --- Estilos de Paginaï¿½ï¿½o --- */
 .paginacao-container {
     display: flex;
     justify-content: center;

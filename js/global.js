@@ -8,13 +8,12 @@ function criarCardFilme(filme) {
     const card = document.createElement("div");
     card.className = "filme-card";
     
-    // Usa a poster_url do JSON, garantindo um fallback se não houver
-    const imageUrl = filme.poster_url || "https://via.placeholder.com/300x450?text=Sem+Poster";
-    
+    const imageUrl = filme.poster_url || "../img/sem-poster.svg";
+
     // Criação dos elementos internos do card
     card.innerHTML = `
         <div class="filme-poster-container">
-            <img src="${imageUrl}" alt="Pôster do filme ${filme.titulo}" class="filme-poster" loading="lazy">
+            <img src="${imageUrl}" alt="Pôster do filme ${filme.titulo}" class="filme-poster" loading="lazy" onerror="this.onerror=null;this.src='../img/sem-poster.svg';">
         </div>
         <div class="filme-info">
             <h3 class="filme-titulo">${filme.titulo}</h3>

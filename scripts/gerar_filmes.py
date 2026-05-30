@@ -212,33 +212,59 @@ def extrair_trailer(videos):
     return ""
 
 
+def extrair_produtoras(dados):
+    companies = dados.get("production_companies", [])
+    return [c["name"] for c in companies if c.get("name")]
+
+
+def extrair_classificacao_br(dados):
+    """Retorna a classificação indicativa brasileira (ex: '16', '12', 'L')."""
+    for entry in dados.get("release_dates", {}).get("results", []):
+        if entry.get("iso_3166_1") == "BR":
+            for rd in entry.get("release_dates", []):
+                cert = rd.get("certification", "")
+                if cert:
+                    return cert
+    return ""
+
+
 def montar_entrada(dados):
-    tmdb_id     = dados.get("id")
-    titulo      = dados.get("title", "")
-    data_lanc   = dados.get("release_date") or ""
-    ano         = int(data_lanc[:4]) if len(data_lanc) >= 4 else None
-    sinopse     = dados.get("overview", "")
-    avaliacao   = round(float(dados.get("vote_average") or 0), 1)
-    path_poster = dados.get("poster_path") or ""
-    credits     = dados.get("credits", {})
-    videos      = dados.get("videos", {})
+    tmdb_id      = dados.get("id")
+    titulo       = dados.get("title", "")
+    data_lanc    = dados.get("release_date") or ""
+    ano          = int(data_lanc[:4]) if len(data_lanc) >= 4 else None
+    sinopse      = dados.get("overview", "")
+    avaliacao    = round(float(dados.get("vote_average") or 0), 1)
+    path_poster  = dados.get("poster_path") or ""
+    path_backdrop = dados.get("backdrop_path") or ""
+    credits      = dados.get("credits", {})
+    videos       = dados.get("videos", {})
+    produtoras   = extrair_produtoras(dados)
 
     return {
         "id":                       slugify(titulo),
         "tmdb_id":                  tmdb_id,
+        "imdb_id":                  dados.get("imdb_id", ""),
         "titulo":                   titulo,
         "ano":                      ano,
+        "data_lancamento":          data_lanc,
         "diretor":                  extrair_diretor(credits),
         "genero":                   [g["name"] for g in dados.get("genres", [])],
         "regiao":                   "",
         "estado":                   "",
-        "produtora":                "",
+        "produtora":                produtoras[0] if produtoras else "",
+        "produtoras":               produtoras,
         "sinopse":                  sinopse,
         "elenco":                   extrair_elenco(credits),
         "premios":                  [],
         "avaliacao":                avaliacao,
+        "vote_count":               dados.get("vote_count", 0),
+        "duracao":                  dados.get("runtime") or 0,
+        "adult":                    dados.get("adult", False),
+        "classificacao":            extrair_classificacao_br(dados),
         "poster_path":              path_poster,
         "poster_url":               poster_url(path_poster, "w500"),
+        "backdrop_url":             poster_url(path_backdrop, "w1280") if path_backdrop else "",
         "trailer":                  extrair_trailer(videos),
         "tags":                     [],
         "similares_internacionais": [],
@@ -246,7 +272,7 @@ def montar_entrada(dados):
 
 
 def buscar_detalhes(tmdb_id):
-    params = {"append_to_response": "credits,videos", "language": "pt-BR"}
+    params = {"append_to_response": "credits,videos,release_dates", "language": "pt-BR"}
     return requisicao(f"{BASE_URL}/movie/{tmdb_id}", params=params)
 
 

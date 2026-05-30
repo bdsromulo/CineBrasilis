@@ -28,8 +28,39 @@
     </header>
 
     <main>
-    
-        <p>Catálogo</p>        
+
+        <section class="catalogo-header">
+            <h2>Catálogo</h2>
+            <p class="catalogo-subtitulo">Explore mais de 25 mil produções brasileiras</p>
+        </section>
+
+        <section class="filtros-container">
+            <input
+                type="text"
+                id="filtro-busca"
+                class="filtro-input"
+                placeholder="Buscar por título..."
+                autocomplete="off"
+            >
+            <select id="filtro-genero" class="filtro-select">
+                <option value="">Todos os gêneros</option>
+            </select>
+            <select id="filtro-decada" class="filtro-select">
+                <option value="">Todas as décadas</option>
+                <option value="1940">1940s</option>
+                <option value="1950">1950s</option>
+                <option value="1960">1960s</option>
+                <option value="1970">1970s</option>
+                <option value="1980">1980s</option>
+                <option value="1990">1990s</option>
+                <option value="2000">2000s</option>
+                <option value="2010">2010s</option>
+                <option value="2020">2020s</option>
+            </select>
+            <button id="filtro-limpar" class="filtro-btn-limpar">Limpar filtros</button>
+        </section>
+
+        <p id="catalogo-contagem" class="catalogo-contagem"></p>
         <div id="catalogo-grid" class="catalogo-grid"></div>
         <div id="paginacao-container" class="paginacao-container"></div>
     </main>
