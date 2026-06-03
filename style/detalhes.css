@@ -1,3 +1,31 @@
+.backdrop-banner {
+    width: 100%;
+    height: 0;
+    padding-bottom: 30%;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Lightbox */
+.lightbox {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.9);
+    z-index: 1000;
+    align-items: center;
+    justify-content: center;
+    cursor: zoom-out;
+}
+.lightbox--ativo {
+    display: flex;
+}
+.lightbox img {
+    max-width: 90vw;
+    max-height: 90vh;
+    object-fit: contain;
+    border-radius: 4px;
+}
 .detalhes-container {
     padding: 3% 10%;
 }
@@ -44,6 +72,17 @@
     color: blueviolet;
     font-weight: bold;
 }
+.meta-vote-count {
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.4);
+}
+.meta-classificacao {
+    background: rgba(0,0,0,0.08);
+    border-radius: 4px;
+    padding: 1px 7px;
+    font-size: 14px;
+    font-weight: bold;
+}
 .filme-generos ul {
     display: flex;
     flex-wrap: wrap;
@@ -78,6 +117,32 @@
 }
 .detalhe-valor {
     color: black;
+}
+.detalhe-link {
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+}
+.imdb-logo {
+    height: 20px;
+    width: auto;
+    display: block;
+    transition: opacity 0.2s;
+}
+.detalhe-link:hover .imdb-logo {
+    opacity: 0.75;
+}
+.detalhe-vazio {
+    color: rgba(0,0,0,0.35);
+    font-size: 13px;
+}
+.tag-chip {
+    background-color: rgba(138, 43, 226, 0.1);
+    color: blueviolet;
+    border: 1px solid rgba(138, 43, 226, 0.3);
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 13px;
 }
 .filme-secao {
     margin-bottom: 8px;
