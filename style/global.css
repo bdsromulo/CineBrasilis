@@ -1,19 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400..700&display=swap');
+
+
+
 :root {
-    /* Paleta derivada da logo (cinema brasileiro) */
-    --cor-marinho:      #0a1628;   /* chrome escuro: navbar, footer */
-    --cor-superficie:   #16213e;   /* superfícies escuras secundárias */
-    --cor-destaque:     #FFDF00;   /* amarelo: hover, números, acento forte */
-    --cor-acento:       #009C3B;   /* verde: links, botões, sucesso */
+    --cor-marinho:      #0a1628;
+    --cor-superficie:   #16213e;
+    --cor-destaque:     #FFDF00;
+    --cor-acento:       #009C3B;
     --cor-acento-hover: #00b544;
-    --cor-texto:        #1a1a1a;   /* texto sobre fundo claro */
-    --cor-texto-claro:  #eaeaea;   /* texto sobre chrome escuro */
+    --cor-texto:        #1a1a1a;
+    --cor-texto-claro:  #eaeaea;
     --cor-texto-suave:  #9aa5b1;
     --cor-borda:        #e6e6e6;
     --raio-card:        10px;
 
-    /* Tipografia: serifada nos títulos (tom editorial/cinema), sans no corpo */
-    --fonte-titulo: Georgia, "Times New Roman", serif;
-    --fonte-corpo:  Arial, Helvetica, sans-serif;
+    --fonte-titulo: 'Oswald', sans-serif;
+    --fonte-corpo: 'Rubik', sans-serif;
 }
 
 body {
