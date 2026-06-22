@@ -91,8 +91,43 @@
     background: #00b544;
 }
 
-.explore-lista {
-    line-height: 1.9;
+.explore-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 12px;
+    margin-top: 16px;
+}
+
+.explore-card {
+    background: #fff;
+    border: 1px solid var(--cor-borda);
+    border-radius: var(--raio-card);
+    padding: 20px 16px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    text-decoration: none;
+    transition: border-color 0.2s, background 0.2s;
+}
+
+.explore-card:hover {
+    border-color: var(--cor-acento);
+    background: #f6fdf9;
+}
+
+.explore-titulo {
+    margin: 0;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: var(--fonte-titulo);
+    color: var(--cor-texto);
+}
+
+.explore-descricao {
+    margin: 0;
+    font-size: 13px;
+    color: #555;
+    line-height: 1.5;
 }
 
 /* --- Estilos do Carrossel (usado em Destaques) --- */
