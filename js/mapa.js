@@ -6,6 +6,11 @@ const SVG_NS = "http://www.w3.org/2000/svg";
 
 // Estados pequenos demais para caber o rótulo dentro: recebem rótulo externo + linha
 const ESTADOS_EXTERNOS = new Set(["RJ", "ES", "AL", "SE", "PB", "RN", "PE", "DF"]);
+// Ajuste manual de X e Y para estados com ilhas oceânicas
+const AJUSTES_CENTRO = {
+    "RN": { dx: -50,  dy: 50 }, // Puxa 80px pra esquerda e 10px pra baixo  
+    "ES": { dx: -100,  dy: -5 } // Puxa 90px pra esquerda e 10px pra cima
+};
 const COLUNA_EXTERNA_X = 945;   // x da coluna de rótulos externos (viewBox 0..1000)
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -89,8 +94,13 @@ function criarRotulos() {
     estados.forEach(path => {
         const uf = path.id.slice(2);
         const bbox = path.getBBox();
-        const cx = bbox.x + bbox.width / 2;
-        const cy = bbox.y + bbox.height / 2;
+        let cx = bbox.x + bbox.width / 2;
+        let cy = bbox.y + bbox.height / 2;
+
+        if (AJUSTES_CENTRO[uf]) {
+            cx += AJUSTES_CENTRO[uf].dx;
+            cy += AJUSTES_CENTRO[uf].dy;
+        }
 
         if (ESTADOS_EXTERNOS.has(uf)) {
             const idx = externos.findIndex(e => e.path === path);
@@ -146,6 +156,10 @@ function vincularHover(path) {
 
 function realcar(path, ativo) {
     path.classList.toggle("estado-hover", ativo);
+    if (ativo) {
+        path.parentNode.appendChild(path);
+    }
+
     if (path.rotulo) {
         path.rotulo.forEach(el => el.classList.toggle("rotulo-hover", ativo));
     }
@@ -159,10 +173,14 @@ function gerarPainelEstado(uf, nome, container) {
     const filmes = filmesPorEstado[uf] || [];
     container.classList.add("visivel");
 
-    // Resumo compacto no painel lateral
+    // Monta o caminho da imagem dinamicamente baseado na sigla (ex: pr.png)
+    const caminhoBandeira = `../img/bandeiras/${uf.toLowerCase()}.png`;
+
+    // Resumo compacto no painel lateral quando não há filmes
     if (filmes.length === 0) {
         container.innerHTML = `
             <div class="aviso-card">
+                <img src="${caminhoBandeira}" alt="Bandeira de ${nome}" class="bandeira-estado" onerror="this.style.display='none'">
                 <h3>${nome} <span class="painel-uf">${uf}</span></h3>
                 <p>Nenhuma produção catalogada para este estado ainda.</p>
             </div>
@@ -171,11 +189,15 @@ function gerarPainelEstado(uf, nome, container) {
         return;
     }
 
+    // Painel principal quando há filmes
     container.innerHTML = `
         <div class="painel-estado-header">
-            <h3>${nome} <span class="painel-uf">${uf}</span></h3>
-            <p class="painel-contagem">${filmes.length} ${filmes.length === 1 ? "produção catalogada" : "produções catalogadas"}</p>
-            <p class="painel-dica">Veja os filmes no carrossel abaixo do mapa.</p>
+            <img src="${caminhoBandeira}" alt="Bandeira de ${nome}" class="bandeira-estado" onerror="this.style.display='none'">
+            <div class="painel-estado-info">
+                <h3>${nome} <span class="painel-uf">${uf}</span></h3>
+                <p class="painel-contagem">${filmes.length} ${filmes.length === 1 ? "produção catalogada" : "produções catalogadas"}</p>
+                <p class="painel-dica">Veja os filmes no carrossel abaixo do mapa.</p>
+            </div>
         </div>
     `;
 
@@ -272,4 +294,33 @@ function mostrarEstadoInicial() {
     `;
     container.classList.add("visivel");
     ocultarCarrosselEstado();
+}
+
+document.addEventListener("click", (event) => {
+    // Lista de elementos que não devem acionar o reset se clicados
+    const clicouNoEstado = event.target.closest(".estado");
+    const clicouNoRotulo = event.target.closest(".rotulo-uf");
+    const clicouNaLinha = event.target.closest(".rotulo-linha");
+    const clicouNoPainel = event.target.closest("#info-estado-container");
+    const clicouNoCarrossel = event.target.closest("#filmes-estado-bloco");
+
+    // Se o clique não foi em nenhum desses elementos, reseta o mapa
+    if (!clicouNoEstado && !clicouNoRotulo && !clicouNaLinha && !clicouNoPainel && !clicouNoCarrossel) {
+        resetarMapa();
+    }
+});
+
+function resetarMapa() {
+    const estados = pathsDosEstados();
+    
+    // Remove a classe 'ativo' de todos os estados e rótulos
+    estados.forEach(e => {
+        e.classList.remove("ativo");
+        if (e.rotulo) {
+            e.rotulo.forEach(el => el.classList.remove("rotulo-ativo"));
+        }
+    });
+
+    // Chama a função pronta para voltar a mensagem original
+    mostrarEstadoInicial(); 
 }

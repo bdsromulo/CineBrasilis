@@ -60,7 +60,9 @@ main{
 }
 
 main p{
-    justify-content: center;
+    text-align: justify;
+    hyphens: auto; /* Adiciona hifens automaticamente quando necessário */
+    -webkit-hyphens: auto;
 }
 
 /* Container visual reutilizável para separar blocos de conteúdo */

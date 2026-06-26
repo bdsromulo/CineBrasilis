@@ -21,10 +21,11 @@
     min-width: 280px;
     position: sticky;
     top: 20px;
-    background-color: aliceblue;
-    border-radius: 10%;
+    background-color: #f8f9fa;
+    border-radius: 12px;
+    border-top: 5px solid #1b5e20;
     padding: 20px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
     opacity: 0;
     transform: translateX(40px);
     transition: opacity 0.4s ease, transform 0.4s ease;
@@ -61,6 +62,31 @@
     font-size: 0.85rem;
     color: #888;
     font-style: italic;
+}
+
+.painel-estado-header {
+    display: flex;
+    align-items: center; /* Alinha a bandeira e os textos verticalmente no centro */
+    gap: 15px; /* Espaço entre a bandeira e os textos */
+}
+
+.painel-estado-info {
+    flex: 1; 
+}
+
+/* --- Estilização da Bandeira --- */
+.bandeira-estado {
+    width: 65px; 
+    height: auto;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    border: 1px solid #e0e0e0; /* Contorno sutil para bandeiras que têm muito branco */
+    object-fit: cover;
+}
+
+.aviso-card .bandeira-estado {
+    margin-bottom: 15px;
+    width: 80px;
 }
 
 /* Carrossel de filmes do estado (abaixo do mapa) */
@@ -100,37 +126,41 @@
 }
 
 .estado {
-    fill: #6f9c76;
+    fill: #7FA386;
     stroke: #ffffff;
-    stroke-width: 0.5px;
+    stroke-width: 0.8px;
     cursor: pointer;
     transform-box: fill-box;
     transform-origin: center;
-    transition: fill 0.2s ease, transform 0.2s ease;
+    transition: fill 0.2s ease, stroke-width 0.2s ease, transform 0.2s ease, filter 0.2s ease;
 }
 
 /* Aumenta o estado ao passar o mouse (no path ou no rótulo externo) */
 .estado:hover,
 .estado.estado-hover {
     fill: #4caf50;
-    transform: scale(1.20);
+    stroke-width: 1.5px;
+    filter: drop-shadow(0px 4px 6px rgba(0, 0, 0, 0.4));
+    transform: scale(1.08);
 }
 
 .estado.ativo {
     fill: #1b5e20;
+    stroke-width: 1.5px;
+    filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.3));
 }
 
 /* --- Rótulos (siglas) dos estados --- */
 .rotulo-uf {
-    font-family: Arial, sans-serif;
-    font-size: 26px;
-    font-weight: bold;
+    font-family: 'Rubik', Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
     fill: #ffffff;
     paint-order: stroke;
-    stroke: rgba(0, 0, 0, 0.45);
+    stroke: rgba(0, 0, 0, 0.3);
     stroke-width: 3px;
     cursor: pointer;
-    transition: fill 0.2s ease;
+    transition: fill 0.3s ease, transform 0.3s ease;
 }
 .rotulo-interno {
     text-anchor: middle;
@@ -150,12 +180,16 @@
 .rotulo-interno.rotulo-hover,
 .rotulo-interno.rotulo-ativo {
     fill: #FFDF00;               /* amarelo: alto contraste sobre o verde */
-    text-decoration: underline;
+    transform: scale(1.1);
+    transform-origin: center;
+    transform-box: fill-box;
 }
 .rotulo-externo.rotulo-hover,
 .rotulo-externo.rotulo-ativo {
     fill: #009C3B;               /* verde da marca: contraste sobre o branco */
-    text-decoration: underline;
+    transform: scale(1.1);
+    transform-origin: left center; 
+    transform-box: fill-box;
 }
 line.rotulo-hover,
 line.rotulo-ativo {
@@ -175,21 +209,39 @@ line.rotulo-ativo {
         flex-direction: column; /* Coloca o card debaixo do mapa */
         align-items: center;
         gap: 30px;
+        overflow: hidden; 
+        width: 100%;
     }
 
     #mapa-brasil-container {
+        width: 100%;
         max-width: 100%;
+        overflow-x: auto;
+        overflow-y: hidden; 
+        -webkit-overflow-scrolling: touch; 
+        transform: translateZ(0);
+    }
+
+    #mapa-brasil-container svg {
+        min-width: 550px; 
+        margin: 0 auto;
     }
 
     #info-estado-container {
         position: static; /* Desliga o sticky, pois o card agora está no final da página */
-        max-width: 100%;
+        width: 90%;
+        margin: 0 auto;
         opacity: 1;
         transform: translateX(0);
     }
 
     .estado {
         stroke-width: 1.5px; /* Aumenta ligeiramente a borda para facilitar o toque */
+    }
+
+    .rotulo-uf {
+        /* Aumenta a fonte das siglas no mobile para facilitar a leitura */
+        font-size: 32px; 
     }
 }
 

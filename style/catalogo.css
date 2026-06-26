@@ -28,7 +28,9 @@
 }
 
 .filtro-input,
-.filtro-select {
+.filtro-select,
+.filtro-btn-limpar {
+    font-family: 'Rubik', sans-serif; 
     padding: 8px 12px;
     border: 1px solid #ccc;
     border-radius: 6px;
@@ -36,6 +38,7 @@
     background: #fff;
     color: #333;
     cursor: pointer;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
 }
 
 .filtro-input {
@@ -45,6 +48,15 @@
 
 .filtro-select {
     min-width: 160px;
+    appearance: none; /* Removendo o estilo padrão do SO */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    
+    /* Seta SVG personalizada direto no CSS */
+    background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23333%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E");
+    background-repeat: no-repeat;
+    background-position: right 7px top 50%; /* Posiciona a seta na direita */
+    background-size: 12px auto;
 }
 
 .filtro-input:focus,
@@ -93,20 +105,25 @@
 }
 
 .filtro-btn-limpar {
-    padding: 8px 16px;
-    background: transparent;
-    border: 1px solid #ccc;
+    padding: 10px 16px;
+    background-color: var(--cor-acento); /* O verde do projeto */
+    color: #ffffff;
+    border: none;
     border-radius: 6px;
-    font-size: 0.9rem;
-    color: #666;
+    font-size: 0.95rem;
+    font-weight: 600;
     cursor: pointer;
-    transition: border-color 0.2s, color 0.2s;
-    white-space: nowrap;
+    transition: all 0.2s ease;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
 .filtro-btn-limpar:hover {
-    border-color: #999;
-    color: #333;
+    filter: brightness(1.1); /* Clareia levemente no hover */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.filtro-btn-limpar:active {
+    transform: scale(0.96); /* Efeito de "afundar" ao clicar */
 }
 
 /* Contagem de resultados */
@@ -128,13 +145,16 @@
 @media (max-width: 768px) {
     .filtros-container {
         flex-direction: column;
+        align-items: stretch; /* Faz com que todos os itens ocupem a largura toda */
     }
 
     .filtro-input,
     .filtro-select,
-    .filtro-btn-limpar {
+    .filtro-btn-limpar,
+    .filtro-ator-wrapper {
         width: 100%;
         min-width: unset;
+        margin-left: 0;
     }
 }
 
@@ -207,24 +227,35 @@
 }
 
 .btn-paginacao {
-    padding: 10px 20px;
+    padding: 10px 24px;
     background-color: var(--cor-acento);
-    color: white;
+    color: #ffffff;
     border: none;
-    border-radius: 5px;
-    font-weight: bold;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: 600;
     cursor: pointer;
-    transition: background-color 0.2s, opacity 0.2s;
+    transition: all 0.2s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Dá volume ao botão */
 }
 
 .btn-paginacao:hover:not(:disabled) {
     background-color: var(--cor-acento-hover);
+    transform: translateY(-2px); /* O botão "levanta" ao passar o mouse */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* A sombra espalha mais */
+}
+
+.btn-paginacao:active:not(:disabled) {
+    transform: translateY(0); /* Volta pro lugar ao clicar */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .btn-paginacao:disabled {
-    background-color: #ccc;
+    background-color: #e5e7eb;
+    color: #9ca3af;
     cursor: not-allowed;
-    opacity: 0.7;
+    box-shadow: none; /* Tira a sombra para parecer inativo/plano */
+    transform: none;
 }
 
 .texto-paginacao {
