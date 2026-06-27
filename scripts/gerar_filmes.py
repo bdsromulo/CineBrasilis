@@ -224,6 +224,17 @@ def extrair_tags(dados):
     return [k["name"] for k in keywords]
 
 
+def classificar_metragem(duracao):
+    """Curta (ate 15min), Media (15 a 70min), Longa (acima de 70min)."""
+    if not duracao or duracao <= 0:
+        return ""
+    if duracao <= 15:
+        return "Curta"
+    if duracao <= 70:
+        return "Média"
+    return "Longa"
+
+
 def extrair_campos_novos(dados):
     """Retorna apenas os campos novos. Usado para enriquecer filmes já existentes."""
     path_backdrop = dados.get("backdrop_path") or ""
@@ -235,6 +246,7 @@ def extrair_campos_novos(dados):
         "produtoras":      produtoras,
         "vote_count":      dados.get("vote_count", 0),
         "duracao":         dados.get("runtime") or 0,
+        "metragem":        classificar_metragem(dados.get("runtime") or 0),
         "adult":           dados.get("adult", False),
         "classificacao":   extrair_classificacao_br(dados),
         "backdrop_url":    poster_url(path_backdrop, "w1280") if path_backdrop else "",
@@ -304,13 +316,14 @@ def montar_entrada(dados):
         "avaliacao":                avaliacao,
         "vote_count":               dados.get("vote_count", 0),
         "duracao":                  dados.get("runtime") or 0,
+        "metragem":                 classificar_metragem(dados.get("runtime") or 0),
         "adult":                    dados.get("adult", False),
         "classificacao":            extrair_classificacao_br(dados),
         "poster_path":              path_poster,
         "poster_url":               poster_url(path_poster, "w500"),
         "backdrop_url":             poster_url(path_backdrop, "w1280") if path_backdrop else "",
         "trailer":                  extrair_trailer(videos),
-        "tags":                     [],
+        "tags":                     extrair_tags(dados),
         "similares_internacionais": [],
     }
 

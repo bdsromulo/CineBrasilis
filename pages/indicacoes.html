@@ -33,18 +33,18 @@
         <section class="secao-bloco">
             <h2>Indicações</h2>
             <p>
-                Selecione até <strong>5 filmes</strong> brasileiros marcantes que você gosta.
+                Selecione até <strong>5 filmes internacionais</strong> que você gosta.
                 A partir das suas escolhas, o Cine Brasilis cruza gênero, temas (tags) e época
-                para sugerir outras produções nacionais com a mesma pegada.
+                para sugerir <strong>produções brasileiras</strong> com a mesma pegada.
             </p>
             <p class="indicacoes-passo">
-                <strong>Como funciona:</strong> clique nos pôsteres para marcar seus favoritos e
-                depois toque em <em>Ver recomendações</em>.
+                <strong>Como funciona:</strong> clique nos pôsteres dos filmes internacionais para
+                marcar seus favoritos e depois toque em <em>Ver recomendações</em>.
             </p>
         </section>
 
         <section class="secao-bloco">
-            <h3>Escolha seus favoritos</h3>
+            <h3>Escolha filmes internacionais que você curte</h3>
             <div class="selecao-barra">
                 <span id="selecao-contador">0 / 5 selecionados</span>
                 <div class="selecao-acoes">
@@ -56,8 +56,14 @@
         </section>
 
         <section class="secao-bloco" id="resultados-bloco" style="display:none;">
-            <h3>Recomendados para você</h3>
+            <div class="resultados-cabecalho">
+                <h3>Recomendados para você</h3>
+                <button id="btn-racional" class="btn-racional-toggle" type="button" aria-expanded="false" aria-controls="racional-painel">
+                    <span class="racional-label">Mostrar racional</span>
+                </button>
+            </div>
             <div id="resultados-grid" class="catalogo-grid"></div>
+            <div id="racional-painel" class="racional-painel" style="display:none;"></div>
         </section>
 
     </main>

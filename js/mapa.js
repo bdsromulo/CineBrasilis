@@ -156,9 +156,6 @@ function vincularHover(path) {
 
 function realcar(path, ativo) {
     path.classList.toggle("estado-hover", ativo);
-    if (ativo) {
-        path.parentNode.appendChild(path);
-    }
 
     if (path.rotulo) {
         path.rotulo.forEach(el => el.classList.toggle("rotulo-hover", ativo));

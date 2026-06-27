@@ -90,6 +90,10 @@
     color: #333;
     line-height: 1.2;
 }
+.selecao-ano {
+    color: #999;
+    font-size: 0.78rem;
+}
 
 /* Estado selecionado */
 .selecao-tile.selecionado .selecao-poster {
@@ -111,4 +115,135 @@
     text-align: center;
     color: #888;
     padding: 30px 0;
+}
+
+/* Cabeçalho dos resultados + toggle do racional */
+.resultados-cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 12px;
+}
+.resultados-cabecalho h3 {
+    margin: 0;
+}
+.btn-racional-toggle {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 7px 14px;
+    background: transparent;
+    border: 1px solid var(--cor-acento);
+    color: var(--cor-acento);
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s;
+}
+.btn-racional-toggle:hover {
+    background: var(--cor-acento);
+    color: #fff;
+}
+
+/* Painel do racional */
+.racional-painel {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+.racional-item {
+    background: #f4f4f0;
+    border: 1px solid var(--cor-borda);
+    border-radius: var(--raio-card);
+    padding: 14px 16px;
+}
+.racional-cabecalho {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 12px;
+}
+.racional-capa-br {
+    width: 46px;
+    aspect-ratio: 2 / 3;
+    object-fit: cover;
+    border-radius: 4px;
+    flex-shrink: 0;
+}
+.racional-titulo {
+    margin: 0;
+    font-weight: bold;
+    font-family: var(--fonte-titulo);
+}
+.racional-afinidade {
+    margin: 0;
+    font-size: 0.82rem;
+    color: var(--cor-acento);
+}
+.racional-conexoes {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.racional-conexao {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    padding-top: 10px;
+    border-top: 1px solid #e3e3dd;
+}
+.racional-origem {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    min-width: 150px;
+    max-width: 150px;
+    font-size: 0.85rem;
+    color: #444;
+}
+.racional-origem img {
+    width: 30px;
+    aspect-ratio: 2 / 3;
+    object-fit: cover;
+    border-radius: 3px;
+    flex-shrink: 0;
+}
+.racional-fatores {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.racional-fator {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+.racional-rotulo {
+    font-size: 0.78rem;
+    color: #888;
+    min-width: 60px;
+}
+.racional-chip {
+    display: inline-block;
+    padding: 2px 9px;
+    border-radius: 12px;
+    font-size: 0.78rem;
+    background: rgba(0, 156, 59, 0.10);
+    color: #00702a;
+    border: 1px solid rgba(0, 156, 59, 0.30);
+}
+
+@media (max-width: 600px) {
+    .racional-conexao {
+        flex-direction: column;
+        gap: 6px;
+    }
+    .racional-origem {
+        max-width: none;
+    }
 }
