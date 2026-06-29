@@ -68,7 +68,57 @@
       "oscar winner"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "poderoso-chefao-teodoro",
+        "score": 0.7081214785575867
+      },
+      {
+        "id": "don-perdicao",
+        "score": 0.5471160411834717
+      },
+      {
+        "id": "habilitado-para-morrer",
+        "score": 0.539339005947113
+      },
+      {
+        "id": "jogo-da-mafia",
+        "score": 0.535398542881012
+      },
+      {
+        "id": "lucido",
+        "score": 0.5300445556640625
+      },
+      {
+        "id": "coca-o-preco-de-uma-vida",
+        "score": 0.5239881873130798
+      },
+      {
+        "id": "o-traidor",
+        "score": 0.5221343040466309
+      },
+      {
+        "id": "o-bandido-antonio-do",
+        "score": 0.5210034251213074
+      },
+      {
+        "id": "a-filha-de-emmanuele",
+        "score": 0.5132331252098083
+      },
+      {
+        "id": "osso-amor-e-papagaios",
+        "score": 0.5072225332260132
+      },
+      {
+        "id": "o-homem-do-ano",
+        "score": 0.5054243803024292
+      },
+      {
+        "id": "o-coronel-e-o-lobisomem",
+        "score": 0.5001899003982544
+      }
+    ]
   },
   {
     "id": "um-sonho-de-liberdade",
@@ -130,7 +180,57 @@
       "voiceover"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "primo-da-cruz",
+        "score": 0.602868378162384
+      },
+      {
+        "id": "eterno-adeus",
+        "score": 0.5713508129119873
+      },
+      {
+        "id": "condenada-por-um-desejo",
+        "score": 0.5678179264068604
+      },
+      {
+        "id": "o-covil-dos-condenados",
+        "score": 0.559815526008606
+      },
+      {
+        "id": "homem-livre",
+        "score": 0.5498862266540527
+      },
+      {
+        "id": "fuga-sem-destino",
+        "score": 0.5475916862487793
+      },
+      {
+        "id": "a-prisao",
+        "score": 0.5445516109466553
+      },
+      {
+        "id": "plano-de-vinganca",
+        "score": 0.5351219773292542
+      },
+      {
+        "id": "na-mao-do-palhaco",
+        "score": 0.5350531935691833
+      },
+      {
+        "id": "os-raptores",
+        "score": 0.5314271450042725
+      },
+      {
+        "id": "4-conto-a-tragedia-por-tras-do-lucro",
+        "score": 0.5303671956062317
+      },
+      {
+        "id": "o-principe-do-fogo",
+        "score": 0.5297816395759583
+      }
+    ]
   },
   {
     "id": "forrest-gump-o-contador-de-historias",
@@ -210,7 +310,57 @@
       "feel-good"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "guarnice-uma-historia-pra-contar",
+        "score": 0.5445153117179871
+      },
+      {
+        "id": "a-historia-de-um-silva",
+        "score": 0.5293062925338745
+      },
+      {
+        "id": "aurora",
+        "score": 0.5180819630622864
+      },
+      {
+        "id": "menino-da-gamboa",
+        "score": 0.5116705298423767
+      },
+      {
+        "id": "mr-dreamer",
+        "score": 0.5085862874984741
+      },
+      {
+        "id": "2023-a-serie-o-filme",
+        "score": 0.507746696472168
+      },
+      {
+        "id": "ervas-daninhas",
+        "score": 0.5055063366889954
+      },
+      {
+        "id": "com-o-andar-de-robert-taylor",
+        "score": 0.5054377317428589
+      },
+      {
+        "id": "espelho-da-memoria",
+        "score": 0.5013591647148132
+      },
+      {
+        "id": "rumo",
+        "score": 0.4986518621444702
+      },
+      {
+        "id": "dias-felizes",
+        "score": 0.49805599451065063
+      },
+      {
+        "id": "marion-galos-e-passarinhos",
+        "score": 0.49584314227104187
+      }
+    ]
   },
   {
     "id": "a-lista-de-schindler",
@@ -279,7 +429,57 @@
       "disheartening"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "a-trilha-dos-ratos",
+        "score": 0.6724611520767212
+      },
+      {
+        "id": "era-uma-vez-no-reich",
+        "score": 0.579670250415802
+      },
+      {
+        "id": "foi-onde-deu-pra-chegar-de-bicicleta",
+        "score": 0.5657508969306946
+      },
+      {
+        "id": "os-carrascos-estao-entre-nos",
+        "score": 0.5538434386253357
+      },
+      {
+        "id": "josef-mengele-meu-pai-rua-alguem-5555",
+        "score": 0.5493369698524475
+      },
+      {
+        "id": "deodato-holocaust",
+        "score": 0.5372073650360107
+      },
+      {
+        "id": "cinema-aspirinas-e-urubus",
+        "score": 0.5201910734176636
+      },
+      {
+        "id": "grunstadt",
+        "score": 0.5160008668899536
+      },
+      {
+        "id": "alem-da-liberdade",
+        "score": 0.5141487121582031
+      },
+      {
+        "id": "black-white",
+        "score": 0.5140544176101685
+      },
+      {
+        "id": "schrodinger",
+        "score": 0.504564106464386
+      },
+      {
+        "id": "ataque-dos-zumbis-nazistas-do-espaco",
+        "score": 0.4933566451072693
+      }
+    ]
   },
   {
     "id": "clube-da-luta",
@@ -342,7 +542,57 @@
       "self destructiveness"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "mandioca-frita",
+        "score": 0.5772588849067688
+      },
+      {
+        "id": "clube-da-luta",
+        "score": 0.5753917098045349
+      },
+      {
+        "id": "o-homem-grilo",
+        "score": 0.5724072456359863
+      },
+      {
+        "id": "carlinhos-carlao",
+        "score": 0.5452458262443542
+      },
+      {
+        "id": "whisky-sangue-e-traicao",
+        "score": 0.5447768568992615
+      },
+      {
+        "id": "beijo-na-boca",
+        "score": 0.5364031195640564
+      },
+      {
+        "id": "sushi-man",
+        "score": 0.533692479133606
+      },
+      {
+        "id": "o-homem-das-multidoes",
+        "score": 0.5288380980491638
+      },
+      {
+        "id": "relapso",
+        "score": 0.5273288488388062
+      },
+      {
+        "id": "noites-brancas",
+        "score": 0.5238119959831238
+      },
+      {
+        "id": "fome",
+        "score": 0.5202929973602295
+      },
+      {
+        "id": "canibalya",
+        "score": 0.5196781754493713
+      }
+    ]
   },
   {
     "id": "moonlight-sob-a-luz-do-luar",
@@ -410,7 +660,57 @@
       "melodramatic"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "luz-nos-tropicos",
+        "score": 0.6588344573974609
+      },
+      {
+        "id": "oscuridad-del-sur",
+        "score": 0.6256065368652344
+      },
+      {
+        "id": "sob-a-luz-vermelha",
+        "score": 0.6188692450523376
+      },
+      {
+        "id": "a-lampada-da-luz-azul",
+        "score": 0.6121456027030945
+      },
+      {
+        "id": "beyond-the-moonlight",
+        "score": 0.6036379337310791
+      },
+      {
+        "id": "o-preto-de-azul",
+        "score": 0.6017389893531799
+      },
+      {
+        "id": "alma-no-olho",
+        "score": 0.5936611294746399
+      },
+      {
+        "id": "noturno",
+        "score": 0.5887866020202637
+      },
+      {
+        "id": "selma-light-para-os-aplausos-do-publico",
+        "score": 0.5885401368141174
+      },
+      {
+        "id": "pequeno-filme-sobre-a-noite",
+        "score": 0.5807910561561584
+      },
+      {
+        "id": "a-luz-da-vela",
+        "score": 0.5764157772064209
+      },
+      {
+        "id": "sob-a-luz",
+        "score": 0.5755472183227539
+      }
+    ]
   },
   {
     "id": "a-procura-da-felicidade",
@@ -476,7 +776,57 @@
       "happiness"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "magal-e-os-formigas",
+        "score": 0.6444024443626404
+      },
+      {
+        "id": "o-olho-e-a-faca",
+        "score": 0.5605993270874023
+      },
+      {
+        "id": "jupiter",
+        "score": 0.5460938215255737
+      },
+      {
+        "id": "viver-de-morrer",
+        "score": 0.5398589372634888
+      },
+      {
+        "id": "joao-ninguem",
+        "score": 0.5376821756362915
+      },
+      {
+        "id": "boa-sorte",
+        "score": 0.5365304350852966
+      },
+      {
+        "id": "os-3-conselhos",
+        "score": 0.5323556661605835
+      },
+      {
+        "id": "tropel",
+        "score": 0.5320908427238464
+      },
+      {
+        "id": "jardim-dos-girassois",
+        "score": 0.531994104385376
+      },
+      {
+        "id": "um-tio-quase-perfeito",
+        "score": 0.5232387781143188
+      },
+      {
+        "id": "familia-de-sorte",
+        "score": 0.5181199312210083
+      },
+      {
+        "id": "filho-de-boi",
+        "score": 0.5172590017318726
+      }
+    ]
   },
   {
     "id": "uma-mente-brilhante",
@@ -552,7 +902,57 @@
       "math professor"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "o-homem-que-escutava-chet-baker",
+        "score": 0.571799099445343
+      },
+      {
+        "id": "pimenta-no-clima",
+        "score": 0.5303489565849304
+      },
+      {
+        "id": "jupiter",
+        "score": 0.5261558890342712
+      },
+      {
+        "id": "nao-se-preocupe",
+        "score": 0.5251427292823792
+      },
+      {
+        "id": "a-percepcao-do-medo",
+        "score": 0.5164193511009216
+      },
+      {
+        "id": "pagina-dois",
+        "score": 0.516326367855072
+      },
+      {
+        "id": "mallandro-o-errado-que-deu-certo",
+        "score": 0.5064707398414612
+      },
+      {
+        "id": "pixinguinha-um-homem-carinhoso",
+        "score": 0.49945107102394104
+      },
+      {
+        "id": "coma",
+        "score": 0.49254757165908813
+      },
+      {
+        "id": "magal-e-os-formigas",
+        "score": 0.4913139045238495
+      },
+      {
+        "id": "booker-pittman",
+        "score": 0.4848441183567047
+      },
+      {
+        "id": "45-do-segundo-tempo",
+        "score": 0.48002076148986816
+      }
+    ]
   },
   {
     "id": "a-espera-de-um-milagre",
@@ -618,7 +1018,57 @@
       "prison drama"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "corvos",
+        "score": 0.5893210768699646
+      },
+      {
+        "id": "o-rei-do-milagre",
+        "score": 0.5800004005432129
+      },
+      {
+        "id": "prisao-nos-andes",
+        "score": 0.5486220717430115
+      },
+      {
+        "id": "carandiru",
+        "score": 0.5467450022697449
+      },
+      {
+        "id": "davi-sacer-no-caminho-do-milagre",
+        "score": 0.5438041687011719
+      },
+      {
+        "id": "detetives-do-predio-azul-3-uma-aventura-no-fim-do-mundo",
+        "score": 0.5421711206436157
+      },
+      {
+        "id": "termal-nivel-5",
+        "score": 0.541172206401825
+      },
+      {
+        "id": "gritos-do-medo",
+        "score": 0.5398646593093872
+      },
+      {
+        "id": "o-sacrificio-benevolente",
+        "score": 0.5392818450927734
+      },
+      {
+        "id": "trocando-as-bencaos",
+        "score": 0.5392572283744812
+      },
+      {
+        "id": "knossos",
+        "score": 0.5392482280731201
+      },
+      {
+        "id": "o-beijo-da-mulher-aranha",
+        "score": 0.5345264077186584
+      }
+    ]
   },
   {
     "id": "genio-indomavel",
@@ -688,7 +1138,57 @@
       "math professor"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "deus-de-neon",
+        "score": 0.6051173210144043
+      },
+      {
+        "id": "tres-vagabundos",
+        "score": 0.5485242009162903
+      },
+      {
+        "id": "entre-asas-e-raizes",
+        "score": 0.5437920689582825
+      },
+      {
+        "id": "perfekta-uma-aventura-da-escola-de-genios",
+        "score": 0.5436620116233826
+      },
+      {
+        "id": "coracao-de-estudante",
+        "score": 0.5364875793457031
+      },
+      {
+        "id": "matematica-no-ensino-fundamental",
+        "score": 0.5315688252449036
+      },
+      {
+        "id": "o-que-diriam",
+        "score": 0.5261818766593933
+      },
+      {
+        "id": "tres-dois-um",
+        "score": 0.5236379504203796
+      },
+      {
+        "id": "o-incrivel-gigango",
+        "score": 0.5220367312431335
+      },
+      {
+        "id": "reitor-joao-alfredo",
+        "score": 0.5215528011322021
+      },
+      {
+        "id": "a-espia-que-entrou-em-fria",
+        "score": 0.5070576667785645
+      },
+      {
+        "id": "vicio",
+        "score": 0.5056972503662109
+      }
+    ]
   },
   {
     "id": "sociedade-dos-poetas-mortos",
@@ -751,7 +1251,57 @@
       "teenager"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "a-bolha",
+        "score": 0.6019340753555298
+      },
+      {
+        "id": "uma-professora-muito-maluquinha",
+        "score": 0.5860146880149841
+      },
+      {
+        "id": "seduzidas-pelo-demonio",
+        "score": 0.5855686068534851
+      },
+      {
+        "id": "entre-asas-e-raizes",
+        "score": 0.5632026195526123
+      },
+      {
+        "id": "sementes-do-nosso-quintal",
+        "score": 0.5505770444869995
+      },
+      {
+        "id": "o-seminarista",
+        "score": 0.5480145215988159
+      },
+      {
+        "id": "passos-no-silencio",
+        "score": 0.5459057092666626
+      },
+      {
+        "id": "exorcismo-na-escola",
+        "score": 0.5451159477233887
+      },
+      {
+        "id": "professoras",
+        "score": 0.5373308062553406
+      },
+      {
+        "id": "colegio-de-brotos",
+        "score": 0.5367429852485657
+      },
+      {
+        "id": "hora-do-recreio",
+        "score": 0.5353919267654419
+      },
+      {
+        "id": "a-dor-do-silencio",
+        "score": 0.5336381196975708
+      }
+    ]
   },
   {
     "id": "whiplash-em-busca-da-perfeicao",
@@ -820,7 +1370,57 @@
       "drummer"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "ate-a-superficie",
+        "score": 0.5182456374168396
+      },
+      {
+        "id": "the-godfather-of-soul",
+        "score": 0.5152318477630615
+      },
+      {
+        "id": "o-tambor-me-chamou",
+        "score": 0.5143550634384155
+      },
+      {
+        "id": "em-frente",
+        "score": 0.5112434029579163
+      },
+      {
+        "id": "xadrez-espelhado",
+        "score": 0.5022804141044617
+      },
+      {
+        "id": "the-bloody-hero",
+        "score": 0.4985158145427704
+      },
+      {
+        "id": "estacao-rock",
+        "score": 0.49732309579849243
+      },
+      {
+        "id": "numa-so-nota",
+        "score": 0.496272474527359
+      },
+      {
+        "id": "aerosmith-rock-in-rio-7",
+        "score": 0.49588915705680847
+      },
+      {
+        "id": "the-beat-diaspora",
+        "score": 0.48977917432785034
+      },
+      {
+        "id": "o-pianista",
+        "score": 0.4828154742717743
+      },
+      {
+        "id": "chico-mario-a-melodia-da-liberdade",
+        "score": 0.474123477935791
+      }
+    ]
   },
   {
     "id": "12-anos-de-escravidao",
@@ -885,7 +1485,57 @@
       "chattel slavery"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "o-negrinho-do-pastoreio",
+        "score": 0.5424445271492004
+      },
+      {
+        "id": "o-fracasso-de-um-homem-nas-duas-noites-de-nupcias",
+        "score": 0.5344534516334534
+      },
+      {
+        "id": "o-caipora",
+        "score": 0.5342388153076172
+      },
+      {
+        "id": "o-bandido-antonio-do",
+        "score": 0.5308906435966492
+      },
+      {
+        "id": "barravento",
+        "score": 0.5302504897117615
+      },
+      {
+        "id": "jose-do-egito-o-filme",
+        "score": 0.5224379301071167
+      },
+      {
+        "id": "o-estranho-caso-de-ezequiel",
+        "score": 0.5211021304130554
+      },
+      {
+        "id": "a-perdicao-de-lazaro",
+        "score": 0.5193426012992859
+      },
+      {
+        "id": "a-lenda-do-pai-inacio",
+        "score": 0.5187585353851318
+      },
+      {
+        "id": "o-homem-que-matou-deus",
+        "score": 0.5185536742210388
+      },
+      {
+        "id": "robin-hood-o-trapalhao-da-floresta",
+        "score": 0.5171827673912048
+      },
+      {
+        "id": "a-derrota",
+        "score": 0.5147643089294434
+      }
+    ]
   },
   {
     "id": "a-rede-social",
@@ -945,7 +1595,57 @@
       "legal drama"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "o-maniaco-do-facebook",
+        "score": 0.529514491558075
+      },
+      {
+        "id": "realidade-ilusoria",
+        "score": 0.5161746144294739
+      },
+      {
+        "id": "quebrado",
+        "score": 0.4922555387020111
+      },
+      {
+        "id": "vida-nova-por-acaso",
+        "score": 0.47837427258491516
+      },
+      {
+        "id": "aquilo-o-que-me-observa",
+        "score": 0.4679180681705475
+      },
+      {
+        "id": "monologo-sociais",
+        "score": 0.45711153745651245
+      },
+      {
+        "id": "app-da-morte",
+        "score": 0.4552747905254364
+      },
+      {
+        "id": "quem-se-importa",
+        "score": 0.45381879806518555
+      },
+      {
+        "id": "fenomeno",
+        "score": 0.45325836539268494
+      },
+      {
+        "id": "jaco-guinsburg-um-intelectual-em-cena",
+        "score": 0.4513845145702362
+      },
+      {
+        "id": "morte",
+        "score": 0.44766825437545776
+      },
+      {
+        "id": "bbz",
+        "score": 0.4413674473762512
+      }
+    ]
   },
   {
     "id": "historia-de-um-casamento",
@@ -1002,7 +1702,57 @@
       "intense"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "s-o-s-mulheres-ao-mar",
+        "score": 0.649445652961731
+      },
+      {
+        "id": "boa-sorte",
+        "score": 0.6174116134643555
+      },
+      {
+        "id": "the-book",
+        "score": 0.6028167009353638
+      },
+      {
+        "id": "ela-volta-na-quinta",
+        "score": 0.5979952216148376
+      },
+      {
+        "id": "a-inconveniencia-de-ser-esposa",
+        "score": 0.5964992046356201
+      },
+      {
+        "id": "a-mulher-do-meu-marido",
+        "score": 0.5961228609085083
+      },
+      {
+        "id": "a-espera-de-liz",
+        "score": 0.5924885869026184
+      },
+      {
+        "id": "cancao-da-volta",
+        "score": 0.5916701555252075
+      },
+      {
+        "id": "viver-de-morrer",
+        "score": 0.5880888104438782
+      },
+      {
+        "id": "essa-gostosa-brincadeira-a-dois",
+        "score": 0.5860348343849182
+      },
+      {
+        "id": "2",
+        "score": 0.5854234099388123
+      },
+      {
+        "id": "a-via-lactea",
+        "score": 0.5749975442886353
+      }
+    ]
   },
   {
     "id": "manchester-a-beira-mar",
@@ -1072,7 +1822,57 @@
       "tragic"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "o-filho-unico-do-meu-pai",
+        "score": 0.544680118560791
+      },
+      {
+        "id": "just-left",
+        "score": 0.504600465297699
+      },
+      {
+        "id": "carcaras",
+        "score": 0.4911736845970154
+      },
+      {
+        "id": "perspectiva",
+        "score": 0.48640480637550354
+      },
+      {
+        "id": "a-sombra-da-violencia",
+        "score": 0.48237374424934387
+      },
+      {
+        "id": "mais-que-a-terra",
+        "score": 0.4820486307144165
+      },
+      {
+        "id": "era-so-um-pesadelo",
+        "score": 0.47981300950050354
+      },
+      {
+        "id": "filho-de-boi",
+        "score": 0.4727029800415039
+      },
+      {
+        "id": "lavoura-arcaica",
+        "score": 0.47144684195518494
+      },
+      {
+        "id": "oculos-magicos-5-o-legado-sombrio",
+        "score": 0.4657353162765503
+      },
+      {
+        "id": "dois-e-demais-em-orlando",
+        "score": 0.46438631415367126
+      },
+      {
+        "id": "leste-oeste",
+        "score": 0.46268776059150696
+      }
+    ]
   },
   {
     "id": "pulp-fiction-tempo-de-violencia",
@@ -1132,7 +1932,57 @@
       "neo-noir"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "story-telling",
+        "score": 0.5660420656204224
+      },
+      {
+        "id": "o-assassino-incrivelmente-distraido",
+        "score": 0.5570974946022034
+      },
+      {
+        "id": "por-entre-as-muralhas",
+        "score": 0.5518341064453125
+      },
+      {
+        "id": "anjos-da-noite",
+        "score": 0.5467708110809326
+      },
+      {
+        "id": "a-bi-stratos",
+        "score": 0.5459170341491699
+      },
+      {
+        "id": "o-vampiro-da-cinemateca",
+        "score": 0.5345406532287598
+      },
+      {
+        "id": "conspiracao-fatal",
+        "score": 0.5222775936126709
+      },
+      {
+        "id": "historias-de-catharina-paulsen-o-cafe",
+        "score": 0.5201737284660339
+      },
+      {
+        "id": "carmen",
+        "score": 0.5190426707267761
+      },
+      {
+        "id": "a-cisterna",
+        "score": 0.5185075402259827
+      },
+      {
+        "id": "o-vampiro-que-pensa-vozes",
+        "score": 0.5175487399101257
+      },
+      {
+        "id": "um-vampiro-na-cinemateca",
+        "score": 0.5162378549575806
+      }
+    ]
   },
   {
     "id": "os-bons-companheiros",
@@ -1196,7 +2046,57 @@
       "tampa, florida"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "poderoso-chefao-teodoro",
+        "score": 0.5449418425559998
+      },
+      {
+        "id": "selvagens-do-leste",
+        "score": 0.5161463022232056
+      },
+      {
+        "id": "o-caminho-de-hans",
+        "score": 0.5155431628227234
+      },
+      {
+        "id": "tudo-que-voce-podia-ser",
+        "score": 0.502177357673645
+      },
+      {
+        "id": "obsessao-maldita",
+        "score": 0.49785709381103516
+      },
+      {
+        "id": "incursao",
+        "score": 0.4794275462627411
+      },
+      {
+        "id": "mr-burguer",
+        "score": 0.4752059578895569
+      },
+      {
+        "id": "giacobits-chikenitos",
+        "score": 0.46751677989959717
+      },
+      {
+        "id": "menino-aranha",
+        "score": 0.4667728543281555
+      },
+      {
+        "id": "o-cabeleira",
+        "score": 0.4658178389072418
+      },
+      {
+        "id": "dias-felizes",
+        "score": 0.4621453285217285
+      },
+      {
+        "id": "a-serena-onda-que-o-mar-me-trouxe",
+        "score": 0.4583248794078827
+      }
+    ]
   },
   {
     "id": "seven-os-sete-crimes-capitais",
@@ -1266,7 +2166,57 @@
       "seven: los siete pecados capitales"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "o-necromante",
+        "score": 0.6011861562728882
+      },
+      {
+        "id": "o-assassinato-da-meia-noite",
+        "score": 0.5892111659049988
+      },
+      {
+        "id": "sem-tempo",
+        "score": 0.5843663811683655
+      },
+      {
+        "id": "o-escaravelho-do-diabo",
+        "score": 0.5813303589820862
+      },
+      {
+        "id": "atirou-para-matar",
+        "score": 0.5771878361701965
+      },
+      {
+        "id": "operacao-borboleta",
+        "score": 0.5764878988265991
+      },
+      {
+        "id": "mayhod",
+        "score": 0.5758326053619385
+      },
+      {
+        "id": "fuga-sem-destino",
+        "score": 0.5702478885650635
+      },
+      {
+        "id": "a-ronda-da-morte",
+        "score": 0.5673795938491821
+      },
+      {
+        "id": "dois-minutos-para-a-morte-o-corte-do-diretor",
+        "score": 0.5602397322654724
+      },
+      {
+        "id": "maos-sangrentas",
+        "score": 0.5586508512496948
+      },
+      {
+        "id": "castigo-final",
+        "score": 0.5576608777046204
+      }
+    ]
   },
   {
     "id": "o-silencio-dos-inocentes",
@@ -1341,7 +2291,57 @@
       "crime horror"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "a-macabra-biblioteca-do-dr-lucchetti",
+        "score": 0.5779986381530762
+      },
+      {
+        "id": "panorama-com-clarice-lispector",
+        "score": 0.5727179646492004
+      },
+      {
+        "id": "turno-da-morte",
+        "score": 0.5386367440223694
+      },
+      {
+        "id": "karma",
+        "score": 0.5364232659339905
+      },
+      {
+        "id": "obscura-justica",
+        "score": 0.5259769558906555
+      },
+      {
+        "id": "terror-na-faculdade",
+        "score": 0.5179792642593384
+      },
+      {
+        "id": "the-incident",
+        "score": 0.517193078994751
+      },
+      {
+        "id": "vivacidade",
+        "score": 0.5160548090934753
+      },
+      {
+        "id": "clarice-niskier-teatro-dos-pes-a-cabeca",
+        "score": 0.515385091304779
+      },
+      {
+        "id": "estranho-desejo",
+        "score": 0.5072392225265503
+      },
+      {
+        "id": "doutor-monstro",
+        "score": 0.5011411905288696
+      },
+      {
+        "id": "judas-silva-expoe-detalhes-de-sua-vida-intima",
+        "score": 0.5002942085266113
+      }
+    ]
   },
   {
     "id": "onde-os-fracos-nao-tem-vez",
@@ -1422,7 +2422,57 @@
       "tragic"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "imperio-das-taras",
+        "score": 0.6611422300338745
+      },
+      {
+        "id": "fabio-leao-entre-o-crime-e-o-ringue",
+        "score": 0.6346418261528015
+      },
+      {
+        "id": "na-mira-do-crime",
+        "score": 0.6290407776832581
+      },
+      {
+        "id": "o-cafetao",
+        "score": 0.6279136538505554
+      },
+      {
+        "id": "federal",
+        "score": 0.6170448064804077
+      },
+      {
+        "id": "o-esquadrao-da-morte",
+        "score": 0.6164722442626953
+      },
+      {
+        "id": "confronto-final",
+        "score": 0.6099051237106323
+      },
+      {
+        "id": "filhos-do-mangue",
+        "score": 0.6051792502403259
+      },
+      {
+        "id": "coca-o-preco-de-uma-vida",
+        "score": 0.5951325297355652
+      },
+      {
+        "id": "no-rastro-da-gang",
+        "score": 0.5776457190513611
+      },
+      {
+        "id": "um-crime-nobre",
+        "score": 0.5771476030349731
+      },
+      {
+        "id": "perdas-danos-piadas-melancolicas",
+        "score": 0.5769431591033936
+      }
+    ]
   },
   {
     "id": "parasita",
@@ -1487,7 +2537,57 @@
       "oscar winner"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "menino-de-engenho",
+        "score": 0.6379395723342896
+      },
+      {
+        "id": "hora-do-lancheee",
+        "score": 0.6127365231513977
+      },
+      {
+        "id": "nosso-segredo",
+        "score": 0.602626621723175
+      },
+      {
+        "id": "cinderela-baiana",
+        "score": 0.5947247743606567
+      },
+      {
+        "id": "o-porao-das-condenadas",
+        "score": 0.5851356387138367
+      },
+      {
+        "id": "vida-do-crime-e-ilusao",
+        "score": 0.5786818265914917
+      },
+      {
+        "id": "a-gente-nasce-so-de-mae",
+        "score": 0.576921284198761
+      },
+      {
+        "id": "o-barulho-da-noite",
+        "score": 0.5760303139686584
+      },
+      {
+        "id": "flores-espinho",
+        "score": 0.575745701789856
+      },
+      {
+        "id": "a-sombra-do-pai",
+        "score": 0.5751523971557617
+      },
+      {
+        "id": "le-com-cre",
+        "score": 0.5712723135948181
+      },
+      {
+        "id": "a-estrategia-da-fome",
+        "score": 0.5694488286972046
+      }
+    ]
   },
   {
     "id": "oldboy",
@@ -1569,7 +2669,57 @@
       "father daughter incest"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "primo-da-cruz",
+        "score": 0.593784749507904
+      },
+      {
+        "id": "maria-da-penha-um-caso-de-litigio-internacional",
+        "score": 0.5488141179084778
+      },
+      {
+        "id": "encarnacao-do-demonio",
+        "score": 0.5389504432678223
+      },
+      {
+        "id": "o-prisioneiro",
+        "score": 0.5355175733566284
+      },
+      {
+        "id": "sangue-mau",
+        "score": 0.5311442017555237
+      },
+      {
+        "id": "tortura-cruel-femeas-violentadas",
+        "score": 0.5300643444061279
+      },
+      {
+        "id": "madre",
+        "score": 0.5298104286193848
+      },
+      {
+        "id": "caso-eloa-refem-ao-vivo",
+        "score": 0.5257455706596375
+      },
+      {
+        "id": "psychodemia",
+        "score": 0.5241008400917053
+      },
+      {
+        "id": "boca-do-lixo",
+        "score": 0.5240423083305359
+      },
+      {
+        "id": "ze",
+        "score": 0.5200297236442566
+      },
+      {
+        "id": "a-sombra-da-violencia",
+        "score": 0.5151056051254272
+      }
+    ]
   },
   {
     "id": "scarface",
@@ -1636,7 +2786,57 @@
       "tragic"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "don-perdicao",
+        "score": 0.6385871171951294
+      },
+      {
+        "id": "federal",
+        "score": 0.5631994605064392
+      },
+      {
+        "id": "os-desertos-dias",
+        "score": 0.5463264584541321
+      },
+      {
+        "id": "toro",
+        "score": 0.5328383445739746
+      },
+      {
+        "id": "as-amantes-de-um-canalha",
+        "score": 0.5254098773002625
+      },
+      {
+        "id": "reis-e-ratos",
+        "score": 0.5242707133293152
+      },
+      {
+        "id": "tocaia-no-asfalto",
+        "score": 0.524052083492279
+      },
+      {
+        "id": "faroeste-caboclo",
+        "score": 0.5182792544364929
+      },
+      {
+        "id": "operacao-maduro",
+        "score": 0.511142909526825
+      },
+      {
+        "id": "a-volta-do-filho-prodigo",
+        "score": 0.510668158531189
+      },
+      {
+        "id": "humanpersons",
+        "score": 0.5094597935676575
+      },
+      {
+        "id": "na-mao-do-palhaco",
+        "score": 0.5073831677436829
+      }
+    ]
   },
   {
     "id": "os-infiltrados",
@@ -1708,7 +2908,57 @@
       "frightened"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "lincoln",
+        "score": 0.6075869798660278
+      },
+      {
+        "id": "agentes-muito-especiais",
+        "score": 0.5749008655548096
+      },
+      {
+        "id": "massacre-no-supermercado",
+        "score": 0.5653443336486816
+      },
+      {
+        "id": "a-ronda-da-morte",
+        "score": 0.5623741149902344
+      },
+      {
+        "id": "2-coelhos",
+        "score": 0.5608856081962585
+      },
+      {
+        "id": "amigos-em-fuga",
+        "score": 0.5589042901992798
+      },
+      {
+        "id": "habilitado-para-morrer",
+        "score": 0.5560835599899292
+      },
+      {
+        "id": "o-regenerado",
+        "score": 0.5444963574409485
+      },
+      {
+        "id": "senhor-elefante",
+        "score": 0.5441796183586121
+      },
+      {
+        "id": "matar-ou-correr",
+        "score": 0.5426439046859741
+      },
+      {
+        "id": "porto-dos-mortos",
+        "score": 0.540700376033783
+      },
+      {
+        "id": "o-roubo-do-trator",
+        "score": 0.5397087931632996
+      }
+    ]
   },
   {
     "id": "garota-exemplar",
@@ -1777,7 +3027,57 @@
       "controlling wife"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "a-espera-de-liz",
+        "score": 0.5877347588539124
+      },
+      {
+        "id": "mesmo-que-voce-nao-veja-eu-confesso",
+        "score": 0.5862091779708862
+      },
+      {
+        "id": "boa-noite-tess",
+        "score": 0.5720805525779724
+      },
+      {
+        "id": "meu-nome-e-ana",
+        "score": 0.5714872479438782
+      },
+      {
+        "id": "tropel",
+        "score": 0.5686172246932983
+      },
+      {
+        "id": "dragkiller",
+        "score": 0.5677412152290344
+      },
+      {
+        "id": "nosso-louco-amor",
+        "score": 0.5627883672714233
+      },
+      {
+        "id": "ate-a-noite-terminar",
+        "score": 0.5520730018615723
+      },
+      {
+        "id": "nao-quero-falar-sobre-isso-agora",
+        "score": 0.5502798557281494
+      },
+      {
+        "id": "tudo-o-que-eu-nao-te-digo",
+        "score": 0.5480700731277466
+      },
+      {
+        "id": "alibi",
+        "score": 0.5474479794502258
+      },
+      {
+        "id": "fantasma",
+        "score": 0.5446595549583435
+      }
+    ]
   },
   {
     "id": "os-suspeitos",
@@ -1853,7 +3153,57 @@
       "jake gyllenhaal"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "obscura-justica",
+        "score": 0.5766699314117432
+      },
+      {
+        "id": "amor-bandido",
+        "score": 0.5354617834091187
+      },
+      {
+        "id": "crime-de-amor",
+        "score": 0.5251192450523376
+      },
+      {
+        "id": "inspetor-gallo-e-o-rapto-da-garota-de-sanja-city",
+        "score": 0.5227319002151489
+      },
+      {
+        "id": "o-assassinato-da-meia-noite",
+        "score": 0.5217640995979309
+      },
+      {
+        "id": "norma-dos-ventos",
+        "score": 0.5183722972869873
+      },
+      {
+        "id": "o-ar-que-a-gente-respira",
+        "score": 0.5114489793777466
+      },
+      {
+        "id": "em-nome-da-lei",
+        "score": 0.5028864145278931
+      },
+      {
+        "id": "momentos-roubados",
+        "score": 0.4916096031665802
+      },
+      {
+        "id": "chamado",
+        "score": 0.49089303612709045
+      },
+      {
+        "id": "tormento",
+        "score": 0.486978679895401
+      },
+      {
+        "id": "abissal",
+        "score": 0.4862729012966156
+      }
+    ]
   },
   {
     "id": "fogo-contra-fogo",
@@ -1927,7 +3277,57 @@
       "bold"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "o-roubo-do-trator",
+        "score": 0.6320080161094666
+      },
+      {
+        "id": "cabras-da-peste-2-miami-vixe",
+        "score": 0.5788881182670593
+      },
+      {
+        "id": "fuga-sem-destino",
+        "score": 0.576275646686554
+      },
+      {
+        "id": "massacre-no-supermercado",
+        "score": 0.5762723684310913
+      },
+      {
+        "id": "obscura-justica",
+        "score": 0.5742948651313782
+      },
+      {
+        "id": "a-maldicao-do-sanpaku",
+        "score": 0.5731849074363708
+      },
+      {
+        "id": "entre-mulheres-e-espioes",
+        "score": 0.5698565244674683
+      },
+      {
+        "id": "virando-a-mesa",
+        "score": 0.5681232810020447
+      },
+      {
+        "id": "so-mais-um-dia",
+        "score": 0.5650291442871094
+      },
+      {
+        "id": "pega-ladrao",
+        "score": 0.5587165355682373
+      },
+      {
+        "id": "corvos",
+        "score": 0.557669460773468
+      },
+      {
+        "id": "um-ladrao",
+        "score": 0.5563371181488037
+      }
+    ]
   },
   {
     "id": "coringa",
@@ -1997,7 +3397,57 @@
       "oscar winner"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "lucio-flavio-o-passageiro-da-agonia",
+        "score": 0.5824586749076843
+      },
+      {
+        "id": "o-terno-do-ze",
+        "score": 0.5708919763565063
+      },
+      {
+        "id": "venatio",
+        "score": 0.5670364499092102
+      },
+      {
+        "id": "gimba-presidente-dos-valentes",
+        "score": 0.5618729591369629
+      },
+      {
+        "id": "tipos-de-sutileza",
+        "score": 0.5549172759056091
+      },
+      {
+        "id": "rotten-hand",
+        "score": 0.5500941276550293
+      },
+      {
+        "id": "a-ronda-da-morte",
+        "score": 0.5478131175041199
+      },
+      {
+        "id": "a-ultima-estrela",
+        "score": 0.5466862320899963
+      },
+      {
+        "id": "matou-a-familia-e-foi-ao-cinema",
+        "score": 0.5404632687568665
+      },
+      {
+        "id": "cada-um-com-seus-problemas",
+        "score": 0.5397504568099976
+      },
+      {
+        "id": "vale-dos-ventos",
+        "score": 0.539162814617157
+      },
+      {
+        "id": "mata-influencer-tidinha-a-ultima-transmissao",
+        "score": 0.5390833616256714
+      }
+    ]
   },
   {
     "id": "duro-de-matar",
@@ -2070,7 +3520,57 @@
       "excited"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "por-tras-da-linha-de-escudos",
+        "score": 0.5105709433555603
+      },
+      {
+        "id": "uma-cronica-policial",
+        "score": 0.5040803551673889
+      },
+      {
+        "id": "ultimo-caso",
+        "score": 0.4994354546070099
+      },
+      {
+        "id": "chamado",
+        "score": 0.49137458205223083
+      },
+      {
+        "id": "dezembro",
+        "score": 0.4896473288536072
+      },
+      {
+        "id": "deserto-particular",
+        "score": 0.4838685989379883
+      },
+      {
+        "id": "gericino-do-lado-de-fora",
+        "score": 0.4822157323360443
+      },
+      {
+        "id": "momentos-roubados",
+        "score": 0.4799417555332184
+      },
+      {
+        "id": "inverno",
+        "score": 0.4778745174407959
+      },
+      {
+        "id": "meia-noite-no-quarto-103",
+        "score": 0.47539767622947693
+      },
+      {
+        "id": "no-meu-lugar",
+        "score": 0.47402921319007874
+      },
+      {
+        "id": "matadouro-parte-2-preludio",
+        "score": 0.4697212278842926
+      }
+    ]
   },
   {
     "id": "mad-max-estrada-da-furia",
@@ -2137,7 +3637,57 @@
       "tyrannical ruler"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "madrugada-atraves-do-espaco-tempo",
+        "score": 0.6263980269432068
+      },
+      {
+        "id": "rainha-na-casa-branca",
+        "score": 0.607518196105957
+      },
+      {
+        "id": "a-beira-do-gatilho",
+        "score": 0.5925609469413757
+      },
+      {
+        "id": "consequencias-paralelas",
+        "score": 0.5866000056266785
+      },
+      {
+        "id": "alive",
+        "score": 0.5864483118057251
+      },
+      {
+        "id": "nao-tem-volta",
+        "score": 0.5623723864555359
+      },
+      {
+        "id": "sob-nova-direcao",
+        "score": 0.5598480701446533
+      },
+      {
+        "id": "ninguem-derruba-o-tita",
+        "score": 0.5557892322540283
+      },
+      {
+        "id": "lista-negra-para-black-medal",
+        "score": 0.554168164730072
+      },
+      {
+        "id": "3-clones",
+        "score": 0.5537447333335876
+      },
+      {
+        "id": "o-amor-da-trabalho",
+        "score": 0.5454722046852112
+      },
+      {
+        "id": "o-silencio-que-voce-faz",
+        "score": 0.5332357883453369
+      }
+    ]
   },
   {
     "id": "gladiador",
@@ -2212,7 +3762,57 @@
       "gladiador"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "as-armas",
+        "score": 0.6073663234710693
+      },
+      {
+        "id": "deus-e-o-diabo-na-terra-do-sol",
+        "score": 0.5983880758285522
+      },
+      {
+        "id": "seu-constantino-memorias",
+        "score": 0.5852824449539185
+      },
+      {
+        "id": "a-filha-de-caligula",
+        "score": 0.5643199682235718
+      },
+      {
+        "id": "jorge-da-capadocia",
+        "score": 0.5627351403236389
+      },
+      {
+        "id": "padre-cicero",
+        "score": 0.5567227602005005
+      },
+      {
+        "id": "juliano-cezar-ao-vivo",
+        "score": 0.5425121784210205
+      },
+      {
+        "id": "a-ilha-dos-escravos",
+        "score": 0.5402954816818237
+      },
+      {
+        "id": "o-cemiterio-das-almas-perdidas",
+        "score": 0.5355768799781799
+      },
+      {
+        "id": "teobaldo-morto-romeu-exilado",
+        "score": 0.5339868664741516
+      },
+      {
+        "id": "copa-de-elite",
+        "score": 0.5299496650695801
+      },
+      {
+        "id": "7-prisioneiros",
+        "score": 0.5293968915939331
+      }
+    ]
   },
   {
     "id": "john-wick-de-volta-ao-jogo",
@@ -2269,7 +3869,57 @@
       "widower"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "amigos-para-sempre",
+        "score": 0.5816434025764465
+      },
+      {
+        "id": "sangue-mau",
+        "score": 0.5464903712272644
+      },
+      {
+        "id": "paleta",
+        "score": 0.5415239334106445
+      },
+      {
+        "id": "o-coracao-delator",
+        "score": 0.5192596912384033
+      },
+      {
+        "id": "new-bye",
+        "score": 0.5190786123275757
+      },
+      {
+        "id": "o-homem-que-virou-suco",
+        "score": 0.5188081860542297
+      },
+      {
+        "id": "matt-johnson-remake",
+        "score": 0.5083186626434326
+      },
+      {
+        "id": "kelly",
+        "score": 0.5054594278335571
+      },
+      {
+        "id": "mata-gato",
+        "score": 0.4988011419773102
+      },
+      {
+        "id": "o-homem-do-corpo-fechado",
+        "score": 0.49858686327934265
+      },
+      {
+        "id": "o-homem-das-coisas",
+        "score": 0.4916042685508728
+      },
+      {
+        "id": "las-confisiones-de-un-hombre-lobo",
+        "score": 0.4838317334651947
+      }
+    ]
   },
   {
     "id": "batman-o-cavaleiro-das-trevas",
@@ -2336,7 +3986,57 @@
       "bold"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "corvos",
+        "score": 0.5785560011863708
+      },
+      {
+        "id": "bentomen",
+        "score": 0.5548530220985413
+      },
+      {
+        "id": "porto-dos-mortos",
+        "score": 0.5546044707298279
+      },
+      {
+        "id": "shequemate",
+        "score": 0.5528031587600708
+      },
+      {
+        "id": "batxota-a-mulher-morcego",
+        "score": 0.5415850281715393
+      },
+      {
+        "id": "madrugada-de-sangue",
+        "score": 0.5354233384132385
+      },
+      {
+        "id": "o-retorno-da-macabra-biblioteca-do-dr-lucchetti",
+        "score": 0.5277174115180969
+      },
+      {
+        "id": "o-homem-porco",
+        "score": 0.527635395526886
+      },
+      {
+        "id": "batguano",
+        "score": 0.5266487002372742
+      },
+      {
+        "id": "o-sarcofago",
+        "score": 0.52581387758255
+      },
+      {
+        "id": "crise-nas-infinitas-diretrizes",
+        "score": 0.5248467326164246
+      },
+      {
+        "id": "j-de-justica-iii",
+        "score": 0.5220158696174622
+      }
+    ]
   },
   {
     "id": "missao-impossivel",
@@ -2408,7 +4108,57 @@
       "based on tv series"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "commando-em-acao",
+        "score": 0.7004044055938721
+      },
+      {
+        "id": "sem-tempo",
+        "score": 0.681731104850769
+      },
+      {
+        "id": "o-homem-que-sabia-de-menos",
+        "score": 0.6019290685653687
+      },
+      {
+        "id": "quarto-trancado",
+        "score": 0.5986143946647644
+      },
+      {
+        "id": "o-roubo-do-trator",
+        "score": 0.595838725566864
+      },
+      {
+        "id": "valenca",
+        "score": 0.5901392698287964
+      },
+      {
+        "id": "escudo-vermelho",
+        "score": 0.5877220034599304
+      },
+      {
+        "id": "che-memorias-de-um-ano-secreto",
+        "score": 0.5811480283737183
+      },
+      {
+        "id": "invasores",
+        "score": 0.5786344408988953
+      },
+      {
+        "id": "o-assassinato-da-meia-noite",
+        "score": 0.5755232572555542
+      },
+      {
+        "id": "o-cacador-e-a-mula-sem-cabeca",
+        "score": 0.5723387598991394
+      },
+      {
+        "id": "amigos-da-bizarra-trilha-que-tem-um-assassino-controlado-pelo-chefe-i",
+        "score": 0.5704671144485474
+      }
+    ]
   },
   {
     "id": "o-exterminador-do-futuro-2-o-julgamento-final",
@@ -2480,7 +4230,57 @@
       "suspenseful"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "quadros-remanescentes-tony-e-a-paralisia-do-futuro",
+        "score": 0.5894777178764343
+      },
+      {
+        "id": "o-rapto-do-menino-x",
+        "score": 0.5800992250442505
+      },
+      {
+        "id": "oculos-magicos-5-o-legado-sombrio",
+        "score": 0.5593225359916687
+      },
+      {
+        "id": "escudo-vermelho",
+        "score": 0.5451140999794006
+      },
+      {
+        "id": "j-de-justica-ii",
+        "score": 0.5218414664268494
+      },
+      {
+        "id": "poltergosma",
+        "score": 0.520255446434021
+      },
+      {
+        "id": "piggy-the-multiverse",
+        "score": 0.5131829380989075
+      },
+      {
+        "id": "paleta",
+        "score": 0.5118729472160339
+      },
+      {
+        "id": "oculos-magicos-3-o-pingente-misterioso",
+        "score": 0.5104124546051025
+      },
+      {
+        "id": "adulto-nao-brinca",
+        "score": 0.5087984800338745
+      },
+      {
+        "id": "vale-dos-ventos",
+        "score": 0.5086385011672974
+      },
+      {
+        "id": "necronect",
+        "score": 0.5031415820121765
+      }
+    ]
   },
   {
     "id": "top-gun-maverick",
@@ -2539,7 +4339,57 @@
       "earnest"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "war-heroes",
+        "score": 0.4961671233177185
+      },
+      {
+        "id": "o-ultimo-pistolino",
+        "score": 0.4961247444152832
+      },
+      {
+        "id": "o-que-trago-do-chumbo-os-50-anos-do-golpe-militar",
+        "score": 0.47651734948158264
+      },
+      {
+        "id": "relax-mistico",
+        "score": 0.4733728766441345
+      },
+      {
+        "id": "e-agora-luke",
+        "score": 0.47267886996269226
+      },
+      {
+        "id": "barquinhos-o-resgate",
+        "score": 0.472432404756546
+      },
+      {
+        "id": "cor-de-rosa",
+        "score": 0.469840943813324
+      },
+      {
+        "id": "o-ultimo-voo-do-condor",
+        "score": 0.46410974860191345
+      },
+      {
+        "id": "crise-nas-infinitas-diretrizes",
+        "score": 0.46196889877319336
+      },
+      {
+        "id": "jornada-de-um-heroi",
+        "score": 0.46014052629470825
+      },
+      {
+        "id": "cabo-de-guerra",
+        "score": 0.45801249146461487
+      },
+      {
+        "id": "davi-e-os-avioes",
+        "score": 0.4578595459461212
+      }
+    ]
   },
   {
     "id": "007-cassino-royale",
@@ -2607,7 +4457,57 @@
       "earnest"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "na-trilha-do-bonde",
+        "score": 0.6294367909431458
+      },
+      {
+        "id": "007-genderbond",
+        "score": 0.5419945120811462
+      },
+      {
+        "id": "bondage",
+        "score": 0.5376418232917786
+      },
+      {
+        "id": "um-tira-chamado-perigo",
+        "score": 0.44390669465065
+      },
+      {
+        "id": "os-senhores-da-terra",
+        "score": 0.43885815143585205
+      },
+      {
+        "id": "shequemate",
+        "score": 0.43056634068489075
+      },
+      {
+        "id": "o-matador-profissional",
+        "score": 0.42983153462409973
+      },
+      {
+        "id": "sem-tempo",
+        "score": 0.4230523705482483
+      },
+      {
+        "id": "termal-nivel-5",
+        "score": 0.41766321659088135
+      },
+      {
+        "id": "senshimoro-ep-04-a-taca-da-vida",
+        "score": 0.410581111907959
+      },
+      {
+        "id": "os-tres-patetas-e-os-milhares-de-assassinos",
+        "score": 0.40859130024909973
+      },
+      {
+        "id": "love-shack",
+        "score": 0.4082571864128113
+      }
+    ]
   },
   {
     "id": "kill-bill-volume-1",
@@ -2668,7 +4568,57 @@
       "extreme violence"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "paleta",
+        "score": 0.5964688658714294
+      },
+      {
+        "id": "vida-de-assassino",
+        "score": 0.5964643955230713
+      },
+      {
+        "id": "noiva-da-morte",
+        "score": 0.5855816602706909
+      },
+      {
+        "id": "retratos-rasgados",
+        "score": 0.5848052501678467
+      },
+      {
+        "id": "o-assassino",
+        "score": 0.5664358735084534
+      },
+      {
+        "id": "matou-a-familia-e-foi-ao-cinema",
+        "score": 0.5633033514022827
+      },
+      {
+        "id": "o-anjo-assassino",
+        "score": 0.5610601305961609
+      },
+      {
+        "id": "o-matador-profissional",
+        "score": 0.5595160722732544
+      },
+      {
+        "id": "usina-desejo-contra-a-industria-do-medo",
+        "score": 0.5546790957450867
+      },
+      {
+        "id": "adulterio-as-regras-do-jogo",
+        "score": 0.5536708831787109
+      },
+      {
+        "id": "campeon-de-la-muerte",
+        "score": 0.549936830997467
+      },
+      {
+        "id": "delirio-e-morte-de-uma-retirante",
+        "score": 0.5497727990150452
+      }
+    ]
   },
   {
     "id": "a-origem",
@@ -2729,7 +4679,57 @@
       "dream"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "o-roubo-do-trator",
+        "score": 0.6615235209465027
+      },
+      {
+        "id": "receba",
+        "score": 0.6150590181350708
+      },
+      {
+        "id": "entre-mulheres-e-espioes",
+        "score": 0.6053969264030457
+      },
+      {
+        "id": "um-ladrao",
+        "score": 0.602828860282898
+      },
+      {
+        "id": "simao-o-caolho",
+        "score": 0.6005305051803589
+      },
+      {
+        "id": "a-carteira-roubada",
+        "score": 0.5940622687339783
+      },
+      {
+        "id": "vidente-por-acidente",
+        "score": 0.5785164833068848
+      },
+      {
+        "id": "on-off",
+        "score": 0.5742225050926208
+      },
+      {
+        "id": "a-maldicao-do-sanpaku",
+        "score": 0.5740802884101868
+      },
+      {
+        "id": "como-hackear-seu-chefe",
+        "score": 0.572049617767334
+      },
+      {
+        "id": "esquina-da-ilusao",
+        "score": 0.5710012912750244
+      },
+      {
+        "id": "a-estrela-cadente",
+        "score": 0.5697473287582397
+      }
+    ]
   },
   {
     "id": "matrix",
@@ -2792,7 +4792,57 @@
       "amused"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "o-mito-do-delirio-ou-o-sonho-de-um-homem-ridiculo",
+        "score": 0.6385300755500793
+      },
+      {
+        "id": "esboco",
+        "score": 0.6376320123672485
+      },
+      {
+        "id": "guerreiros-de-plastico",
+        "score": 0.636490523815155
+      },
+      {
+        "id": "estatica",
+        "score": 0.6209999918937683
+      },
+      {
+        "id": "estilhacos",
+        "score": 0.6192435026168823
+      },
+      {
+        "id": "perfekta-uma-aventura-da-escola-de-genios",
+        "score": 0.6041419506072998
+      },
+      {
+        "id": "levantado-do-chao",
+        "score": 0.6003490090370178
+      },
+      {
+        "id": "onirico",
+        "score": 0.5981651544570923
+      },
+      {
+        "id": "doutor-sonho",
+        "score": 0.597579300403595
+      },
+      {
+        "id": "circo-das-ilusoes",
+        "score": 0.5964880585670471
+      },
+      {
+        "id": "mau-pressagio",
+        "score": 0.5944700837135315
+      },
+      {
+        "id": "oriranti",
+        "score": 0.5925316214561462
+      }
+    ]
   },
   {
     "id": "interestelar",
@@ -2869,7 +4919,57 @@
       "admiring"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "projeto-v-i-d-a",
+        "score": 0.6657552123069763
+      },
+      {
+        "id": "dia-um",
+        "score": 0.6654900908470154
+      },
+      {
+        "id": "tarde-no-planeta",
+        "score": 0.6515439748764038
+      },
+      {
+        "id": "fractais-tropicais",
+        "score": 0.6355797648429871
+      },
+      {
+        "id": "aquele-que-viu-o-abismo",
+        "score": 0.6328538656234741
+      },
+      {
+        "id": "o-jardim-das-espumas",
+        "score": 0.6292895674705505
+      },
+      {
+        "id": "sertao-2138",
+        "score": 0.627875566482544
+      },
+      {
+        "id": "hostile",
+        "score": 0.6197254061698914
+      },
+      {
+        "id": "planeta-terra",
+        "score": 0.6142696738243103
+      },
+      {
+        "id": "orfaos-da-terra",
+        "score": 0.6132236123085022
+      },
+      {
+        "id": "centopeia",
+        "score": 0.6099523305892944
+      },
+      {
+        "id": "fucking-skies",
+        "score": 0.6049683094024658
+      }
+    ]
   },
   {
     "id": "blade-runner-o-cacador-de-androides",
@@ -2942,7 +5042,57 @@
       "excited"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "inspiracao",
+        "score": 0.6334893107414246
+      },
+      {
+        "id": "robozinhos",
+        "score": 0.5978164672851562
+      },
+      {
+        "id": "homem-x-maquinas-a-luta-do-seculo-no-planeta-dos-botoes",
+        "score": 0.5670558214187622
+      },
+      {
+        "id": "era-uma-vez",
+        "score": 0.5601494908332825
+      },
+      {
+        "id": "quadros-remanescentes-tony-e-a-paralisia-do-futuro",
+        "score": 0.5555838346481323
+      },
+      {
+        "id": "o-sarcofago",
+        "score": 0.5468381643295288
+      },
+      {
+        "id": "eu-nao-sou-um-robo",
+        "score": 0.543576180934906
+      },
+      {
+        "id": "a-formula",
+        "score": 0.5364686250686646
+      },
+      {
+        "id": "corrida-dos-bichos",
+        "score": 0.5322570204734802
+      },
+      {
+        "id": "cordelicos-a-origem-do-cabra-da-peste",
+        "score": 0.5239911079406738
+      },
+      {
+        "id": "adulto-nao-brinca",
+        "score": 0.5221847295761108
+      },
+      {
+        "id": "o-doutrinador",
+        "score": 0.5221501588821411
+      }
+    ]
   },
   {
     "id": "guerra-nas-estrelas",
@@ -3007,7 +5157,57 @@
       "tuwaderalit"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "xuxa-e-os-duendes-2-no-caminho-das-fadas",
+        "score": 0.5245870351791382
+      },
+      {
+        "id": "muleque-te-doido-3-mais-doido-ainda",
+        "score": 0.5233528017997742
+      },
+      {
+        "id": "os-herois-trapalhoes-uma-aventura-na-selva",
+        "score": 0.5106358528137207
+      },
+      {
+        "id": "somos-todos-saci",
+        "score": 0.5074254274368286
+      },
+      {
+        "id": "o-limiar-da-meia-noite",
+        "score": 0.5074055194854736
+      },
+      {
+        "id": "momentos-de-tensao",
+        "score": 0.5017509460449219
+      },
+      {
+        "id": "marco",
+        "score": 0.4882688522338867
+      },
+      {
+        "id": "suprema",
+        "score": 0.48669424653053284
+      },
+      {
+        "id": "nao-quero-saber-de-sangue-so-quero-saber-de-pitu",
+        "score": 0.4857388138771057
+      },
+      {
+        "id": "jonas",
+        "score": 0.48299893736839294
+      },
+      {
+        "id": "madre",
+        "score": 0.4811377227306366
+      },
+      {
+        "id": "lilith",
+        "score": 0.47985631227493286
+      }
+    ]
   },
   {
     "id": "a-chegada",
@@ -3079,7 +5279,57 @@
       "hopeful"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "cronicas-estelares-livro-de-memorias",
+        "score": 0.6577949523925781
+      },
+      {
+        "id": "astronauta-de-pano",
+        "score": 0.6369707584381104
+      },
+      {
+        "id": "ensinando-o-infinito",
+        "score": 0.6348884701728821
+      },
+      {
+        "id": "o-fogo",
+        "score": 0.6346132159233093
+      },
+      {
+        "id": "to-err",
+        "score": 0.6152760982513428
+      },
+      {
+        "id": "no-meio-de-nos",
+        "score": 0.607462465763092
+      },
+      {
+        "id": "hostile",
+        "score": 0.6044434309005737
+      },
+      {
+        "id": "o-jardim-das-espumas",
+        "score": 0.6027308106422424
+      },
+      {
+        "id": "teoria-sobre-um-planeta-estranho",
+        "score": 0.5849896669387817
+      },
+      {
+        "id": "cassiopeia",
+        "score": 0.5837916731834412
+      },
+      {
+        "id": "the-incident",
+        "score": 0.580704391002655
+      },
+      {
+        "id": "os-cosmonautas",
+        "score": 0.5806037783622742
+      }
+    ]
   },
   {
     "id": "e-t-o-extraterrestre",
@@ -3145,7 +5395,57 @@
       "space sci-fi"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "matadores-de-aliens-do-espaco-sideral",
+        "score": 0.6344745755195618
+      },
+      {
+        "id": "gerenciador-do-universo",
+        "score": 0.6301851868629456
+      },
+      {
+        "id": "astronauta-azul",
+        "score": 0.6064079999923706
+      },
+      {
+        "id": "eteia-a-extraterrestre-em-sua-aventura-no-rio",
+        "score": 0.5947220325469971
+      },
+      {
+        "id": "eles",
+        "score": 0.5889077186584473
+      },
+      {
+        "id": "um-alien-eu",
+        "score": 0.5814905762672424
+      },
+      {
+        "id": "labirinto",
+        "score": 0.5648919343948364
+      },
+      {
+        "id": "o-rapto-do-menino-x",
+        "score": 0.5644373297691345
+      },
+      {
+        "id": "eu-e-meu-guarda-chuva",
+        "score": 0.5635919570922852
+      },
+      {
+        "id": "border",
+        "score": 0.5601663589477539
+      },
+      {
+        "id": "o-bebe-de-rosimeire",
+        "score": 0.5488197207450867
+      },
+      {
+        "id": "plinio-vigilante-espacial",
+        "score": 0.5472363829612732
+      }
+    ]
   },
   {
     "id": "de-volta-para-o-futuro",
@@ -3214,7 +5514,57 @@
       "1950s"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "mosquito-the-movie",
+        "score": 0.566869854927063
+      },
+      {
+        "id": "asas",
+        "score": 0.5394656658172607
+      },
+      {
+        "id": "mcfly-live-in-rio-2022",
+        "score": 0.536864161491394
+      },
+      {
+        "id": "o-acougueiro-do-norte-contra-o-cineasta-voador",
+        "score": 0.5254345536231995
+      },
+      {
+        "id": "corpos-celestes",
+        "score": 0.5196199417114258
+      },
+      {
+        "id": "as-criacoes-de-roger-o-filme",
+        "score": 0.5170377492904663
+      },
+      {
+        "id": "florencio",
+        "score": 0.5114025473594666
+      },
+      {
+        "id": "a-lenda-do-homem-passaro",
+        "score": 0.504156768321991
+      },
+      {
+        "id": "a-lenda-do-homem-passaro",
+        "score": 0.504156768321991
+      },
+      {
+        "id": "antes-que-vire-po",
+        "score": 0.4987150728702545
+      },
+      {
+        "id": "dreads-n-drones-fitas-perdidas",
+        "score": 0.4969034790992737
+      },
+      {
+        "id": "uma-viagem-muito-louca",
+        "score": 0.4965455234050751
+      }
+    ]
   },
   {
     "id": "avatar",
@@ -3291,7 +5641,57 @@
       "exhilarated"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "hostile",
+        "score": 0.6058607697486877
+      },
+      {
+        "id": "erivaldo-o-astronauta-mistico",
+        "score": 0.5909209251403809
+      },
+      {
+        "id": "marcio-gomes-um-astronauta-no-espaco",
+        "score": 0.5837013125419617
+      },
+      {
+        "id": "cybernetic-crush",
+        "score": 0.573898196220398
+      },
+      {
+        "id": "vollupya",
+        "score": 0.5685782432556152
+      },
+      {
+        "id": "astronauta-de-pano",
+        "score": 0.5658013224601746
+      },
+      {
+        "id": "um-boliche-de-outro-mundo",
+        "score": 0.5616321563720703
+      },
+      {
+        "id": "arquivo-aida-g12",
+        "score": 0.5615500211715698
+      },
+      {
+        "id": "cronicas-estelares-livro-de-memorias",
+        "score": 0.5599258542060852
+      },
+      {
+        "id": "sailor-moon-cosplay",
+        "score": 0.5591861605644226
+      },
+      {
+        "id": "mutano-lobo-solitario",
+        "score": 0.5568166375160217
+      },
+      {
+        "id": "o-trapalhao-no-planalto-dos-macacos",
+        "score": 0.5544971823692322
+      }
+    ]
   },
   {
     "id": "duna",
@@ -3367,7 +5767,57 @@
       "oscar winner"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "teoria-sobre-um-planeta-estranho",
+        "score": 0.5846081972122192
+      },
+      {
+        "id": "o-jardim-das-espumas",
+        "score": 0.5787844657897949
+      },
+      {
+        "id": "planeta-gigoia",
+        "score": 0.5707929134368896
+      },
+      {
+        "id": "planeta-terra",
+        "score": 0.567544162273407
+      },
+      {
+        "id": "cassiopeia",
+        "score": 0.5579336285591125
+      },
+      {
+        "id": "os-dias-ateus",
+        "score": 0.5420026779174805
+      },
+      {
+        "id": "gerenciador-do-universo",
+        "score": 0.5406107902526855
+      },
+      {
+        "id": "o-chamado-do-cacique-heranca-terra-e-futuro",
+        "score": 0.5399099588394165
+      },
+      {
+        "id": "arquivo-aida-g12",
+        "score": 0.5256321430206299
+      },
+      {
+        "id": "o-batuque-dos-astros",
+        "score": 0.5229607224464417
+      },
+      {
+        "id": "tarde-no-planeta",
+        "score": 0.5218828916549683
+      },
+      {
+        "id": "plutao-nao-e-tao-longe-daqui",
+        "score": 0.5177556872367859
+      }
+    ]
   },
   {
     "id": "alien-o-oitavo-passageiro",
@@ -3429,7 +5879,57 @@
       "cosmos"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "hiperselva",
+        "score": 0.7260811924934387
+      },
+      {
+        "id": "desconcerto",
+        "score": 0.6903916597366333
+      },
+      {
+        "id": "a-busca-pelo-pix-roubado",
+        "score": 0.6486507058143616
+      },
+      {
+        "id": "um-alien-eu",
+        "score": 0.6447471380233765
+      },
+      {
+        "id": "apagogia",
+        "score": 0.6420643925666809
+      },
+      {
+        "id": "cronicas-estelares-livro-de-memorias",
+        "score": 0.6394201517105103
+      },
+      {
+        "id": "astronauta-de-pano",
+        "score": 0.6270447969436646
+      },
+      {
+        "id": "hostile",
+        "score": 0.6258316040039062
+      },
+      {
+        "id": "mundo-proibido",
+        "score": 0.6109359860420227
+      },
+      {
+        "id": "the-alien-conspiracies-feat-i",
+        "score": 0.6081185936927795
+      },
+      {
+        "id": "quase-tao-letal-quanto-uma-torta-de-limao",
+        "score": 0.6073557734489441
+      },
+      {
+        "id": "zona-abissal",
+        "score": 0.5955759882926941
+      }
+    ]
   },
   {
     "id": "2001-uma-odisseia-no-espaco",
@@ -3497,7 +5997,57 @@
       "metrocolor"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "teoria-sobre-um-planeta-estranho",
+        "score": 0.6879621148109436
+      },
+      {
+        "id": "sertao-2138",
+        "score": 0.6839172840118408
+      },
+      {
+        "id": "hostile",
+        "score": 0.6501563191413879
+      },
+      {
+        "id": "data-limite-segundo-chico-xavier",
+        "score": 0.6329525709152222
+      },
+      {
+        "id": "ensinando-o-infinito",
+        "score": 0.6282859444618225
+      },
+      {
+        "id": "quadros-remanescentes-tony-e-a-paralisia-do-futuro",
+        "score": 0.6215646862983704
+      },
+      {
+        "id": "projeto-v-i-d-a",
+        "score": 0.619556725025177
+      },
+      {
+        "id": "no-meio-de-nos",
+        "score": 0.6180198788642883
+      },
+      {
+        "id": "mundo-proibido",
+        "score": 0.6155840158462524
+      },
+      {
+        "id": "cassiopeia",
+        "score": 0.6110316514968872
+      },
+      {
+        "id": "erivaldo-o-astronauta-mistico",
+        "score": 0.6085274815559387
+      },
+      {
+        "id": "o-jardim-das-espumas",
+        "score": 0.6031306982040405
+      }
+    ]
   },
   {
     "id": "o-exterminador-do-futuro",
@@ -3566,7 +6116,57 @@
       "murders"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "quadros-remanescentes-tony-e-a-paralisia-do-futuro",
+        "score": 0.6559004187583923
+      },
+      {
+        "id": "distopia",
+        "score": 0.6103452444076538
+      },
+      {
+        "id": "o-rapto-do-menino-x",
+        "score": 0.599560022354126
+      },
+      {
+        "id": "controle",
+        "score": 0.5910508632659912
+      },
+      {
+        "id": "o-fundo-do-ar-e-cinza",
+        "score": 0.5849956274032593
+      },
+      {
+        "id": "homem-x-maquinas-a-luta-do-seculo-no-planeta-dos-botoes",
+        "score": 0.5798142552375793
+      },
+      {
+        "id": "a-formula",
+        "score": 0.5759534239768982
+      },
+      {
+        "id": "tempo-triz",
+        "score": 0.5739037990570068
+      },
+      {
+        "id": "salvacao-mundial-ultra-secreta",
+        "score": 0.5692657232284546
+      },
+      {
+        "id": "algoritmo",
+        "score": 0.5639725923538208
+      },
+      {
+        "id": "c0rp0-de-bytes",
+        "score": 0.5611801147460938
+      },
+      {
+        "id": "exocontrole-2020",
+        "score": 0.5598751902580261
+      }
+    ]
   },
   {
     "id": "ex-machina-instinto-artificial",
@@ -3645,7 +6245,57 @@
       "intense"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "deus-de-neon",
+        "score": 0.6303346157073975
+      },
+      {
+        "id": "lapso",
+        "score": 0.6051570177078247
+      },
+      {
+        "id": "ia-inteligencia-afetiva",
+        "score": 0.594443678855896
+      },
+      {
+        "id": "a-inteligencia-artificial-contra-a-estupidez-natural-na-oficina-do-diabo",
+        "score": 0.5849413275718689
+      },
+      {
+        "id": "a-s-i",
+        "score": 0.5571877360343933
+      },
+      {
+        "id": "bia",
+        "score": 0.5429360866546631
+      },
+      {
+        "id": "desinteligencia-natural",
+        "score": 0.5310341119766235
+      },
+      {
+        "id": "essa-pessoa-nao-existe",
+        "score": 0.5284669399261475
+      },
+      {
+        "id": "omin-mimo",
+        "score": 0.5270864367485046
+      },
+      {
+        "id": "como-nenhuma-inteligencia-ja-amou",
+        "score": 0.5270251631736755
+      },
+      {
+        "id": "caroco",
+        "score": 0.5219449400901794
+      },
+      {
+        "id": "criado-por-i-a",
+        "score": 0.5172371864318848
+      }
+    ]
   },
   {
     "id": "homem-de-ferro",
@@ -3702,7 +6352,57 @@
       "audacious"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "destinos-opostos",
+        "score": 0.5510603785514832
+      },
+      {
+        "id": "fatman-e-robada",
+        "score": 0.5255113840103149
+      },
+      {
+        "id": "quadros-remanescentes-tony-e-a-paralisia-do-futuro",
+        "score": 0.5083153247833252
+      },
+      {
+        "id": "omin-mimo",
+        "score": 0.49823692440986633
+      },
+      {
+        "id": "iron-o-homem-da-mascara-de-ferro",
+        "score": 0.48299500346183777
+      },
+      {
+        "id": "o-sarcofago",
+        "score": 0.4783277213573456
+      },
+      {
+        "id": "a-maldicao-do-sanpaku",
+        "score": 0.4781760573387146
+      },
+      {
+        "id": "simao-o-caolho",
+        "score": 0.46800553798675537
+      },
+      {
+        "id": "a-incessante-historia-do-incrivel-boneco-tentando-ser-famoso",
+        "score": 0.460050106048584
+      },
+      {
+        "id": "darma",
+        "score": 0.45863309502601624
+      },
+      {
+        "id": "escudo-vermelho",
+        "score": 0.4510839581489563
+      },
+      {
+        "id": "don-perdicao",
+        "score": 0.4504750669002533
+      }
+    ]
   },
   {
     "id": "os-vingadores-the-avengers",
@@ -3757,7 +6457,57 @@
       "marvel cinematic universe (mcu)"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "vingadores-galvanize",
+        "score": 0.7662825584411621
+      },
+      {
+        "id": "oculos-magicos-3-o-pingente-misterioso",
+        "score": 0.6093708276748657
+      },
+      {
+        "id": "crise-nas-infinitas-diretrizes",
+        "score": 0.556922197341919
+      },
+      {
+        "id": "o-homem-verde",
+        "score": 0.5345931053161621
+      },
+      {
+        "id": "o-rapto-do-betao",
+        "score": 0.5331535339355469
+      },
+      {
+        "id": "colonia-contra-ataca-2a-temporada-saga-vinet",
+        "score": 0.531268298625946
+      },
+      {
+        "id": "superpoderosas-e-o-elemento-x",
+        "score": 0.5299447178840637
+      },
+      {
+        "id": "the-enchanted-mission",
+        "score": 0.5272852182388306
+      },
+      {
+        "id": "desigualdade-dos-super-herois",
+        "score": 0.5262560248374939
+      },
+      {
+        "id": "os-trapalhoes-na-guerra-dos-planetas",
+        "score": 0.5259257555007935
+      },
+      {
+        "id": "capitao-tocha",
+        "score": 0.5241451263427734
+      },
+      {
+        "id": "filme-b-os-mutantes-do-espaco",
+        "score": 0.522392988204956
+      }
+    ]
   },
   {
     "id": "homem-aranha",
@@ -3821,7 +6571,57 @@
       "taking responsibility"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "o-espetacular-homem-aranha",
+        "score": 0.683201789855957
+      },
+      {
+        "id": "sindrome-de-peter-pan",
+        "score": 0.627093493938446
+      },
+      {
+        "id": "responsibility",
+        "score": 0.5860861539840698
+      },
+      {
+        "id": "30-anos-blues",
+        "score": 0.5724477171897888
+      },
+      {
+        "id": "memento-mori",
+        "score": 0.5111269950866699
+      },
+      {
+        "id": "the-evil-dad-o-papai-do-mal",
+        "score": 0.5038595795631409
+      },
+      {
+        "id": "entrevista-com-zombie-jackson",
+        "score": 0.4969843327999115
+      },
+      {
+        "id": "nos",
+        "score": 0.4951254725456238
+      },
+      {
+        "id": "nosso-louco-amor",
+        "score": 0.491455078125
+      },
+      {
+        "id": "aranhol",
+        "score": 0.4900752007961273
+      },
+      {
+        "id": "pety-pode-tudo",
+        "score": 0.48849520087242126
+      },
+      {
+        "id": "minhocas",
+        "score": 0.48060065507888794
+      }
+    ]
   },
   {
     "id": "pantera-negra",
@@ -3873,7 +6673,57 @@
       "marvel cinematic universe (mcu)"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "dragoes-do-imperio-o-legado-de-shogun",
+        "score": 0.5926652550697327
+      },
+      {
+        "id": "chapolin-descolorado",
+        "score": 0.5884482264518738
+      },
+      {
+        "id": "cobra-canoa",
+        "score": 0.5869336724281311
+      },
+      {
+        "id": "a-montanha-magica",
+        "score": 0.5568430423736572
+      },
+      {
+        "id": "o-rei-do-cagaco",
+        "score": 0.5387387275695801
+      },
+      {
+        "id": "o-cavaleiro-o-raptor-e-a-donzela",
+        "score": 0.5265749096870422
+      },
+      {
+        "id": "arara-vermelha",
+        "score": 0.5150041580200195
+      },
+      {
+        "id": "os-demonios-menores",
+        "score": 0.5144229531288147
+      },
+      {
+        "id": "o-retorno-do-dragao",
+        "score": 0.5142661929130554
+      },
+      {
+        "id": "o-rei-e-os-trapalhoes",
+        "score": 0.5136863589286804
+      },
+      {
+        "id": "o-rapto-do-betao",
+        "score": 0.5102765560150146
+      },
+      {
+        "id": "belo-ouro",
+        "score": 0.5100470185279846
+      }
+    ]
   },
   {
     "id": "logan",
@@ -3944,7 +6794,57 @@
       "excited"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "chico-para-sempre",
+        "score": 0.5824291110038757
+      },
+      {
+        "id": "redencao",
+        "score": 0.5710234642028809
+      },
+      {
+        "id": "o-mau-selvagem",
+        "score": 0.5604602098464966
+      },
+      {
+        "id": "o-segredo-do-meu-avo",
+        "score": 0.5585482716560364
+      },
+      {
+        "id": "chico-xavier",
+        "score": 0.5476926565170288
+      },
+      {
+        "id": "a-prr-do-amor",
+        "score": 0.5462486147880554
+      },
+      {
+        "id": "anil",
+        "score": 0.5455753803253174
+      },
+      {
+        "id": "a-conta-gotas",
+        "score": 0.5427802801132202
+      },
+      {
+        "id": "disforia",
+        "score": 0.5388708710670471
+      },
+      {
+        "id": "heroi",
+        "score": 0.5328266620635986
+      },
+      {
+        "id": "blackout",
+        "score": 0.5309869050979614
+      },
+      {
+        "id": "a-floresta",
+        "score": 0.5299205183982849
+      }
+    ]
   },
   {
     "id": "guardioes-da-galaxia",
@@ -3998,7 +6898,57 @@
       "marvel cinematic universe (mcu)"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "gerenciador-do-universo",
+        "score": 0.6264446377754211
+      },
+      {
+        "id": "os-trapalhoes-na-guerra-dos-planetas",
+        "score": 0.6004908084869385
+      },
+      {
+        "id": "o-rapto-do-betao",
+        "score": 0.5894647836685181
+      },
+      {
+        "id": "salve-a-malandragem",
+        "score": 0.5859956741333008
+      },
+      {
+        "id": "simbad-o-marujo-trapalhao",
+        "score": 0.5849102139472961
+      },
+      {
+        "id": "terrarium",
+        "score": 0.5806539058685303
+      },
+      {
+        "id": "o-homem-do-sputnik",
+        "score": 0.5804153680801392
+      },
+      {
+        "id": "uma-quimera",
+        "score": 0.56794273853302
+      },
+      {
+        "id": "ithaca-shores",
+        "score": 0.5603600144386292
+      },
+      {
+        "id": "vao-das-almas",
+        "score": 0.5548030138015747
+      },
+      {
+        "id": "quimera",
+        "score": 0.5530012249946594
+      },
+      {
+        "id": "quimera",
+        "score": 0.5530012249946594
+      }
+    ]
   },
   {
     "id": "vingadores-ultimato",
@@ -4057,7 +7007,57 @@
       "teamwork"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "dia-um",
+        "score": 0.6026199460029602
+      },
+      {
+        "id": "in-between-orion-tales-after-the-end",
+        "score": 0.6016114354133606
+      },
+      {
+        "id": "the-deal-orion-tales-after-the-end",
+        "score": 0.5952348709106445
+      },
+      {
+        "id": "a-piscina",
+        "score": 0.5945188999176025
+      },
+      {
+        "id": "apocalipze",
+        "score": 0.5776075124740601
+      },
+      {
+        "id": "zona-abissal",
+        "score": 0.5721001029014587
+      },
+      {
+        "id": "fucking-skies",
+        "score": 0.561788022518158
+      },
+      {
+        "id": "os-zumbis-de-tora-boga",
+        "score": 0.5574995279312134
+      },
+      {
+        "id": "o-fim-e-o-principio",
+        "score": 0.5527181625366211
+      },
+      {
+        "id": "batguano",
+        "score": 0.5446357727050781
+      },
+      {
+        "id": "collecting-debt-orion-tales-after-the-end",
+        "score": 0.5439035892486572
+      },
+      {
+        "id": "os-ultimos-romanticos-do-mundo",
+        "score": 0.5433588027954102
+      }
+    ]
   },
   {
     "id": "homem-aranha-no-aranhaverso",
@@ -4113,7 +7113,57 @@
       "alternate universe"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "o-espetacular-homem-aranha",
+        "score": 0.5588295459747314
+      },
+      {
+        "id": "doida-demais",
+        "score": 0.5520206689834595
+      },
+      {
+        "id": "tinta-bruta",
+        "score": 0.5517411231994629
+      },
+      {
+        "id": "timidez",
+        "score": 0.5420791506767273
+      },
+      {
+        "id": "desconhecido-homem-de-preto",
+        "score": 0.541420578956604
+      },
+      {
+        "id": "quebrado",
+        "score": 0.5391404032707214
+      },
+      {
+        "id": "a-torre",
+        "score": 0.5325275659561157
+      },
+      {
+        "id": "a-chave-do-armario-de-ethan",
+        "score": 0.5276062488555908
+      },
+      {
+        "id": "o-homem-que-foi-inedito-duas-vezes",
+        "score": 0.5248862504959106
+      },
+      {
+        "id": "meninos-tristes",
+        "score": 0.5230166912078857
+      },
+      {
+        "id": "knossos",
+        "score": 0.5216008424758911
+      },
+      {
+        "id": "arido-movie",
+        "score": 0.5194936990737915
+      }
+    ]
   },
   {
     "id": "o-diario-de-bridget-jones",
@@ -4181,7 +7231,57 @@
       "exhilarated"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "leme-do-destino",
+        "score": 0.566717803478241
+      },
+      {
+        "id": "diario-de-uma-prostituta",
+        "score": 0.5590128898620605
+      },
+      {
+        "id": "des-controle",
+        "score": 0.555778443813324
+      },
+      {
+        "id": "exilados-do-vulcao",
+        "score": 0.5501782298088074
+      },
+      {
+        "id": "oculos-de-sol-amarelos",
+        "score": 0.5480769872665405
+      },
+      {
+        "id": "romance-de-formacao",
+        "score": 0.545906662940979
+      },
+      {
+        "id": "compasso",
+        "score": 0.5424192547798157
+      },
+      {
+        "id": "gata-velha-ainda-mia",
+        "score": 0.5395022034645081
+      },
+      {
+        "id": "ione",
+        "score": 0.5319449305534363
+      },
+      {
+        "id": "a-dona-da-historia",
+        "score": 0.5311460494995117
+      },
+      {
+        "id": "a-vida-que-eu-sonhava-ter",
+        "score": 0.5288248062133789
+      },
+      {
+        "id": "retrato",
+        "score": 0.5286678671836853
+      }
+    ]
   },
   {
     "id": "titanic",
@@ -4250,7 +7350,57 @@
       "1910s"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "menino-do-rio",
+        "score": 0.594282329082489
+      },
+      {
+        "id": "assassinato-em-copacabana",
+        "score": 0.5736671686172485
+      },
+      {
+        "id": "nunca-fomos-tao-modernos",
+        "score": 0.5655906796455383
+      },
+      {
+        "id": "o-batedor-de-carteiras",
+        "score": 0.546470582485199
+      },
+      {
+        "id": "a-tragedia-da-rua-das-flores",
+        "score": 0.5458676815032959
+      },
+      {
+        "id": "a-imigrante",
+        "score": 0.5420859456062317
+      },
+      {
+        "id": "bonitinha-mas-ordinaria",
+        "score": 0.5343822240829468
+      },
+      {
+        "id": "trem-fantasma",
+        "score": 0.5342146754264832
+      },
+      {
+        "id": "os-vencidos",
+        "score": 0.5304270386695862
+      },
+      {
+        "id": "o-primeiro-ato",
+        "score": 0.5285844206809998
+      },
+      {
+        "id": "a-doce-mulher-amada",
+        "score": 0.52851802110672
+      },
+      {
+        "id": "andre-a-cara-e-a-coragem",
+        "score": 0.5281211733818054
+      }
+    ]
   },
   {
     "id": "la-la-land-cantando-estacoes",
@@ -4327,7 +7477,57 @@
       "romantic comedy"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "nossa-musica",
+        "score": 0.6065585613250732
+      },
+      {
+        "id": "fico-porque-te-amo",
+        "score": 0.5935549139976501
+      },
+      {
+        "id": "era-uma-vez",
+        "score": 0.5909930467605591
+      },
+      {
+        "id": "um-ano-inesquecivel-outono",
+        "score": 0.5901208519935608
+      },
+      {
+        "id": "consonancia",
+        "score": 0.5880223512649536
+      },
+      {
+        "id": "quanto-dura-o-amor",
+        "score": 0.5832033157348633
+      },
+      {
+        "id": "estrada-da-vida",
+        "score": 0.5816116333007812
+      },
+      {
+        "id": "ana-e-vitoria",
+        "score": 0.5811513066291809
+      },
+      {
+        "id": "paulo-e-ana-luiza-em-porto-alegre",
+        "score": 0.5799544453620911
+      },
+      {
+        "id": "a-balada-dos-palhacos",
+        "score": 0.579311192035675
+      },
+      {
+        "id": "alguma-coisa-assim",
+        "score": 0.5768965482711792
+      },
+      {
+        "id": "the-love-musical",
+        "score": 0.5744630694389343
+      }
+    ]
   },
   {
     "id": "diario-de-uma-paixao",
@@ -4388,7 +7588,57 @@
       "valentine's day"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "segredos",
+        "score": 0.610706090927124
+      },
+      {
+        "id": "a-ponte-quebrada-do-por-do-sol",
+        "score": 0.5815839767456055
+      },
+      {
+        "id": "noe-uma-adaptacao-da-novela-genesis",
+        "score": 0.5616835355758667
+      },
+      {
+        "id": "a-vida-ao-lado",
+        "score": 0.5528201460838318
+      },
+      {
+        "id": "sala-vermelha",
+        "score": 0.5485920310020447
+      },
+      {
+        "id": "a-triste-historia-de-kid-punhetinha",
+        "score": 0.5481906533241272
+      },
+      {
+        "id": "zoando-na-tv",
+        "score": 0.5429643392562866
+      },
+      {
+        "id": "o-desejo-da-mulher-amada",
+        "score": 0.5402082800865173
+      },
+      {
+        "id": "shattered-reflections",
+        "score": 0.5379429459571838
+      },
+      {
+        "id": "ultimo-dia",
+        "score": 0.536691427230835
+      },
+      {
+        "id": "a-noite-em-que-nos-conhecemos",
+        "score": 0.5343805551528931
+      },
+      {
+        "id": "alaska",
+        "score": 0.5309489965438843
+      }
+    ]
   },
   {
     "id": "orgulho-e-preconceito",
@@ -4449,7 +7699,57 @@
       "sisters"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "orgulho-e-preconceito",
+        "score": 0.7370333671569824
+      },
+      {
+        "id": "elizabeth",
+        "score": 0.6455692648887634
+      },
+      {
+        "id": "a-heranca-dos-devassos",
+        "score": 0.5601418614387512
+      },
+      {
+        "id": "marido-de-aluguel",
+        "score": 0.5527438521385193
+      },
+      {
+        "id": "sete-chaves-e-uma-mensagem",
+        "score": 0.5394679307937622
+      },
+      {
+        "id": "xuxa-gemeas",
+        "score": 0.531909704208374
+      },
+      {
+        "id": "a-familia-de-elizabeth-teixeira",
+        "score": 0.5253967046737671
+      },
+      {
+        "id": "a-espera-de-liz",
+        "score": 0.5243573188781738
+      },
+      {
+        "id": "os-olhos-de-arthur",
+        "score": 0.521966278553009
+      },
+      {
+        "id": "abelha-rainha",
+        "score": 0.5185918807983398
+      },
+      {
+        "id": "fica-comigo-esta-noite",
+        "score": 0.516521155834198
+      },
+      {
+        "id": "o-erotico-virgem",
+        "score": 0.5151795148849487
+      }
+    ]
   },
   {
     "id": "um-lugar-chamado-notting-hill",
@@ -4528,7 +7828,57 @@
       "bookshop owner"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "quanto-mais-pelada-melhor",
+        "score": 0.5986964702606201
+      },
+      {
+        "id": "a-ultima-noite",
+        "score": 0.5873354077339172
+      },
+      {
+        "id": "as-aventuras-de-will-e-mike-no-jardim-do-eden",
+        "score": 0.5502147078514099
+      },
+      {
+        "id": "a-doce-mulher-amada",
+        "score": 0.5490921139717102
+      },
+      {
+        "id": "violencia-na-carne",
+        "score": 0.5483303070068359
+      },
+      {
+        "id": "o-colecionador",
+        "score": 0.5436255931854248
+      },
+      {
+        "id": "eu-preciso-te-ver-no-fundo-dos-meus-olhos",
+        "score": 0.5361775159835815
+      },
+      {
+        "id": "de-janela-pro-cinema",
+        "score": 0.5361224412918091
+      },
+      {
+        "id": "amor-em-sampa",
+        "score": 0.5328640937805176
+      },
+      {
+        "id": "gringo",
+        "score": 0.5259619951248169
+      },
+      {
+        "id": "travessias",
+        "score": 0.5255666971206665
+      },
+      {
+        "id": "zoom",
+        "score": 0.523735523223877
+      }
+    ]
   },
   {
     "id": "brilho-eterno-de-uma-mente-sem-lembrancas",
@@ -4594,7 +7944,57 @@
       "enchant"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "menino-joel",
+        "score": 0.6873458027839661
+      },
+      {
+        "id": "amor-a-terceira-vista",
+        "score": 0.5783505439758301
+      },
+      {
+        "id": "onde-os-poetas-morrem-primeiro",
+        "score": 0.5666327476501465
+      },
+      {
+        "id": "com-amor-anonimo",
+        "score": 0.5647029876708984
+      },
+      {
+        "id": "memorias-eternas",
+        "score": 0.5628945827484131
+      },
+      {
+        "id": "raiva",
+        "score": 0.5535598397254944
+      },
+      {
+        "id": "onde-a-gente-parou",
+        "score": 0.5445584654808044
+      },
+      {
+        "id": "a-grande-viagem",
+        "score": 0.5411569476127625
+      },
+      {
+        "id": "sonhei-de-novo",
+        "score": 0.5361232757568359
+      },
+      {
+        "id": "me-pergunte-quando-vou-voltar-para-casa",
+        "score": 0.5309212803840637
+      },
+      {
+        "id": "onirico",
+        "score": 0.5305635333061218
+      },
+      {
+        "id": "instrucoes-para-matar-maira",
+        "score": 0.5272150635719299
+      }
+    ]
   },
   {
     "id": "antes-do-amanhecer",
@@ -4649,7 +8049,57 @@
       "cliché"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "minha-melhor-amiga",
+        "score": 0.6002575755119324
+      },
+      {
+        "id": "meu-passado-me-condena-o-filme",
+        "score": 0.5986020565032959
+      },
+      {
+        "id": "intimidade-entre-estranhos",
+        "score": 0.5952221751213074
+      },
+      {
+        "id": "turma-da-monica-jovem-incertezas",
+        "score": 0.5924501419067383
+      },
+      {
+        "id": "no-mundo-da-lua",
+        "score": 0.5905315279960632
+      },
+      {
+        "id": "quem-se-move",
+        "score": 0.5904355645179749
+      },
+      {
+        "id": "meus-amores-no-rio",
+        "score": 0.5891051888465881
+      },
+      {
+        "id": "ponte-aerea",
+        "score": 0.5854581594467163
+      },
+      {
+        "id": "estranho-triangulo",
+        "score": 0.5768855214118958
+      },
+      {
+        "id": "matematica-zero-amor-dez",
+        "score": 0.5719980597496033
+      },
+      {
+        "id": "as-escandalosas",
+        "score": 0.5695545673370361
+      },
+      {
+        "id": "a-grande-cidade-ou-as-aventuras-e-desventuras-de-luzia-e-seus-3-amigos-chegados-de-longe",
+        "score": 0.5694600343704224
+      }
+    ]
   },
   {
     "id": "me-chame-pelo-seu-nome",
@@ -4713,7 +8163,57 @@
       "gay theme"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "dourado",
+        "score": 0.6251034140586853
+      },
+      {
+        "id": "guarda-chuvas-perdidos-viram-clipes-de-papel",
+        "score": 0.6195409297943115
+      },
+      {
+        "id": "entre-latinhas",
+        "score": 0.6147792935371399
+      },
+      {
+        "id": "marcelo-zona-sul",
+        "score": 0.5972029566764832
+      },
+      {
+        "id": "meu-irmao-dorme-de-janela-aberta",
+        "score": 0.5834553241729736
+      },
+      {
+        "id": "que-estranha-forma-de-amar",
+        "score": 0.5827495455741882
+      },
+      {
+        "id": "a-noite-estava-fria",
+        "score": 0.5772252678871155
+      },
+      {
+        "id": "mas-eu-nao-sou-alguem",
+        "score": 0.5702446699142456
+      },
+      {
+        "id": "um-virgem-na-praca",
+        "score": 0.5693246126174927
+      },
+      {
+        "id": "a-suprema-felicidade",
+        "score": 0.5668764710426331
+      },
+      {
+        "id": "o-fio-que-nos-conecta",
+        "score": 0.5667203664779663
+      },
+      {
+        "id": "quinze-dias",
+        "score": 0.5648651719093323
+      }
+    ]
   },
   {
     "id": "a-culpa-e-das-estrelas",
@@ -4770,7 +8270,57 @@
       "sentimental"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "nao-se-sabe-o-defeito",
+        "score": 0.7144545316696167
+      },
+      {
+        "id": "702",
+        "score": 0.6895747780799866
+      },
+      {
+        "id": "soturno",
+        "score": 0.6885616779327393
+      },
+      {
+        "id": "os-escravos-de-jo",
+        "score": 0.6872223019599915
+      },
+      {
+        "id": "eduardo-e-monica",
+        "score": 0.6847618222236633
+      },
+      {
+        "id": "trem-fantasma",
+        "score": 0.6740230917930603
+      },
+      {
+        "id": "a-procura-do-sol",
+        "score": 0.673499584197998
+      },
+      {
+        "id": "pedro",
+        "score": 0.6573460102081299
+      },
+      {
+        "id": "turma-da-monica-licoes",
+        "score": 0.6567844152450562
+      },
+      {
+        "id": "pequeno-dicionario-amoroso",
+        "score": 0.6541226506233215
+      },
+      {
+        "id": "manos",
+        "score": 0.6503056287765503
+      },
+      {
+        "id": "traicao-entre-amigas",
+        "score": 0.6500298380851746
+      }
+    ]
   },
   {
     "id": "o-grande-hotel-budapeste",
@@ -4835,7 +8385,57 @@
       "hilarious"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "memorial-dos-metacarpos",
+        "score": 0.5824491381645203
+      },
+      {
+        "id": "a-sombra-das-oliveiras",
+        "score": 0.5786877870559692
+      },
+      {
+        "id": "besame-mucho",
+        "score": 0.5581808686256409
+      },
+      {
+        "id": "quarto-de-hotel",
+        "score": 0.5522279739379883
+      },
+      {
+        "id": "hotel-da-loucura-genese",
+        "score": 0.5381004810333252
+      },
+      {
+        "id": "memorias-de-um-gigolo",
+        "score": 0.5292219519615173
+      },
+      {
+        "id": "viajante",
+        "score": 0.5267297625541687
+      },
+      {
+        "id": "em-busca-do-ouro",
+        "score": 0.5260741710662842
+      },
+      {
+        "id": "george-hilton-il-mondo-e-degli-audaci",
+        "score": 0.5258510112762451
+      },
+      {
+        "id": "vidente-por-acidente",
+        "score": 0.5248554944992065
+      },
+      {
+        "id": "a-historia-do-antes",
+        "score": 0.5238954424858093
+      },
+      {
+        "id": "ending-things",
+        "score": 0.5226446390151978
+      }
+    ]
   },
   {
     "id": "superbad-e-hoje",
@@ -4893,7 +8493,57 @@
       "serene"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "turma-da-monica-licoes",
+        "score": 0.6032831072807312
+      },
+      {
+        "id": "pelos",
+        "score": 0.5935328602790833
+      },
+      {
+        "id": "a-sete-palmos-de-santos",
+        "score": 0.5933016538619995
+      },
+      {
+        "id": "a-ultima-festa",
+        "score": 0.5882610082626343
+      },
+      {
+        "id": "sinal-verde",
+        "score": 0.5778488516807556
+      },
+      {
+        "id": "ja-esta-claro-la-fora",
+        "score": 0.5752816796302795
+      },
+      {
+        "id": "apenas-mais-uma-noite",
+        "score": 0.569294273853302
+      },
+      {
+        "id": "e-agora-maria",
+        "score": 0.5646454095840454
+      },
+      {
+        "id": "algum-lugar-no-recreio",
+        "score": 0.5612514019012451
+      },
+      {
+        "id": "chicas-malas-el-ataque-de-momo",
+        "score": 0.5589284896850586
+      },
+      {
+        "id": "cidade-dos-homens",
+        "score": 0.556912362575531
+      },
+      {
+        "id": "cansei",
+        "score": 0.5545316934585571
+      }
+    ]
   },
   {
     "id": "se-beber-nao-case",
@@ -4952,7 +8602,57 @@
       "shaggy dog story"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "ha-monstros-aqui",
+        "score": 0.5527898073196411
+      },
+      {
+        "id": "vem-comigo",
+        "score": 0.5290620923042297
+      },
+      {
+        "id": "feijoada-completa",
+        "score": 0.5290533304214478
+      },
+      {
+        "id": "as-cinzas-de-pedro",
+        "score": 0.5134372115135193
+      },
+      {
+        "id": "se-puder-dirija",
+        "score": 0.5097306966781616
+      },
+      {
+        "id": "noite-calma",
+        "score": 0.5040652751922607
+      },
+      {
+        "id": "no-outro-encontro-voce",
+        "score": 0.5028135776519775
+      },
+      {
+        "id": "um-novo-balance",
+        "score": 0.5019899606704712
+      },
+      {
+        "id": "visita-ao-tempo",
+        "score": 0.4999449551105499
+      },
+      {
+        "id": "luz-baixa",
+        "score": 0.49490296840667725
+      },
+      {
+        "id": "os-3-conselhos",
+        "score": 0.4935731291770935
+      },
+      {
+        "id": "christmas-n-guetto",
+        "score": 0.4834898114204407
+      }
+    ]
   },
   {
     "id": "feitico-do-tempo",
@@ -5013,7 +8713,57 @@
       "admiring"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "loop",
+        "score": 0.5967892408370972
+      },
+      {
+        "id": "isso-e-o-mundo-cao",
+        "score": 0.5286036729812622
+      },
+      {
+        "id": "que-pena",
+        "score": 0.5267075896263123
+      },
+      {
+        "id": "a-metamorfose",
+        "score": 0.5212633609771729
+      },
+      {
+        "id": "estacoes",
+        "score": 0.5115854144096375
+      },
+      {
+        "id": "o-fim-da-fila",
+        "score": 0.5090816020965576
+      },
+      {
+        "id": "bande-de-loups",
+        "score": 0.5063609480857849
+      },
+      {
+        "id": "dossie",
+        "score": 0.504710853099823
+      },
+      {
+        "id": "pimenta-no-clima",
+        "score": 0.5036140084266663
+      },
+      {
+        "id": "a-mata-nao-esquece",
+        "score": 0.4980300962924957
+      },
+      {
+        "id": "le-maitre-du-temps",
+        "score": 0.49650442600250244
+      },
+      {
+        "id": "o-silencio-que-voce-faz",
+        "score": 0.49644172191619873
+      }
+    ]
   },
   {
     "id": "a-vida-secreta-de-walter-mitty",
@@ -5081,7 +8831,57 @@
       "joyful"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "acaso-revisitado",
+        "score": 0.5693238973617554
+      },
+      {
+        "id": "manual-da-pos-verdade",
+        "score": 0.563447117805481
+      },
+      {
+        "id": "o-fotografo",
+        "score": 0.5609293580055237
+      },
+      {
+        "id": "benito-tilmann-o-pior-cineasta-do-mundo",
+        "score": 0.5464428067207336
+      },
+      {
+        "id": "a-queda",
+        "score": 0.5464215278625488
+      },
+      {
+        "id": "soundtrack",
+        "score": 0.5428290963172913
+      },
+      {
+        "id": "o-ultimo-filme",
+        "score": 0.5427393317222595
+      },
+      {
+        "id": "um-homem-sem-uma-camera",
+        "score": 0.5376365780830383
+      },
+      {
+        "id": "o-ultimo-homem-de-projecao",
+        "score": 0.5375856161117554
+      },
+      {
+        "id": "sem-palavras-a-arte-da-fotografia",
+        "score": 0.5361647009849548
+      },
+      {
+        "id": "entre-macacos-e-anjos",
+        "score": 0.533165454864502
+      },
+      {
+        "id": "o-preso",
+        "score": 0.5296885371208191
+      }
+    ]
   },
   {
     "id": "pequena-miss-sunshine",
@@ -5141,7 +8941,57 @@
       "woman director"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "spinner",
+        "score": 0.6654831767082214
+      },
+      {
+        "id": "vestido-de-azul",
+        "score": 0.6490896940231323
+      },
+      {
+        "id": "o-escandalo-na-sociedade",
+        "score": 0.6458420157432556
+      },
+      {
+        "id": "nome-morto",
+        "score": 0.6382955312728882
+      },
+      {
+        "id": "sos-e-abandonados",
+        "score": 0.632932722568512
+      },
+      {
+        "id": "a-morte-inventada-alienacao-parental",
+        "score": 0.6316843628883362
+      },
+      {
+        "id": "rebecca",
+        "score": 0.6230336427688599
+      },
+      {
+        "id": "evolucao",
+        "score": 0.6149973273277283
+      },
+      {
+        "id": "sol",
+        "score": 0.613645613193512
+      },
+      {
+        "id": "familia-uma-pilula-documental",
+        "score": 0.612612783908844
+      },
+      {
+        "id": "a-familia",
+        "score": 0.6082122921943665
+      },
+      {
+        "id": "como-se-fosse-da-familia",
+        "score": 0.6069243550300598
+      }
+    ]
   },
   {
     "id": "jojo-rabbit",
@@ -5209,7 +9059,57 @@
       "ridiculous"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "o-armario-magico",
+        "score": 0.5594199895858765
+      },
+      {
+        "id": "a-tragedia-da-rua-das-flores",
+        "score": 0.49599865078926086
+      },
+      {
+        "id": "meu-amigo-alemao",
+        "score": 0.48995253443717957
+      },
+      {
+        "id": "jeitosinha",
+        "score": 0.48760730028152466
+      },
+      {
+        "id": "jogo-duro",
+        "score": 0.47582530975341797
+      },
+      {
+        "id": "a-sombra-do-mar",
+        "score": 0.46503815054893494
+      },
+      {
+        "id": "oma",
+        "score": 0.4581754803657532
+      },
+      {
+        "id": "ausencia",
+        "score": 0.4555864632129669
+      },
+      {
+        "id": "no-fim-de-tudo",
+        "score": 0.4555094838142395
+      },
+      {
+        "id": "entre-martir-e-pai",
+        "score": 0.4503965973854065
+      },
+      {
+        "id": "era-uma-vez-no-reich",
+        "score": 0.4464547336101532
+      },
+      {
+        "id": "didi-o-cacador-de-tesouros",
+        "score": 0.4414350688457489
+      }
+    ]
   },
   {
     "id": "o-show-de-truman-o-show-da-vida",
@@ -5268,7 +9168,57 @@
       "actor"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "mr-burguer",
+        "score": 0.5452762246131897
+      },
+      {
+        "id": "talvez-uma-historia-de-amor",
+        "score": 0.5145362019538879
+      },
+      {
+        "id": "tributo-francisco-cuoco",
+        "score": 0.48443472385406494
+      },
+      {
+        "id": "filme-b-a-van-assassina",
+        "score": 0.4803644120693207
+      },
+      {
+        "id": "george-hilton-il-mondo-e-degli-audaci",
+        "score": 0.47993001341819763
+      },
+      {
+        "id": "obsessao-maldita",
+        "score": 0.4693102240562439
+      },
+      {
+        "id": "diriti-de-bde-bure",
+        "score": 0.46609216928482056
+      },
+      {
+        "id": "fantasia-para-ator-e-tv",
+        "score": 0.4648222327232361
+      },
+      {
+        "id": "a-retirada-para-um-coracao-bruto",
+        "score": 0.46163254976272583
+      },
+      {
+        "id": "vhs-adventures-uma-madrugada-alucinante",
+        "score": 0.4613456428050995
+      },
+      {
+        "id": "o-monstro-de-outro-planeta",
+        "score": 0.4596595764160156
+      },
+      {
+        "id": "um-tio-quase-perfeito",
+        "score": 0.4505343437194824
+      }
+    ]
   },
   {
     "id": "uma-baba-quase-perfeita",
@@ -5330,7 +9280,57 @@
       "frustrated"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "perfume-de-gardenia",
+        "score": 0.6477769017219543
+      },
+      {
+        "id": "o-filho-unico-do-meu-pai",
+        "score": 0.621080219745636
+      },
+      {
+        "id": "nosso-louco-amor",
+        "score": 0.6044775247573853
+      },
+      {
+        "id": "mulher-diaba",
+        "score": 0.6043024659156799
+      },
+      {
+        "id": "tropel",
+        "score": 0.578340470790863
+      },
+      {
+        "id": "loop",
+        "score": 0.5749362707138062
+      },
+      {
+        "id": "me-deixei-ali",
+        "score": 0.5721508860588074
+      },
+      {
+        "id": "magal-e-os-formigas",
+        "score": 0.5647754073143005
+      },
+      {
+        "id": "setembro",
+        "score": 0.5621218681335449
+      },
+      {
+        "id": "ate-que-o-casamento-nos-separe",
+        "score": 0.5568940043449402
+      },
+      {
+        "id": "tortura-cruel-femeas-violentadas",
+        "score": 0.5539300441741943
+      },
+      {
+        "id": "valsa",
+        "score": 0.5507778525352478
+      }
+    ]
   },
   {
     "id": "o-iluminado",
@@ -5435,7 +9435,57 @@
       "subjective"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "cova-humana",
+        "score": 0.6490519642829895
+      },
+      {
+        "id": "o-que-os-olhos-nao-podem-enxergar",
+        "score": 0.6466568112373352
+      },
+      {
+        "id": "ucronia",
+        "score": 0.6381252408027649
+      },
+      {
+        "id": "o-cacto",
+        "score": 0.631803572177887
+      },
+      {
+        "id": "formulas-vazias",
+        "score": 0.6231167912483215
+      },
+      {
+        "id": "ilha",
+        "score": 0.6217301487922668
+      },
+      {
+        "id": "inominavel",
+        "score": 0.6193825602531433
+      },
+      {
+        "id": "pranto",
+        "score": 0.6037436723709106
+      },
+      {
+        "id": "o-diabo-na-porta",
+        "score": 0.6023236513137817
+      },
+      {
+        "id": "a-estranha-hospedaria-dos-prazeres",
+        "score": 0.5982934832572937
+      },
+      {
+        "id": "la-quarantaine",
+        "score": 0.5937338471412659
+      },
+      {
+        "id": "offline",
+        "score": 0.587955117225647
+      }
+    ]
   },
   {
     "id": "corra",
@@ -5506,7 +9556,57 @@
       "awestruck"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "jardim-dos-girassois",
+        "score": 0.603439450263977
+      },
+      {
+        "id": "tropel",
+        "score": 0.5923262238502502
+      },
+      {
+        "id": "the-book",
+        "score": 0.5655075311660767
+      },
+      {
+        "id": "coracao-na-boca",
+        "score": 0.5640676021575928
+      },
+      {
+        "id": "vai-passar",
+        "score": 0.5602944493293762
+      },
+      {
+        "id": "ate-a-noite-terminar",
+        "score": 0.5601128935813904
+      },
+      {
+        "id": "bugados-voce-bugou-meu-coracao",
+        "score": 0.5522552132606506
+      },
+      {
+        "id": "musica-para-quando-as-luzes-se-apagam",
+        "score": 0.5509137511253357
+      },
+      {
+        "id": "nouvelle-fap",
+        "score": 0.5429010987281799
+      },
+      {
+        "id": "de-volta-ao-jogo",
+        "score": 0.5404998660087585
+      },
+      {
+        "id": "eduardo-e-monica",
+        "score": 0.5328463315963745
+      },
+      {
+        "id": "ziper",
+        "score": 0.529585063457489
+      }
+    ]
   },
   {
     "id": "hereditario",
@@ -5583,7 +9683,57 @@
       "commanding"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "ausencia",
+        "score": 0.6715128421783447
+      },
+      {
+        "id": "o-balanco-da-morte",
+        "score": 0.6558059453964233
+      },
+      {
+        "id": "o-tio",
+        "score": 0.6439582705497742
+      },
+      {
+        "id": "spinner",
+        "score": 0.6326567530632019
+      },
+      {
+        "id": "nao-moro-mais-aqui",
+        "score": 0.6314130425453186
+      },
+      {
+        "id": "nem-todas-as-manhas-sao-iguais",
+        "score": 0.630172610282898
+      },
+      {
+        "id": "o-segredo-do-meu-avo",
+        "score": 0.6277502179145813
+      },
+      {
+        "id": "linda-uma-historia-horrivel",
+        "score": 0.6255750060081482
+      },
+      {
+        "id": "carcaras",
+        "score": 0.6173131465911865
+      },
+      {
+        "id": "a-heranca",
+        "score": 0.6170118451118469
+      },
+      {
+        "id": "para-te-lembrar",
+        "score": 0.6141894459724426
+      },
+      {
+        "id": "fio-branco",
+        "score": 0.6138399839401245
+      }
+    ]
   },
   {
     "id": "o-exorcista",
@@ -5647,7 +9797,57 @@
       "possessed child"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "nightmare-lovers",
+        "score": 0.6739744544029236
+      },
+      {
+        "id": "a-menina-e-o-estuprador",
+        "score": 0.6699406504631042
+      },
+      {
+        "id": "o-verbo",
+        "score": 0.6423493027687073
+      },
+      {
+        "id": "dia-de-exorcismo",
+        "score": 0.6399061679840088
+      },
+      {
+        "id": "r-e-m",
+        "score": 0.6319524049758911
+      },
+      {
+        "id": "mae-dos-monstros",
+        "score": 0.6247460246086121
+      },
+      {
+        "id": "tic-tac",
+        "score": 0.6246995329856873
+      },
+      {
+        "id": "a-menina-indigo",
+        "score": 0.6216138601303101
+      },
+      {
+        "id": "sob-o-dominio",
+        "score": 0.6189709901809692
+      },
+      {
+        "id": "o-sete-trouxas",
+        "score": 0.6148995757102966
+      },
+      {
+        "id": "horror-entre-as-pernas",
+        "score": 0.6131271123886108
+      },
+      {
+        "id": "atraves-da-sombra",
+        "score": 0.6106877326965332
+      }
+    ]
   },
   {
     "id": "um-lugar-silencioso",
@@ -5713,7 +9913,57 @@
       "frightened"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "o-silencio-da-casa",
+        "score": 0.5922067165374756
+      },
+      {
+        "id": "republica-das-sauvas",
+        "score": 0.5810680985450745
+      },
+      {
+        "id": "o-que-os-olhos-nao-podem-enxergar",
+        "score": 0.5785499811172485
+      },
+      {
+        "id": "nao-nos-deixeis",
+        "score": 0.5736532807350159
+      },
+      {
+        "id": "espelunca",
+        "score": 0.5690879821777344
+      },
+      {
+        "id": "o-cavaleiro-levanta-a-espada-flamejante",
+        "score": 0.5548152327537537
+      },
+      {
+        "id": "a-casa-e-o-medo",
+        "score": 0.5501282215118408
+      },
+      {
+        "id": "a-arvore-que-chorava-sangue",
+        "score": 0.5431163907051086
+      },
+      {
+        "id": "barquinhos-a-mentira-perigosa",
+        "score": 0.5416931509971619
+      },
+      {
+        "id": "quando-morrem-os-bravos",
+        "score": 0.5406885743141174
+      },
+      {
+        "id": "as-criancas-fantasmas",
+        "score": 0.5382501482963562
+      },
+      {
+        "id": "o-exercicio-do-caos",
+        "score": 0.5372277498245239
+      }
+    ]
   },
   {
     "id": "it-a-coisa",
@@ -5791,7 +10041,57 @@
       "gloomy"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "curupira-o-demonio-da-floresta",
+        "score": 0.6676218509674072
+      },
+      {
+        "id": "horrores-noturnos",
+        "score": 0.620353102684021
+      },
+      {
+        "id": "don-t-look",
+        "score": 0.6200068593025208
+      },
+      {
+        "id": "o-pai-da-noite",
+        "score": 0.6130109429359436
+      },
+      {
+        "id": "quando-morrem-os-bravos",
+        "score": 0.6041072010993958
+      },
+      {
+        "id": "contos-de-horror",
+        "score": 0.5944602489471436
+      },
+      {
+        "id": "ceu-de-areia",
+        "score": 0.5933032035827637
+      },
+      {
+        "id": "patrulha-noturna-o-et-de-itaperopemba",
+        "score": 0.5924615859985352
+      },
+      {
+        "id": "a-possuida-dos-mil-demonios",
+        "score": 0.5827295780181885
+      },
+      {
+        "id": "corvos",
+        "score": 0.5789233446121216
+      },
+      {
+        "id": "vampiro-da-rua",
+        "score": 0.5682488083839417
+      },
+      {
+        "id": "respiro",
+        "score": 0.5680935978889465
+      }
+    ]
   },
   {
     "id": "psicose",
@@ -5882,7 +10182,57 @@
       "man with female alter ego"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "obsessao-maldita",
+        "score": 0.5396631360054016
+      },
+      {
+        "id": "roberta-a-gueixa-do-sexo",
+        "score": 0.5348042249679565
+      },
+      {
+        "id": "trabalhar-cansa",
+        "score": 0.5128839612007141
+      },
+      {
+        "id": "um-pai-em-apuros",
+        "score": 0.5024992823600769
+      },
+      {
+        "id": "o-imperio-do-desejo",
+        "score": 0.4917357265949249
+      },
+      {
+        "id": "cala-a-boca-etelvina",
+        "score": 0.49062249064445496
+      },
+      {
+        "id": "bellini-e-o-demonio",
+        "score": 0.4846307635307312
+      },
+      {
+        "id": "bem-me-quer",
+        "score": 0.4829484224319458
+      },
+      {
+        "id": "estranho-encontro",
+        "score": 0.4826561212539673
+      },
+      {
+        "id": "no-paraiso-das-solteironas",
+        "score": 0.47986456751823425
+      },
+      {
+        "id": "apofenia",
+        "score": 0.4786854684352875
+      },
+      {
+        "id": "me-deixei-ali",
+        "score": 0.47758540511131287
+      }
+    ]
   },
   {
     "id": "a-viagem-de-chihiro",
@@ -5944,7 +10294,57 @@
       "anime"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "as-filhas-da-chiquita",
+        "score": 0.6082183718681335
+      },
+      {
+        "id": "tapete-vermelho",
+        "score": 0.6039547324180603
+      },
+      {
+        "id": "o-quinto-macaco",
+        "score": 0.5863675475120544
+      },
+      {
+        "id": "zafari",
+        "score": 0.5796393752098083
+      },
+      {
+        "id": "o-menino-e-o-mundo",
+        "score": 0.5686649680137634
+      },
+      {
+        "id": "vamos-com-calma",
+        "score": 0.5660375356674194
+      },
+      {
+        "id": "macacos-me-mordam",
+        "score": 0.5634478330612183
+      },
+      {
+        "id": "cenas-da-infancia",
+        "score": 0.5555376410484314
+      },
+      {
+        "id": "so-no-sertao",
+        "score": 0.5464415550231934
+      },
+      {
+        "id": "o-homem-do-saco",
+        "score": 0.5395859479904175
+      },
+      {
+        "id": "rua-descalca",
+        "score": 0.534671425819397
+      },
+      {
+        "id": "os-trapalhoes-e-o-magico-de-oroz",
+        "score": 0.5320166349411011
+      }
+    ]
   },
   {
     "id": "toy-story-um-mundo-de-aventuras",
@@ -6016,7 +10416,57 @@
       "pixar"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "a-princesa-e-o-robo",
+        "score": 0.5407598614692688
+      },
+      {
+        "id": "bug",
+        "score": 0.540267288684845
+      },
+      {
+        "id": "glenda",
+        "score": 0.5383021831512451
+      },
+      {
+        "id": "a-maldicao-de-botas",
+        "score": 0.536655604839325
+      },
+      {
+        "id": "foguete",
+        "score": 0.535746693611145
+      },
+      {
+        "id": "as-criacoes-de-roger-o-filme",
+        "score": 0.5293920040130615
+      },
+      {
+        "id": "como-os-botbots-conheceram-a-terra",
+        "score": 0.5206576585769653
+      },
+      {
+        "id": "papai-noel-nos-molestou",
+        "score": 0.5164651870727539
+      },
+      {
+        "id": "brinquedos-revoltados-de-plutao-que-nao-e-mais-planeta",
+        "score": 0.5141890645027161
+      },
+      {
+        "id": "gerenciador-do-universo",
+        "score": 0.5126780867576599
+      },
+      {
+        "id": "meu-melhor-amigo",
+        "score": 0.5031740069389343
+      },
+      {
+        "id": "the-tin-woodman-of-oz",
+        "score": 0.5006245970726013
+      }
+    ]
   },
   {
     "id": "o-rei-leao",
@@ -6081,7 +10531,57 @@
       "awestruck"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "o-rei-e-os-trapalhoes",
+        "score": 0.696243405342102
+      },
+      {
+        "id": "o-viuvo-alegre",
+        "score": 0.6336427927017212
+      },
+      {
+        "id": "o-rei-do-cagaco",
+        "score": 0.6036232113838196
+      },
+      {
+        "id": "iracema-a-virgem-dos-labios-de-mel",
+        "score": 0.5981435775756836
+      },
+      {
+        "id": "rei-da-ciranda-pesada",
+        "score": 0.5971075892448425
+      },
+      {
+        "id": "ladrao-de-bagda",
+        "score": 0.58217453956604
+      },
+      {
+        "id": "jeronimo-o-heroi-do-sertao",
+        "score": 0.5815247893333435
+      },
+      {
+        "id": "panambizinho-o-fogo-que-nunca-apaga",
+        "score": 0.5778578519821167
+      },
+      {
+        "id": "o-rei",
+        "score": 0.5701504945755005
+      },
+      {
+        "id": "sangue-azul",
+        "score": 0.5649732947349548
+      },
+      {
+        "id": "o-pequeno-rei",
+        "score": 0.5607581734657288
+      },
+      {
+        "id": "maksuara-crepusculo-dos-deuses",
+        "score": 0.5585290789604187
+      }
+    ]
   },
   {
     "id": "up-altas-aventuras",
@@ -6142,7 +10642,57 @@
       "cheerful"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "dois-e-demais-em-orlando",
+        "score": 0.5217966437339783
+      },
+      {
+        "id": "magal-e-os-formigas",
+        "score": 0.5161228775978088
+      },
+      {
+        "id": "tio-tommy-o-homem-que-fundou-a-newsweek",
+        "score": 0.5144360661506653
+      },
+      {
+        "id": "noche-de-suerte",
+        "score": 0.5134485960006714
+      },
+      {
+        "id": "scab-vendor-the-life-and-times-of-jonathan-shaw",
+        "score": 0.5044780373573303
+      },
+      {
+        "id": "joelho-ralado",
+        "score": 0.4883551299571991
+      },
+      {
+        "id": "obsessao-maldita",
+        "score": 0.4822066128253937
+      },
+      {
+        "id": "john-feldman-e-a-moto",
+        "score": 0.48115062713623047
+      },
+      {
+        "id": "destinos-opostos",
+        "score": 0.47520971298217773
+      },
+      {
+        "id": "bela-lx-404",
+        "score": 0.4695206880569458
+      },
+      {
+        "id": "minha-familia-perfeita",
+        "score": 0.46722152829170227
+      },
+      {
+        "id": "jogo-da-vida",
+        "score": 0.4669231176376343
+      }
+    ]
   },
   {
     "id": "viva-a-vida-e-uma-festa",
@@ -6207,7 +10757,57 @@
       "modest"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "um-show-de-verao",
+        "score": 0.6771302223205566
+      },
+      {
+        "id": "cicatrizes",
+        "score": 0.6504778861999512
+      },
+      {
+        "id": "a-vida-de-ernesto",
+        "score": 0.6426698565483093
+      },
+      {
+        "id": "coragem",
+        "score": 0.6380433440208435
+      },
+      {
+        "id": "nosso-amigo-radames-gnattali",
+        "score": 0.6371418237686157
+      },
+      {
+        "id": "o-destino-de-miguel",
+        "score": 0.635840117931366
+      },
+      {
+        "id": "quem-vai-ficar-com-mario",
+        "score": 0.6356828212738037
+      },
+      {
+        "id": "roberto-carlos-em-ritmo-de-aventura",
+        "score": 0.6326451301574707
+      },
+      {
+        "id": "ventos-que-sopram-para",
+        "score": 0.6253237128257751
+      },
+      {
+        "id": "vida-maria",
+        "score": 0.6232244968414307
+      },
+      {
+        "id": "sambando-nas-brasas-moro",
+        "score": 0.6181051731109619
+      },
+      {
+        "id": "raul-o-inicio-o-fim-e-o-meio",
+        "score": 0.6166185736656189
+      }
+    ]
   },
   {
     "id": "your-name",
@@ -6279,7 +10879,57 @@
       "urban fantasy"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "confia-em-mim",
+        "score": 0.5412513017654419
+      },
+      {
+        "id": "a-maquina",
+        "score": 0.5217107534408569
+      },
+      {
+        "id": "regina-e-o-dragao-de-ouro",
+        "score": 0.5072516202926636
+      },
+      {
+        "id": "retratos-de-hideko",
+        "score": 0.5037840604782104
+      },
+      {
+        "id": "natsukashii",
+        "score": 0.5020223259925842
+      },
+      {
+        "id": "punhal",
+        "score": 0.4848667085170746
+      },
+      {
+        "id": "papaya",
+        "score": 0.48089438676834106
+      },
+      {
+        "id": "teiko",
+        "score": 0.4775646924972534
+      },
+      {
+        "id": "vulgo-jenny",
+        "score": 0.4764169454574585
+      },
+      {
+        "id": "alma-errante-hibakusha",
+        "score": 0.47569847106933594
+      },
+      {
+        "id": "vespas",
+        "score": 0.4749941825866699
+      },
+      {
+        "id": "cinco-da-tarde",
+        "score": 0.4728162884712219
+      }
+    ]
   },
   {
     "id": "wall-e",
@@ -6337,7 +10987,57 @@
       "cheerful"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "projeto-v-i-d-a",
+        "score": 0.6721290946006775
+      },
+      {
+        "id": "mundo-proibido",
+        "score": 0.6517637372016907
+      },
+      {
+        "id": "sertao-2138",
+        "score": 0.6419988870620728
+      },
+      {
+        "id": "como-os-botbots-conheceram-a-terra",
+        "score": 0.6289260983467102
+      },
+      {
+        "id": "hostile",
+        "score": 0.6184951663017273
+      },
+      {
+        "id": "ensinando-o-infinito",
+        "score": 0.612623393535614
+      },
+      {
+        "id": "a-margem-do-universo",
+        "score": 0.6120119690895081
+      },
+      {
+        "id": "a-princesa-e-o-robo",
+        "score": 0.6058409810066223
+      },
+      {
+        "id": "astrolabio",
+        "score": 0.6025232076644897
+      },
+      {
+        "id": "teoria-sobre-um-planeta-estranho",
+        "score": 0.5964524149894714
+      },
+      {
+        "id": "quadros-remanescentes-tony-e-a-paralisia-do-futuro",
+        "score": 0.5891217589378357
+      },
+      {
+        "id": "fractais-tropicais",
+        "score": 0.5886963605880737
+      }
+    ]
   },
   {
     "id": "shrek",
@@ -6409,7 +11109,57 @@
       "witty"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "trafico-de-urso",
+        "score": 0.5722255110740662
+      },
+      {
+        "id": "a-sentenca",
+        "score": 0.5440055727958679
+      },
+      {
+        "id": "sitio-do-picapau-amarelo-reinacoes-de-narizinho",
+        "score": 0.5416173934936523
+      },
+      {
+        "id": "ithaca-shores",
+        "score": 0.5336232781410217
+      },
+      {
+        "id": "e-fada",
+        "score": 0.528802216053009
+      },
+      {
+        "id": "curupira-o-demonio-da-floresta",
+        "score": 0.5217908620834351
+      },
+      {
+        "id": "xuxa-e-os-duendes-2-no-caminho-das-fadas",
+        "score": 0.5153586268424988
+      },
+      {
+        "id": "dragoes-do-imperio-o-legado-de-shogun",
+        "score": 0.5123825073242188
+      },
+      {
+        "id": "slncova-panna",
+        "score": 0.5122698545455933
+      },
+      {
+        "id": "o-gato-de-botas-extraterrestre",
+        "score": 0.5105739831924438
+      },
+      {
+        "id": "o-vale-da-sombras-da-morte",
+        "score": 0.508490800857544
+      },
+      {
+        "id": "salome",
+        "score": 0.5066359043121338
+      }
+    ]
   },
   {
     "id": "procurando-nemo",
@@ -6476,7 +11226,57 @@
       "sympathetic"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "bau",
+        "score": 0.5830514430999756
+      },
+      {
+        "id": "pantera-negra",
+        "score": 0.5803845524787903
+      },
+      {
+        "id": "o-tubarao-martelo-e-os-habitantes-do-fundo-do-mar-o-filme",
+        "score": 0.5772103071212769
+      },
+      {
+        "id": "pingo-d-agua",
+        "score": 0.5750170350074768
+      },
+      {
+        "id": "eliana-em-o-segredo-dos-golfinhos",
+        "score": 0.5563938617706299
+      },
+      {
+        "id": "o-rapto-do-peixe-boi",
+        "score": 0.554661750793457
+      },
+      {
+        "id": "navio-negreiro",
+        "score": 0.5466495752334595
+      },
+      {
+        "id": "fim-de-semana-no-paraiso-selvagem",
+        "score": 0.5462316870689392
+      },
+      {
+        "id": "d-p-a-uma-investigacao-submarina-especial-10-anos",
+        "score": 0.5442429780960083
+      },
+      {
+        "id": "alem-ca",
+        "score": 0.5429353713989258
+      },
+      {
+        "id": "o-peixe",
+        "score": 0.5256525874137878
+      },
+      {
+        "id": "bizarros-peixes-das-fossas-abissais",
+        "score": 0.5192451477050781
+      }
+    ]
   },
   {
     "id": "como-treinar-o-seu-dragao",
@@ -6573,7 +11373,57 @@
       "vibrant"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "juvenal-e-o-dragao",
+        "score": 0.6404397487640381
+      },
+      {
+        "id": "dragoes-do-imperio-o-legado-de-shogun",
+        "score": 0.6115042567253113
+      },
+      {
+        "id": "a-danca-das-bruxas",
+        "score": 0.6063414812088013
+      },
+      {
+        "id": "super-xuxa-contra-baixo-astral",
+        "score": 0.5634632706642151
+      },
+      {
+        "id": "guerra-ao-drugo",
+        "score": 0.5563834309577942
+      },
+      {
+        "id": "vingadores-galvanize",
+        "score": 0.5513947010040283
+      },
+      {
+        "id": "ursinho-da-pesada",
+        "score": 0.5411027669906616
+      },
+      {
+        "id": "sao-jorge-contra-o-dragao",
+        "score": 0.5399903059005737
+      },
+      {
+        "id": "xuxa-e-os-duendes-2-no-caminho-das-fadas",
+        "score": 0.5375704169273376
+      },
+      {
+        "id": "the-beast",
+        "score": 0.5360388159751892
+      },
+      {
+        "id": "desencanto",
+        "score": 0.5358953475952148
+      },
+      {
+        "id": "xi-comeram-o-lanche-da-vovo",
+        "score": 0.5336869955062866
+      }
+    ]
   },
   {
     "id": "divertida-mente",
@@ -6645,7 +11495,57 @@
       "hopeful"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "phobos",
+        "score": 0.6175999045372009
+      },
+      {
+        "id": "alguem-como-eu",
+        "score": 0.5872834920883179
+      },
+      {
+        "id": "sophia",
+        "score": 0.5841363668441772
+      },
+      {
+        "id": "a-procura-do-sol",
+        "score": 0.555746853351593
+      },
+      {
+        "id": "72-dias-com-pedro",
+        "score": 0.5530242919921875
+      },
+      {
+        "id": "para-voce-nao-esquecer",
+        "score": 0.5527458786964417
+      },
+      {
+        "id": "os-penetras",
+        "score": 0.5497173070907593
+      },
+      {
+        "id": "nem-toda-historia-de-amor-acaba-em-morte",
+        "score": 0.5494439005851746
+      },
+      {
+        "id": "dolores",
+        "score": 0.5471423864364624
+      },
+      {
+        "id": "702",
+        "score": 0.5468602180480957
+      },
+      {
+        "id": "dia-sem-sol",
+        "score": 0.5453513860702515
+      },
+      {
+        "id": "linda-do-rosario",
+        "score": 0.5434091687202454
+      }
+    ]
   },
   {
     "id": "ratatouille",
@@ -6722,7 +11622,57 @@
       "enthusiastic"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "ratatoing",
+        "score": 0.6203608512878418
+      },
+      {
+        "id": "gosto-se-discute",
+        "score": 0.586378276348114
+      },
+      {
+        "id": "em-busca-da-essencia-na-cozinha",
+        "score": 0.56439608335495
+      },
+      {
+        "id": "acai",
+        "score": 0.5585039258003235
+      },
+      {
+        "id": "carlinhos-carlao",
+        "score": 0.5440117120742798
+      },
+      {
+        "id": "onde-esta-a-felicidade",
+        "score": 0.5419571995735168
+      },
+      {
+        "id": "prato-principal",
+        "score": 0.5340791940689087
+      },
+      {
+        "id": "coracao-de-cobre",
+        "score": 0.5285779237747192
+      },
+      {
+        "id": "hungria-a-escolha-de-um-sonho",
+        "score": 0.5255671143531799
+      },
+      {
+        "id": "anzol",
+        "score": 0.5247211456298828
+      },
+      {
+        "id": "confia-em-mim",
+        "score": 0.5244854092597961
+      },
+      {
+        "id": "meu-mundial-para-vencer-nao-basta-jogar",
+        "score": 0.5212737917900085
+      }
+    ]
   },
   {
     "id": "o-senhor-dos-aneis-a-sociedade-do-anel",
@@ -6796,7 +11746,57 @@
       "epic fantasy"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "os-trapalhoes-na-guerra-dos-planetas",
+        "score": 0.6006913185119629
+      },
+      {
+        "id": "principe-lu-e-a-lenda-do-dragao",
+        "score": 0.5815945863723755
+      },
+      {
+        "id": "o-rei-e-os-trapalhoes",
+        "score": 0.5714994072914124
+      },
+      {
+        "id": "detetives-do-predio-azul-3-uma-aventura-no-fim-do-mundo",
+        "score": 0.5707707405090332
+      },
+      {
+        "id": "somos-todos-saci",
+        "score": 0.5700995326042175
+      },
+      {
+        "id": "dragoes-do-imperio-o-legado-de-shogun",
+        "score": 0.5604786276817322
+      },
+      {
+        "id": "o-homem-do-sputnik",
+        "score": 0.5565869212150574
+      },
+      {
+        "id": "volcanic-vs-pedex",
+        "score": 0.5522887706756592
+      },
+      {
+        "id": "o-rapto-do-betao",
+        "score": 0.5498388409614563
+      },
+      {
+        "id": "o-batuque-dos-astros",
+        "score": 0.5488970875740051
+      },
+      {
+        "id": "gato-galactico-e-o-feitico-do-tempo",
+        "score": 0.5459491610527039
+      },
+      {
+        "id": "o-rei-do-cagaco",
+        "score": 0.5455843806266785
+      }
+    ]
   },
   {
     "id": "harry-potter-e-a-pedra-filosofal",
@@ -6870,7 +11870,57 @@
       "teen fantasy"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "a-proposito-de-harry",
+        "score": 0.6394773721694946
+      },
+      {
+        "id": "memorias",
+        "score": 0.48377445340156555
+      },
+      {
+        "id": "automacao-dos-poetas-mortos",
+        "score": 0.4717065393924713
+      },
+      {
+        "id": "barquinho",
+        "score": 0.44256260991096497
+      },
+      {
+        "id": "narciso",
+        "score": 0.4391248822212219
+      },
+      {
+        "id": "principe-lu-e-a-lenda-do-dragao",
+        "score": 0.4316911995410919
+      },
+      {
+        "id": "poesias-para-gael",
+        "score": 0.42912060022354126
+      },
+      {
+        "id": "onirico",
+        "score": 0.4255829155445099
+      },
+      {
+        "id": "davi-e-o-reino",
+        "score": 0.4235318899154663
+      },
+      {
+        "id": "heranca",
+        "score": 0.42119041085243225
+      },
+      {
+        "id": "as-aventuras-do-pequeno-colombo",
+        "score": 0.419994592666626
+      },
+      {
+        "id": "the-wizard-s-eyes",
+        "score": 0.41975662112236023
+      }
+    ]
   },
   {
     "id": "piratas-do-caribe-a-maldicao-do-perola-negra",
@@ -6935,7 +11985,57 @@
       "brisk"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "bau",
+        "score": 0.6289051175117493
+      },
+      {
+        "id": "o-tubarao-martelo-e-os-habitantes-do-fundo-do-mar-o-filme",
+        "score": 0.6288873553276062
+      },
+      {
+        "id": "a-pirata",
+        "score": 0.6234254837036133
+      },
+      {
+        "id": "piratv",
+        "score": 0.6021682024002075
+      },
+      {
+        "id": "piragui-a-dona-dos-peixes",
+        "score": 0.5984576940536499
+      },
+      {
+        "id": "pingo-d-agua",
+        "score": 0.5965325236320496
+      },
+      {
+        "id": "o-conde-gostou-da-coisa",
+        "score": 0.5905629396438599
+      },
+      {
+        "id": "pinguim-de-doce-de-leite",
+        "score": 0.5899835824966431
+      },
+      {
+        "id": "pontal-da-solidao",
+        "score": 0.582004964351654
+      },
+      {
+        "id": "o-rapto-do-peixe-boi",
+        "score": 0.5798928141593933
+      },
+      {
+        "id": "pirato",
+        "score": 0.5774548053741455
+      },
+      {
+        "id": "o-trapalhao-na-ilha-do-tesouro",
+        "score": 0.5734588503837585
+      }
+    ]
   },
   {
     "id": "jurassic-park-o-parque-dos-dinossauros",
@@ -6992,7 +12092,57 @@
       "theme park"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "titas-cabeca-dinossauro-30-anos",
+        "score": 0.7128705978393555
+      },
+      {
+        "id": "demossauro-rex-hemorragia-interna",
+        "score": 0.6859628558158875
+      },
+      {
+        "id": "hurg",
+        "score": 0.6387209892272949
+      },
+      {
+        "id": "luccas-e-gi-em-dinossauros",
+        "score": 0.6384602189064026
+      },
+      {
+        "id": "dinossaurite",
+        "score": 0.567359209060669
+      },
+      {
+        "id": "os-macurus",
+        "score": 0.5522734522819519
+      },
+      {
+        "id": "camerassauro",
+        "score": 0.5150935649871826
+      },
+      {
+        "id": "a-alma-das-coisas",
+        "score": 0.5131646394729614
+      },
+      {
+        "id": "musica-para-ninar-dinossauros",
+        "score": 0.5122700333595276
+      },
+      {
+        "id": "a-historia-do-jardim-zoologico",
+        "score": 0.5037701725959778
+      },
+      {
+        "id": "a-araucaria-memoria-em-extincao",
+        "score": 0.5002286434173584
+      },
+      {
+        "id": "teoria-sobre-um-planeta-estranho",
+        "score": 0.48590701818466187
+      }
+    ]
   },
   {
     "id": "indiana-jones-e-os-cacadores-da-arca-perdida",
@@ -7063,7 +12213,57 @@
       "1930s"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "doida-demais",
+        "score": 0.510686993598938
+      },
+      {
+        "id": "a-arca-do-eden",
+        "score": 0.5090563893318176
+      },
+      {
+        "id": "os-carrascos-estao-entre-nos",
+        "score": 0.5006904006004333
+      },
+      {
+        "id": "o-retorno-da-macabra-biblioteca-do-dr-lucchetti",
+        "score": 0.4919191300868988
+      },
+      {
+        "id": "alagbede",
+        "score": 0.48419690132141113
+      },
+      {
+        "id": "a-chave-do-armario-de-ethan",
+        "score": 0.4822353720664978
+      },
+      {
+        "id": "corpo",
+        "score": 0.481935977935791
+      },
+      {
+        "id": "a-macabra-biblioteca-do-dr-lucchetti",
+        "score": 0.46435943245887756
+      },
+      {
+        "id": "a-lenda-do-seca-mao",
+        "score": 0.46241334080696106
+      },
+      {
+        "id": "noe-uma-adaptacao-da-novela-genesis",
+        "score": 0.4618591070175171
+      },
+      {
+        "id": "barba-ensopada-de-sangue",
+        "score": 0.4569960832595825
+      },
+      {
+        "id": "o-guri",
+        "score": 0.455738365650177
+      }
+    ]
   },
   {
     "id": "o-hobbit-uma-jornada-inesperada",
@@ -7145,7 +12345,57 @@
       "amused"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "principe-lu-e-a-lenda-do-dragao",
+        "score": 0.5425132513046265
+      },
+      {
+        "id": "detetives-do-predio-azul-3-uma-aventura-no-fim-do-mundo",
+        "score": 0.5285080075263977
+      },
+      {
+        "id": "o-inferno-de-dante",
+        "score": 0.5212282538414001
+      },
+      {
+        "id": "perlimps",
+        "score": 0.5158546566963196
+      },
+      {
+        "id": "juvenal-e-o-dragao",
+        "score": 0.5124463438987732
+      },
+      {
+        "id": "dragoes-do-imperio-o-legado-de-shogun",
+        "score": 0.5113159418106079
+      },
+      {
+        "id": "ithaca-shores",
+        "score": 0.5093677639961243
+      },
+      {
+        "id": "volcanic-vs-pedex",
+        "score": 0.5074520111083984
+      },
+      {
+        "id": "a-montanha-magica",
+        "score": 0.5058882236480713
+      },
+      {
+        "id": "abracadabra",
+        "score": 0.5054637789726257
+      },
+      {
+        "id": "detetives-do-predio-azul-d-p-a-4-o-fantastico-reino-de-ondion",
+        "score": 0.5052239298820496
+      },
+      {
+        "id": "anicca",
+        "score": 0.503603994846344
+      }
+    ]
   },
   {
     "id": "as-aventuras-de-pi",
@@ -7221,7 +12471,57 @@
       "teen fantasy"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "as-aventuras-de-tita",
+        "score": 0.6051716804504395
+      },
+      {
+        "id": "o-noivo-da-girafa",
+        "score": 0.5749213099479675
+      },
+      {
+        "id": "um-caipira-em-bariloche",
+        "score": 0.5564022660255432
+      },
+      {
+        "id": "made-in-china",
+        "score": 0.5483752489089966
+      },
+      {
+        "id": "a-filha-dos-trapalhoes",
+        "score": 0.5427334904670715
+      },
+      {
+        "id": "boi-de-prata",
+        "score": 0.5331429839134216
+      },
+      {
+        "id": "o-jeca-macumbeiro",
+        "score": 0.5321657061576843
+      },
+      {
+        "id": "paralelo-10",
+        "score": 0.5306560397148132
+      },
+      {
+        "id": "tem-piranha-no-garimpo",
+        "score": 0.5300090312957764
+      },
+      {
+        "id": "o-tempo-e-o-vento",
+        "score": 0.5280638337135315
+      },
+      {
+        "id": "iremos-a-beirute",
+        "score": 0.5280091762542725
+      },
+      {
+        "id": "ate-que-a-musica-pare",
+        "score": 0.5274215340614319
+      }
+    ]
   },
   {
     "id": "o-senhor-dos-aneis-o-retorno-do-rei",
@@ -7306,7 +12606,57 @@
       "epic fantasy"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "deu-a-louca-no-cangaco",
+        "score": 0.5958219766616821
+      },
+      {
+        "id": "luccas-neto-em-o-plano-dos-viloes",
+        "score": 0.5896090269088745
+      },
+      {
+        "id": "detetives-do-predio-azul-d-p-a-4-o-fantastico-reino-de-ondion",
+        "score": 0.5853952765464783
+      },
+      {
+        "id": "gato-galactico-e-o-feitico-do-tempo",
+        "score": 0.576408863067627
+      },
+      {
+        "id": "dragoes-do-imperio-o-legado-de-shogun",
+        "score": 0.571080207824707
+      },
+      {
+        "id": "volcanic-vs-pedex",
+        "score": 0.5696309208869934
+      },
+      {
+        "id": "nordeste-sangrento",
+        "score": 0.5680546760559082
+      },
+      {
+        "id": "mercenarios-do-amor",
+        "score": 0.5649871826171875
+      },
+      {
+        "id": "super-chacrinha-e-seu-amigo-ultra-shit-em-crise-vs-deus-e-o-diabo-na-terra-de-glauber-rocha",
+        "score": 0.5645353198051453
+      },
+      {
+        "id": "o-rapto-do-betao",
+        "score": 0.5509379506111145
+      },
+      {
+        "id": "o-rei-e-os-santos-vao-a-guerra",
+        "score": 0.5502445101737976
+      },
+      {
+        "id": "os-trapalhoes-e-o-magico-de-oroz",
+        "score": 0.5488917827606201
+      }
+    ]
   },
   {
     "id": "o-resgate-do-soldado-ryan",
@@ -7377,7 +12727,57 @@
       "massive casualties"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "into-the-breach-saving-private-ryan",
+        "score": 0.576502799987793
+      },
+      {
+        "id": "aikewara-a-ressurreicao-de-um-povo",
+        "score": 0.511614978313446
+      },
+      {
+        "id": "os-carrascos-estao-entre-nos",
+        "score": 0.501448392868042
+      },
+      {
+        "id": "dino-world-ilha-maldita",
+        "score": 0.47277164459228516
+      },
+      {
+        "id": "corneteiro-nao-se-mata",
+        "score": 0.4653973877429962
+      },
+      {
+        "id": "os-camaradas",
+        "score": 0.454794317483902
+      },
+      {
+        "id": "riacho-do-sangue",
+        "score": 0.4508867561817169
+      },
+      {
+        "id": "war-heroes",
+        "score": 0.4414222240447998
+      },
+      {
+        "id": "rede-militar",
+        "score": 0.439049631357193
+      },
+      {
+        "id": "o-que-trago-do-chumbo-os-50-anos-do-golpe-militar",
+        "score": 0.4385068416595459
+      },
+      {
+        "id": "quase-inverno",
+        "score": 0.43553245067596436
+      },
+      {
+        "id": "guerra-branca",
+        "score": 0.43547096848487854
+      }
+    ]
   },
   {
     "id": "1917",
@@ -7441,7 +12841,57 @@
       "war epic"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "war-heroes",
+        "score": 0.5269502401351929
+      },
+      {
+        "id": "os-camaradas",
+        "score": 0.5190433859825134
+      },
+      {
+        "id": "aurora",
+        "score": 0.5045328736305237
+      },
+      {
+        "id": "praca-de-guerra",
+        "score": 0.47848743200302124
+      },
+      {
+        "id": "cabo-de-guerra",
+        "score": 0.4775523245334625
+      },
+      {
+        "id": "como-vivem-os-bravos",
+        "score": 0.47633785009384155
+      },
+      {
+        "id": "perlimps",
+        "score": 0.47331541776657104
+      },
+      {
+        "id": "ai-vem-os-cadetes",
+        "score": 0.46442291140556335
+      },
+      {
+        "id": "retorno-um-filme-ksp",
+        "score": 0.4624916911125183
+      },
+      {
+        "id": "o-bando-sagrado",
+        "score": 0.46133333444595337
+      },
+      {
+        "id": "de-olhos-abertos",
+        "score": 0.45834800601005554
+      },
+      {
+        "id": "o-pequeno-exercito-louco",
+        "score": 0.4529425799846649
+      }
+    ]
   },
   {
     "id": "apocalypse-now",
@@ -7512,7 +12962,57 @@
       "distressing"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "enterre-seus-mortos",
+        "score": 0.5279644727706909
+      },
+      {
+        "id": "dino-world-ilha-maldita",
+        "score": 0.49305006861686707
+      },
+      {
+        "id": "o-feijao-e-nosso",
+        "score": 0.4817705750465393
+      },
+      {
+        "id": "o-rio-de-janeiro-de-ho-chi-minh",
+        "score": 0.4790951609611511
+      },
+      {
+        "id": "o-conde-gostou-da-coisa",
+        "score": 0.47804611921310425
+      },
+      {
+        "id": "terra-sem-deus",
+        "score": 0.4774111211299896
+      },
+      {
+        "id": "um-rambo-esculachado",
+        "score": 0.473652184009552
+      },
+      {
+        "id": "chumbo-quente",
+        "score": 0.4704199433326721
+      },
+      {
+        "id": "alien-deep-with-bob-ballard",
+        "score": 0.46832549571990967
+      },
+      {
+        "id": "a-culpa",
+        "score": 0.46457308530807495
+      },
+      {
+        "id": "do-observatorio-me-viram",
+        "score": 0.46259576082229614
+      },
+      {
+        "id": "o-heroi-trancado",
+        "score": 0.46072879433631897
+      }
+    ]
   },
   {
     "id": "nascido-para-matar",
@@ -7595,7 +13095,57 @@
       "scathing"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "rede-militar",
+        "score": 0.6156171560287476
+      },
+      {
+        "id": "ai-vem-os-cadetes",
+        "score": 0.5886939167976379
+      },
+      {
+        "id": "o-pais-dos-tenentes",
+        "score": 0.5653712749481201
+      },
+      {
+        "id": "o-marinheiro",
+        "score": 0.5648280382156372
+      },
+      {
+        "id": "os-camaradas",
+        "score": 0.5529352426528931
+      },
+      {
+        "id": "o-menino-o-recruta-e-o-sargento",
+        "score": 0.5492772459983826
+      },
+      {
+        "id": "os-fuzis",
+        "score": 0.5435184836387634
+      },
+      {
+        "id": "riacho-do-sangue",
+        "score": 0.541923463344574
+      },
+      {
+        "id": "de-olhos-abertos",
+        "score": 0.5340766906738281
+      },
+      {
+        "id": "guerra-branca",
+        "score": 0.5330737233161926
+      },
+      {
+        "id": "soldier-s-notes",
+        "score": 0.5325683951377869
+      },
+      {
+        "id": "ninjas",
+        "score": 0.5311271548271179
+      }
+    ]
   },
   {
     "id": "dunkirk",
@@ -7674,7 +13224,57 @@
       "oscar winner"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "os-carrascos-estao-entre-nos",
+        "score": 0.560876190662384
+      },
+      {
+        "id": "a-estrada-47",
+        "score": 0.5212180614471436
+      },
+      {
+        "id": "a-trilha-dos-ratos",
+        "score": 0.47190991044044495
+      },
+      {
+        "id": "abraco-de-mae",
+        "score": 0.4440459907054901
+      },
+      {
+        "id": "os-orfaos-de-canudos",
+        "score": 0.4307914674282074
+      },
+      {
+        "id": "praca-de-guerra",
+        "score": 0.4283551275730133
+      },
+      {
+        "id": "intervencao-na-cipla-e-interfibra-fabricas-ocupadas-lula-e-o-capitalismo",
+        "score": 0.42276182770729065
+      },
+      {
+        "id": "a-colmeia",
+        "score": 0.41764169931411743
+      },
+      {
+        "id": "wwi-chronicles-when-all-hope-was-lost",
+        "score": 0.41298872232437134
+      },
+      {
+        "id": "soldados-da-borracha",
+        "score": 0.4041670858860016
+      },
+      {
+        "id": "por-um-ceu-de-liberdade",
+        "score": 0.40022873878479004
+      },
+      {
+        "id": "homens-da-patria",
+        "score": 0.39941248297691345
+      }
+    ]
   },
   {
     "id": "o-rei-do-show",
@@ -7734,7 +13334,57 @@
       "complicated"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "zaori",
+        "score": 0.6137309074401855
+      },
+      {
+        "id": "o-gala",
+        "score": 0.6074579954147339
+      },
+      {
+        "id": "barnabe-tu-es-meu",
+        "score": 0.5983423590660095
+      },
+      {
+        "id": "retalhos",
+        "score": 0.5951946377754211
+      },
+      {
+        "id": "ostinato",
+        "score": 0.5935800075531006
+      },
+      {
+        "id": "o-ex-magico-da-taberna-minhota",
+        "score": 0.5703951120376587
+      },
+      {
+        "id": "o-incrivel-gigango",
+        "score": 0.5687859654426575
+      },
+      {
+        "id": "beto-rockefeller",
+        "score": 0.5579193234443665
+      },
+      {
+        "id": "vidente-por-acidente",
+        "score": 0.5486103892326355
+      },
+      {
+        "id": "o-magico-e-o-delegado",
+        "score": 0.5477011203765869
+      },
+      {
+        "id": "absolutamente-certo",
+        "score": 0.5455973744392395
+      },
+      {
+        "id": "malabares-os-filhos-dos-outros",
+        "score": 0.5446534752845764
+      }
+    ]
   },
   {
     "id": "bohemian-rhapsody",
@@ -7797,7 +13447,57 @@
       "excited"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "queen-live-in-rock-in-rio",
+        "score": 0.5773976445198059
+      },
+      {
+        "id": "essencia-interior",
+        "score": 0.5014227032661438
+      },
+      {
+        "id": "minha-fama-de-mau",
+        "score": 0.4952782094478607
+      },
+      {
+        "id": "control-z",
+        "score": 0.4803260862827301
+      },
+      {
+        "id": "feito-por-elas-o-rock-feminino-e-feminista-da-cidade-de-sao-paulo",
+        "score": 0.4796660542488098
+      },
+      {
+        "id": "vinil-poeira-e-groove",
+        "score": 0.4785379469394684
+      },
+      {
+        "id": "batguano",
+        "score": 0.4711349308490753
+      },
+      {
+        "id": "a-tribo-do-reggae-a-era-do-ritmo-no-maranhao",
+        "score": 0.4673231244087219
+      },
+      {
+        "id": "entrevista-com-zombie-jackson",
+        "score": 0.4667198956012726
+      },
+      {
+        "id": "guerrilha-a-trajetoria-da-dorsal-atlantica",
+        "score": 0.4656040668487549
+      },
+      {
+        "id": "vita-brevis-ars-longa",
+        "score": 0.4571569561958313
+      },
+      {
+        "id": "zizi-possi-para-ingles-ver-e-ouvir",
+        "score": 0.454344242811203
+      }
+    ]
   },
   {
     "id": "rocketman",
@@ -7862,7 +13562,57 @@
       "gay theme"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "magal-e-os-formigas",
+        "score": 0.5265924334526062
+      },
+      {
+        "id": "minha-fama-de-mau",
+        "score": 0.5099939107894897
+      },
+      {
+        "id": "paul-singer-uma-utopia-militante",
+        "score": 0.5037075281143188
+      },
+      {
+        "id": "joao-ninguem",
+        "score": 0.5006685256958008
+      },
+      {
+        "id": "escada-para-o-ceu-de-joao-bigode",
+        "score": 0.49836114048957825
+      },
+      {
+        "id": "pobre-joao",
+        "score": 0.49612078070640564
+      },
+      {
+        "id": "castanha",
+        "score": 0.4956883192062378
+      },
+      {
+        "id": "dois-e-demais-em-orlando",
+        "score": 0.49179238080978394
+      },
+      {
+        "id": "milton-nascimento-a-sede-do-peixe",
+        "score": 0.49057793617248535
+      },
+      {
+        "id": "milton-nascimento-especial",
+        "score": 0.4854881763458252
+      },
+      {
+        "id": "joao-o-maestro",
+        "score": 0.48450967669487
+      },
+      {
+        "id": "deixa-a-boneca-no-carro",
+        "score": 0.47882622480392456
+      }
+    ]
   },
   {
     "id": "django-livre",
@@ -7925,7 +13675,57 @@
       "mississippi"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "agentes-muito-especiais",
+        "score": 0.5093939900398254
+      },
+      {
+        "id": "a-floresta-de-jonathas",
+        "score": 0.49449422955513
+      },
+      {
+        "id": "border",
+        "score": 0.4872497618198395
+      },
+      {
+        "id": "aprender-a-ler-pra-ensinar-meus-camaradas",
+        "score": 0.45944082736968994
+      },
+      {
+        "id": "a-botija-o-beato-e-a-besta-fera",
+        "score": 0.45513543486595154
+      },
+      {
+        "id": "jungle-magic",
+        "score": 0.45374083518981934
+      },
+      {
+        "id": "mr-leather",
+        "score": 0.4519931972026825
+      },
+      {
+        "id": "tarzann-o-bonitao-sexy",
+        "score": 0.4511087238788605
+      },
+      {
+        "id": "amigos-em-fuga",
+        "score": 0.44793567061424255
+      },
+      {
+        "id": "ticar-bodo",
+        "score": 0.4406493008136749
+      },
+      {
+        "id": "azougue-nazare",
+        "score": 0.43382367491722107
+      },
+      {
+        "id": "pazucus-a-ilha-do-desarrego",
+        "score": 0.4304249882698059
+      }
+    ]
   },
   {
     "id": "tres-homens-em-conflito",
@@ -7995,7 +13795,57 @@
       "confederate gold"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "a-propria-carne",
+        "score": 0.6980394124984741
+      },
+      {
+        "id": "pistoleiro-bossa-nova",
+        "score": 0.6728379130363464
+      },
+      {
+        "id": "marreta",
+        "score": 0.6685398817062378
+      },
+      {
+        "id": "minha-e-a-vinganca",
+        "score": 0.6465140581130981
+      },
+      {
+        "id": "corneteiro-nao-se-mata",
+        "score": 0.6417157649993896
+      },
+      {
+        "id": "sangue-por-sangue",
+        "score": 0.636175811290741
+      },
+      {
+        "id": "invasores",
+        "score": 0.6143167614936829
+      },
+      {
+        "id": "extremo-ocidente",
+        "score": 0.614231288433075
+      },
+      {
+        "id": "valenca",
+        "score": 0.6097709536552429
+      },
+      {
+        "id": "mulheres-milhoes",
+        "score": 0.6075009703636169
+      },
+      {
+        "id": "um-pistoleiro-chamado-caviuna",
+        "score": 0.5962478518486023
+      },
+      {
+        "id": "os-fuzis",
+        "score": 0.5925024747848511
+      }
+    ]
   },
   {
     "id": "era-uma-vez-no-oeste",
@@ -8058,7 +13908,57 @@
       "techniscope"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "a-mulher-que-sou",
+        "score": 0.5635077357292175
+      },
+      {
+        "id": "jackselene",
+        "score": 0.5594944953918457
+      },
+      {
+        "id": "ventos-de-agosto",
+        "score": 0.5222427248954773
+      },
+      {
+        "id": "quinta-das-janelas",
+        "score": 0.5135844349861145
+      },
+      {
+        "id": "abjetas-288",
+        "score": 0.5117411613464355
+      },
+      {
+        "id": "phobos",
+        "score": 0.5096864104270935
+      },
+      {
+        "id": "nao-olhe-para-mim",
+        "score": 0.5095131397247314
+      },
+      {
+        "id": "casa-de-praia",
+        "score": 0.5064598917961121
+      },
+      {
+        "id": "muro",
+        "score": 0.5045838952064514
+      },
+      {
+        "id": "a-estacao",
+        "score": 0.503476619720459
+      },
+      {
+        "id": "ribeirinhos-do-asfalto",
+        "score": 0.48626309633255005
+      },
+      {
+        "id": "guiana-francesa",
+        "score": 0.4798659086227417
+      }
+    ]
   },
   {
     "id": "casablanca",
@@ -8123,7 +14023,57 @@
       "gloomy"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "os-inimigos-da-dor",
+        "score": 0.6114943027496338
+      },
+      {
+        "id": "que-lingua-voce-fala",
+        "score": 0.5704753398895264
+      },
+      {
+        "id": "fugitive",
+        "score": 0.5587401986122131
+      },
+      {
+        "id": "urubus-e-papagaios",
+        "score": 0.5529533624649048
+      },
+      {
+        "id": "a-trilha-dos-ratos",
+        "score": 0.5459291338920593
+      },
+      {
+        "id": "19-mulheres-e-1-homem",
+        "score": 0.5455686450004578
+      },
+      {
+        "id": "a-propria-carne",
+        "score": 0.5425876379013062
+      },
+      {
+        "id": "o-triunfo-da-maldade",
+        "score": 0.5396813750267029
+      },
+      {
+        "id": "eu-te-amo-e-no-sol",
+        "score": 0.537447988986969
+      },
+      {
+        "id": "um-passaporte-hungaro",
+        "score": 0.5342848896980286
+      },
+      {
+        "id": "adversidade-no-brasil",
+        "score": 0.5336646437644958
+      },
+      {
+        "id": "cuatro-pasos-al-norte",
+        "score": 0.531915545463562
+      }
+    ]
   },
   {
     "id": "o-magico-de-oz",
@@ -8197,6 +14147,56 @@
       "trying to get home"
     ],
     "similares_internacionais": [],
-    "origem": "internacional"
+    "origem": "internacional",
+    "similares_nacionais": [
+      {
+        "id": "the-scarecrow-of-oz",
+        "score": 0.6823801398277283
+      },
+      {
+        "id": "o-rapto-do-betao",
+        "score": 0.6098452210426331
+      },
+      {
+        "id": "o-boi-misterioso-e-o-vaqueiro-menino",
+        "score": 0.5804455280303955
+      },
+      {
+        "id": "a-ilha-dos-ilus",
+        "score": 0.5665872693061829
+      },
+      {
+        "id": "alice-no-pais-das-maravilhas",
+        "score": 0.5598905682563782
+      },
+      {
+        "id": "josue-e-o-pe-de-macaxeira",
+        "score": 0.5555879473686218
+      },
+      {
+        "id": "luccas-e-gi-em-dinossauros",
+        "score": 0.5486056804656982
+      },
+      {
+        "id": "a-bruxa-e-o-minhoco",
+        "score": 0.5471426844596863
+      },
+      {
+        "id": "as-quatro-chaves-magicas",
+        "score": 0.5409202575683594
+      },
+      {
+        "id": "detetives-do-predio-azul-3-uma-aventura-no-fim-do-mundo",
+        "score": 0.53823322057724
+      },
+      {
+        "id": "carne-fresca",
+        "score": 0.5342762470245361
+      },
+      {
+        "id": "the-tin-woodman-of-oz",
+        "score": 0.5314249992370605
+      }
+    ]
   }
 ]

@@ -37,7 +37,8 @@ async function iniciar() {
         document.getElementById("btn-fechar-modal").addEventListener("click", fecharModal);
         document.getElementById("btn-recomendar").addEventListener("click", gerarRecomendacoes);
         document.getElementById("btn-limpar-selecao").addEventListener("click", limparSelecao);
-        document.getElementById("btn-racional").addEventListener("click", alternarRacional);
+        // document.getElementById("btn-racional").addEventListener("click", alternarRacional);
+
 
         // Fecha o modal ao clicar no fundo ou apertar Esc
         document.getElementById("selecao-modal").addEventListener("click", e => {
@@ -206,22 +207,41 @@ function avaliar(candidato, referencias) {
 function gerarRecomendacoes() {
     const referencias = poolFilmes.filter(f => selecionados.has(f.id));
 
-    const candidatos = filmesBR.filter(f =>
-        f.poster_url &&
-        f.avaliacao > 0 &&
-        (f.vote_count || 0) >= 20
-    );
+    // --- NOVA LÓGICA BASEADA NO MODELO NLP (BERT) ---
+    const mapFilmesBR = new Map();
+    filmesBR.forEach(f => mapFilmesBR.set(f.id, f));
 
-    ultimasRecomendacoes = candidatos
-        .map(f => {
-            const { score, conexoes } = avaliar(f, referencias);
-            return { filme: f, score, conexoes };
-        })
-        .filter(item => item.score > 0)
-        .sort((a, b) =>
-            b.score - a.score || (b.filme.avaliacao || 0) - (a.filme.avaliacao || 0)
-        )
-        .slice(0, 12);
+    const scorePorFilme = new Map();
+
+    referencias.forEach(ref => {
+        if (ref.similares_nacionais && Array.isArray(ref.similares_nacionais)) {
+            ref.similares_nacionais.forEach(sim => {
+                const id = sim.id;
+                const score = sim.score;
+                if (!scorePorFilme.has(id)) {
+                    scorePorFilme.set(id, 0);
+                }
+                // Soma scores de múltiplas referências (intersecção)
+                scorePorFilme.set(id, scorePorFilme.get(id) + score);
+            });
+        }
+    });
+
+    const candidatosOrdenados = [];
+    scorePorFilme.forEach((score, id) => {
+        const filmeObj = mapFilmesBR.get(id);
+        if (filmeObj && filmeObj.poster_url && filmeObj.avaliacao > 0) {
+            candidatosOrdenados.push({
+                filme: filmeObj,
+                score: score * 100, // Ajuste para exibição
+                conexoes: [] // Conexões removidas devido a nova arquitetura sem Racional
+            });
+        }
+    });
+
+    candidatosOrdenados.sort((a, b) => b.score - a.score);
+
+    ultimasRecomendacoes = candidatosOrdenados.slice(0, 12);
 
     fecharModal();
     renderizarResultados(ultimasRecomendacoes);
@@ -238,7 +258,9 @@ function renderizarResultados(ranqueados) {
         ranqueados.forEach(item => grid.appendChild(criarCardFilme(item.filme)));
     }
 
-    montarRacional(ranqueados);
+    // montarRacional(ranqueados); // OCULTADO TEMPORARIAMENTE (Antigo modelo baseado em tags)
+    const toggleRacional = document.getElementById("btn-racional");
+    if(toggleRacional) toggleRacional.style.display = "none";
 
     bloco.style.display = "block";
     bloco.scrollIntoView({ behavior: "smooth", block: "start" });
