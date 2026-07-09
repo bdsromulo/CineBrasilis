@@ -1,5 +1,5 @@
 .indicacoes-passo {
-    color: #555;
+    color: var(--cor-texto-suave);
     font-size: 0.95rem;
 }
 
@@ -108,15 +108,15 @@ body.modal-aberto {
 .btn-limpar {
     padding: 10px 16px;
     background: transparent;
-    border: 1px solid #ccc;
+    border: 1px solid var(--cor-borda);
     border-radius: 6px;
-    color: #666;
+    color: var(--cor-texto-suave);
     cursor: pointer;
     transition: border-color 0.2s, color 0.2s;
 }
 .btn-limpar:hover {
-    border-color: #999;
-    color: #333;
+    border-color: var(--cor-texto-suave);
+    color: var(--cor-texto);
 }
 .btn-fechar {
     width: 36px;
@@ -125,7 +125,7 @@ body.modal-aberto {
     background: transparent;
     border: none;
     font-size: 1.2rem;
-    color: #666;
+    color: var(--cor-texto-suave);
     cursor: pointer;
     border-radius: 50%;
     transition: background 0.2s;
@@ -211,11 +211,11 @@ body.modal-aberto {
 .selecao-titulo {
     margin: 6px 0 0;
     font-size: 0.82rem;
-    color: #333;
+    color: var(--cor-texto);
     line-height: 1.2;
 }
 .selecao-ano {
-    color: #999;
+    color: var(--cor-texto-suave);
     font-size: 0.78rem;
 }
 
@@ -237,7 +237,7 @@ body.modal-aberto {
 .resultados-vazio {
     grid-column: 1 / -1;
     text-align: center;
-    color: #888;
+    color: var(--cor-texto-suave);
     padding: 30px 0;
 }
 
@@ -311,7 +311,7 @@ body.modal-aberto {
     align-items: flex-start;
     gap: 12px;
     padding-top: 10px;
-    border-top: 1px solid #e3e3dd;
+    border-top: 1px solid var(--cor-borda);
 }
 .racional-origem {
     display: flex;
@@ -320,7 +320,7 @@ body.modal-aberto {
     min-width: 150px;
     max-width: 150px;
     font-size: 0.85rem;
-    color: #444;
+    color: var(--cor-texto);
 }
 .racional-origem img {
     width: 30px;
@@ -343,7 +343,7 @@ body.modal-aberto {
 }
 .racional-rotulo {
     font-size: 0.78rem;
-    color: #888;
+    color: var(--cor-texto-suave);
     min-width: 60px;
 }
 .racional-chip {
@@ -352,7 +352,7 @@ body.modal-aberto {
     border-radius: 12px;
     font-size: 0.78rem;
     background: rgba(0, 156, 59, 0.10);
-    color: #00702a;
+    color: var(--cor-acento);
     border: 1px solid rgba(0, 156, 59, 0.30);
 }
 

@@ -99,7 +99,7 @@
 }
 #filmes-estado-titulo {
     margin-top: 0;
-    color: #1b5e20;
+    color: var(--cor-acento);
 }
 .painel-grid {
     display: grid;
@@ -117,7 +117,7 @@
 }
 .aviso-card p {
     margin: 0;
-    color: #555;
+    color: var(--cor-texto-suave);
     font-size: 0.9rem;
 }
 
@@ -171,7 +171,7 @@
 }
 .rotulo-externo {
     text-anchor: start;
-    fill: #16213e;
+    fill: var(--cor-texto);
     stroke: none;
 }
 .rotulo-linha {

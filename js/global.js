@@ -8,28 +8,28 @@
     document.documentElement.setAttribute("data-theme", temaInicial);
 })();
 
-function atualizarIconeBotaoTema() {
-    const btn = document.getElementById("btn-tema");
-    if (!btn) return;
+// Marca no switch qual tema está ativo (destaca a opção correspondente)
+function atualizarSwitchTema() {
     const temaAtual = document.documentElement.getAttribute("data-theme");
-    btn.innerHTML = temaAtual === "dark" ? "☀️ <span>Claro</span>" : "🌙 <span>Escuro</span>";
-    btn.setAttribute("title", temaAtual === "dark" ? "Mudar para modo claro" : "Mudar para modo escuro");
+    document.querySelectorAll(".tema-opcao").forEach((opcao) => {
+        const ativo = opcao.dataset.tema === temaAtual;
+        opcao.classList.toggle("ativo", ativo);
+        opcao.setAttribute("aria-pressed", String(ativo));
+    });
 }
 
-function alternarTema() {
-    const temaAtual = document.documentElement.getAttribute("data-theme");
-    const novoTema = temaAtual === "dark" ? "light" : "dark";
+function definirTema(novoTema) {
+    if (novoTema !== "dark" && novoTema !== "light") return;
     document.documentElement.setAttribute("data-theme", novoTema);
     localStorage.setItem("cinebrasilis_tema", novoTema);
-    atualizarIconeBotaoTema();
+    atualizarSwitchTema();
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-    atualizarIconeBotaoTema();
-    const btn = document.getElementById("btn-tema");
-    if (btn) {
-        btn.addEventListener("click", alternarTema);
-    }
+    atualizarSwitchTema();
+    document.querySelectorAll(".tema-opcao").forEach((opcao) => {
+        opcao.addEventListener("click", () => definirTema(opcao.dataset.tema));
+    });
 });
 
 // Funções Globais reaproveitadas em várias páginas

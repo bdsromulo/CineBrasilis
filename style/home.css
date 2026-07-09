@@ -127,7 +127,7 @@
 .explore-descricao {
     margin: 0;
     font-size: 13px;
-    color: #555;
+    color: var(--cor-texto-suave);
     line-height: 1.5;
 }
 
@@ -151,7 +151,8 @@
 
 .carrossel-track {
     display: flex;
-    gap: 20px; 
+    align-items: flex-start; /* cada card ocupa só a altura do seu conteúdo (evita vão escuro embaixo) */
+    gap: 20px;
     transition: transform 0.4s ease-in-out;
     will-change: transform;
 }

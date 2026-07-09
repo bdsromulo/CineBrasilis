@@ -12,7 +12,7 @@
 
 .catalogo-subtitulo {
     margin: 0;
-    color: #666;
+    color: var(--cor-texto-suave);
     font-size: 0.95rem;
 }
 
@@ -188,14 +188,14 @@
 .catalogo-contagem {
     margin: 0 0 16px;
     font-size: 0.9rem;
-    color: #666;
+    color: var(--cor-texto-suave);
 }
 
 /* Mensagem de lista vazia */
 .catalogo-vazio {
     grid-column: 1 / -1;
     text-align: center;
-    color: #999;
+    color: var(--cor-texto-suave);
     padding: 40px 0;
     font-size: 1rem;
 }
@@ -320,6 +320,6 @@
 .texto-paginacao {
     font-size: 1.1rem;
     font-weight: bold;
-    color: #333;
+    color: var(--cor-texto);
 }
 

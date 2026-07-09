@@ -7,9 +7,15 @@
 
 .carrossel-section {
     background: #f4f4f0;
-    border: 1px solid #e6e6e6;
+    border: 1px solid var(--cor-borda);
     border-radius: 10px;
     padding: 20px 24px;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+/* No modo escuro a "prateleira" fica mais escura que os cards, para que eles se destaquem */
+[data-theme="dark"] .carrossel-section {
+    background: #0c1524;
 }
 
 .carrossel-section h2 {
@@ -18,5 +24,9 @@
     margin-bottom: 15px;
     border-left: 4px solid #8b9d5c;
     padding-left: 10px;
+}
+
+[data-theme="dark"] .carrossel-section h2 {
+    color: #b9c99a; /* verde-oliva claro, legível sobre o fundo escuro */
 }
 
