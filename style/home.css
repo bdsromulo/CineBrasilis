@@ -77,8 +77,14 @@
     font-size: 1.1rem;
     color: rgba(255, 255, 255, 0.85);
 }
-.acervo-link {
+.acervo-acoes {
     margin-top: 14px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+}
+.acervo-link {
     display: inline-block;
     background: #009C3B;
     color: #fff;
@@ -86,10 +92,22 @@
     padding: 10px 22px;
     border-radius: 6px;
     font-weight: bold;
-    transition: background 0.2s;
+    border: 2px solid #009C3B;
+    transition: background 0.2s, border-color 0.2s, color 0.2s;
 }
 .acervo-link:hover {
     background: #00b544;
+    border-color: #00b544;
+}
+/* Botão secundário (Receber indicações): contornado sobre o card escuro */
+.acervo-link--secundario {
+    background: transparent;
+    border-color: rgba(255, 255, 255, 0.5);
+    color: #fff;
+}
+.acervo-link--secundario:hover {
+    background: rgba(255, 255, 255, 0.12);
+    border-color: #fff;
 }
 
 .explore-grid {
