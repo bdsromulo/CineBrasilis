@@ -3,3 +3,8 @@ python-dotenv
 pandas
 openpyxl
 unidecode
+# Recomendacoes por similaridade (gerar_similares_bert.py)
+numpy
+scikit-learn
+sentence-transformers
+torch

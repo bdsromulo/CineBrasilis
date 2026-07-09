@@ -231,22 +231,24 @@ function avaliar(candidato, referencias) {
 function gerarRecomendacoes() {
     const referencias = poolFilmes.filter(f => selecionados.has(f.id));
 
-    // --- NOVA LÓGICA BASEADA NO MODELO NLP (BERT) ---
+    // --- LÓGICA BASEADA EM BERT + AFINIDADE DE GÊNERO ---
+    // Chaveamos por tmdb_id (único). O slug "id" tem ~998 colisões na base
+    // brasileira, o que fazia o app exibir o filme errado.
     const mapFilmesBR = new Map();
-    filmesBR.forEach(f => mapFilmesBR.set(f.id, f));
+    filmesBR.forEach(f => mapFilmesBR.set(f.tmdb_id, f));
 
     const scorePorFilme = new Map();
 
     referencias.forEach(ref => {
         if (ref.similares_nacionais && Array.isArray(ref.similares_nacionais)) {
             ref.similares_nacionais.forEach(sim => {
-                const id = sim.id;
+                const chave = sim.tmdb_id != null ? sim.tmdb_id : sim.id;
                 const score = sim.score;
-                if (!scorePorFilme.has(id)) {
-                    scorePorFilme.set(id, 0);
+                if (!scorePorFilme.has(chave)) {
+                    scorePorFilme.set(chave, 0);
                 }
                 // Soma scores de múltiplas referências (intersecção)
-                scorePorFilme.set(id, scorePorFilme.get(id) + score);
+                scorePorFilme.set(chave, scorePorFilme.get(chave) + score);
             });
         }
     });
