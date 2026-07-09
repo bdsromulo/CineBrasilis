@@ -85,3 +85,11 @@
     margin: 0 5px;
     display: block;
 }
+
+/* Logo do GitHub (SVG): marca escura no modo claro, invertida (clara) no escuro */
+.github-link img {
+    transition: filter 0.3s ease;
+}
+[data-theme="dark"] .github-link img {
+    filter: invert(1);
+}

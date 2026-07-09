@@ -83,6 +83,19 @@ function preencherPagina(filme) {
         }
     }
 
+    // Link Letterboxd (gerado do tmdb_id: letterboxd.com/tmdb/{id} redireciona para o filme)
+    const lbRow  = document.getElementById("letterboxd-row");
+    const lbLink = document.getElementById("letterboxd-link");
+    if (lbRow && lbLink) {
+        if (filme.tmdb_id) {
+            lbLink.href = `https://letterboxd.com/tmdb/${filme.tmdb_id}`;
+            lbLink.innerHTML = `<img src="../img/logo_letterboxd.svg" alt="Ver no Letterboxd" class="letterboxd-logo">`;
+            lbRow.style.display = "";
+        } else {
+            lbRow.style.display = "none";
+        }
+    }
+
     // Poster
     const posterEl = document.getElementById("poster");
     if (posterEl) {
