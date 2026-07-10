@@ -143,19 +143,25 @@ function montarCategorias() {
     return cats;
 }
 
+function renderizarDestaques() {
+    const container = document.getElementById("destaques-container");
+    if (!container) return;
+    container.innerHTML = "";
+    montarCategorias().forEach(([titulo, filmes]) => {
+        if (filmes && filmes.length >= 3) {
+            criarSecaoCarrossel(titulo, filmes, container);
+        }
+    });
+}
+
 async function carregarDestaques() {
     const container = document.getElementById("destaques-container");
     try {
         const resp = await fetch("../data/filmes.json");
         TODOS_FILMES = await resp.json();
-        if (!container) return;
-        container.innerHTML = "";
-
-        montarCategorias().forEach(([titulo, filmes]) => {
-            if (filmes && filmes.length >= 3) {
-                criarSecaoCarrossel(titulo, filmes, container);
-            }
-        });
+        renderizarDestaques();
+        // Re-renderiza (sem re-baixar) ao trocar de idioma
+        window.aoTrocarIdioma = renderizarDestaques;
     } catch (erro) {
         console.error("Erro ao puxar dados dos destaques:", erro);
         if (container) container.innerHTML = "<p>Ocorreu um erro ao carregar os filmes.</p>";
@@ -172,7 +178,7 @@ function criarSecaoCarrossel(titulo, filmesLista, containerPai) {
     section.className = "carrossel-section";
 
     section.innerHTML = `
-        <h2>${titulo}</h2>
+        <h2>${typeof t === "function" ? t("cat." + titulo) : titulo}</h2>
         <div class="carrossel-container">
             <button class="carrossel-btn left btn-ant">❮</button>
             <div class="carrossel-janela">

@@ -1,11 +1,25 @@
 "use strict";
 
+let filmeAtual = null;
+let SINOPSES_EN = null;   // cache do arquivo de sinopses em inglês (carregado sob demanda)
+
 document.addEventListener("DOMContentLoaded", () => {
     carregarDetalhesFilme();
 });
 
+// Carrega (uma vez) o arquivo apartado de sinopses em inglês
+async function carregarSinopsesEn() {
+    if (SINOPSES_EN) return SINOPSES_EN;
+    try {
+        const r = await fetch("../data/sinopses_en.json");
+        SINOPSES_EN = r.ok ? await r.json() : {};
+    } catch (e) {
+        SINOPSES_EN = {};
+    }
+    return SINOPSES_EN;
+}
+
 async function carregarDetalhesFilme() {
-    // Pegar o ID do filme da URL ex: detalhes.html?id=a-aventura-mistica-de-gi-x
     const urlParams = new URLSearchParams(window.location.search);
     const filmeId = urlParams.get("id");
 
@@ -27,7 +41,15 @@ async function carregarDetalhesFilme() {
             return;
         }
 
+        filmeAtual = filme;
+        if (idiomaAtual() === "en") await carregarSinopsesEn();
         preencherPagina(filme);
+
+        // Ao trocar de idioma, recarrega EN (se preciso) e re-renderiza
+        window.aoTrocarIdioma = async () => {
+            if (idiomaAtual() === "en") await carregarSinopsesEn();
+            if (filmeAtual) preencherPagina(filmeAtual);
+        };
     } catch (error) {
         console.error("Erro ao carregar detalhes do filme:", error);
         exibirErro("Erro ao carregar os dados do filme.");
@@ -37,21 +59,32 @@ async function carregarDetalhesFilme() {
 function preencherPagina(filme) {
     document.title = `${filme.titulo} - Cine Brasilis`;
 
+    const en = idiomaAtual() === "en";
+    const locale = en ? "en-US" : "pt-BR";
+    const naoInfo = t("det.naoInformado");
+
+    // Sinopse: em inglês usa o arquivo apartado; se não houver, cai no PT (paciência)
+    let sinopse = filme.sinopse || "";
+    if (en && SINOPSES_EN) {
+        const enOv = SINOPSES_EN[String(filme.tmdb_id)];
+        if (enOv) sinopse = enOv;
+    }
+
     // Textos simples
-    document.getElementById("titulo").textContent        = filme.titulo        || "Título indisponível";
+    document.getElementById("titulo").textContent        = filme.titulo        || naoInfo;
     document.getElementById("ano").textContent           = filme.ano           || "";
-    document.getElementById("diretor").textContent       = filme.diretor       || "Não informado";
-    document.getElementById("produtora").textContent     = filme.produtora     || "Não informada";
-    document.getElementById("regiao").textContent        = filme.regiao        || "Não informada";
-    document.getElementById("estado").textContent        = filme.estado        || "Não informado";
-    document.getElementById("sinopse").textContent       = filme.sinopse       || "Sem sinopse no momento.";
+    document.getElementById("diretor").textContent       = filme.diretor       || naoInfo;
+    document.getElementById("produtora").textContent     = filme.produtora     || naoInfo;
+    document.getElementById("regiao").textContent        = filme.regiao        || naoInfo;
+    document.getElementById("estado").textContent        = filme.estado        || naoInfo;
+    document.getElementById("sinopse").textContent       = sinopse             || t("det.semSinopse");
     document.getElementById("data-lancamento").textContent = filme.data_lancamento
-        ? new Date(filme.data_lancamento).toLocaleDateString("pt-BR") : "Não informado";
+        ? new Date(filme.data_lancamento).toLocaleDateString(locale) : naoInfo;
 
     // Duração
     const duracaoEl = document.getElementById("duracao");
     if (duracaoEl) {
-        duracaoEl.textContent = filme.duracao ? `${filme.duracao} min` : "";
+        duracaoEl.textContent = filme.duracao ? `${filme.duracao} ${t("det.min")}` : "";
     }
 
     // Classificação indicativa
@@ -63,11 +96,12 @@ function preencherPagina(filme) {
     // Avaliação + contagem de votos
     const avaliacaoEl = document.getElementById("avaliacao");
     if (avaliacaoEl) {
-        avaliacaoEl.textContent = filme.avaliacao ? `★ ${filme.avaliacao}/10` : "Sem avaliação";
+        avaliacaoEl.textContent = filme.avaliacao ? `★ ${filme.avaliacao}/10` : t("det.semAvaliacao");
     }
     const voteEl = document.getElementById("vote-count");
     if (voteEl) {
-        voteEl.textContent = filme.vote_count ? `(${filme.vote_count.toLocaleString("pt-BR")} votos)` : "";
+        voteEl.textContent = filme.vote_count
+            ? `(${filme.vote_count.toLocaleString(locale)} ${t("det.votos")})` : "";
     }
 
     // Link IMDB
@@ -118,7 +152,7 @@ function preencherPagina(filme) {
     }
 
     // Listas
-    preencherLista("genero",  filme.genero);
+    preencherLista("genero",  traduzirGeneros(filme.genero));
     preencherLista("elenco",  filme.elenco);
     preencherLista("premios", filme.premios);
     preencherTags(filme.tags);
@@ -173,7 +207,7 @@ function preencherTags(tags) {
             container.appendChild(span);
         });
     } else {
-        container.innerHTML = "<span class='detalhe-vazio'>Sem tags</span>";
+        container.innerHTML = `<span class='detalhe-vazio'>${t("det.semTags")}</span>`;
     }
 }
 
@@ -192,7 +226,7 @@ function preencherLista(elementoId, arrayDeItems) {
         });
     } else {
         const li = document.createElement("li");
-        li.textContent = "Informação não disponível";
+        li.textContent = t("det.infoIndisponivel");
         lista.appendChild(li);
     }
 }

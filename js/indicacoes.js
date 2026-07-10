@@ -43,6 +43,16 @@ async function iniciar() {
         renderizarPool();
         atualizarBarra();
 
+        // Re-renderiza conteúdo dinâmico ao trocar de idioma (gêneros, contadores)
+        window.aoTrocarIdioma = () => {
+            atualizarBarra();
+            renderizarPool();
+            if (ultimasRecomendacoes.length) {
+                renderizarSelecionados(poolFilmes.filter(f => selecionados.has(f.id)));
+                renderizarResultados(ultimasRecomendacoes);
+            }
+        };
+
         document.getElementById("btn-iniciar").addEventListener("click", abrirModal);
         const buscaInput = document.getElementById("pool-busca-input");
         if (buscaInput) {
@@ -170,7 +180,7 @@ function alternarSelecao(id, tile) {
 function atualizarBarra() {
     const contador = document.getElementById("selecao-contador");
     const botao    = document.getElementById("btn-recomendar");
-    if (contador) contador.textContent = `${selecionados.size} / ${MAX_SELECAO} selecionados`;
+    if (contador) contador.textContent = `${selecionados.size} / ${MAX_SELECAO} ${t("indic.selecionadosContador")}`;
     if (botao) botao.disabled = selecionados.size === 0;
 }
 
@@ -348,7 +358,7 @@ function renderizarResultados(ranqueados) {
     grid.innerHTML = "";
 
     if (ranqueados.length === 0) {
-        grid.innerHTML = "<p class='resultados-vazio'>Não encontramos produções brasileiras semelhantes o suficiente. Tente outras combinações.</p>";
+        grid.innerHTML = `<p class='resultados-vazio'>${t("indic.semResultado")}</p>`;
     } else {
         ranqueados.forEach(item => grid.appendChild(criarCardFilme(item.filme)));
     }

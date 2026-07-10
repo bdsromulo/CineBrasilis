@@ -15,20 +15,24 @@
                 <img src="../img/logo.svg" alt="Cine Brasilis" style="height:60px;">
                 <h1>Cine Brasilis</h1>
             </div>
+            <div id="idioma-switch" class="idioma-switch" role="group" aria-label="Language / Idioma">
+                <button class="idioma-opcao" data-idioma="pt" aria-label="Português">PT</button>
+                <button class="idioma-opcao" data-idioma="en" aria-label="English">EN</button>
+            </div>
             <div id="tema-switch" class="tema-switch" role="group" aria-label="Selecionar tema">
-                <button class="tema-opcao" data-tema="light" aria-label="Modo claro"><svg class="tema-icone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg><span>Claro</span></button>
-                <button class="tema-opcao" data-tema="dark" aria-label="Modo escuro"><svg class="tema-icone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg><span>Escuro</span></button>
+                <button class="tema-opcao" data-tema="light" aria-label="Modo claro"><svg class="tema-icone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg><span data-i18n="tema.claro">Claro</span></button>
+                <button class="tema-opcao" data-tema="dark" aria-label="Modo escuro"><svg class="tema-icone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg><span data-i18n="tema.escuro">Escuro</span></button>
             </div>
         </div>
         
         <nav>
             <ul>
-                <li><a href="home.html">Início</a></li>
-                <li><a href="destaques.html">Destaques</a></li>
-                <li><a href="indicacoes.html">Indicações</a></li>
-                <li><a href="mapa.html">Mapa</a></li>
-                <li><a href="catalogo.html">Catálogo</a></li>
-                <li><a href="sobre.html" class = "ativo">Sobre</a></li>
+                <li><a href="home.html" data-i18n="nav.inicio">Início</a></li>
+                <li><a href="destaques.html" data-i18n="nav.destaques">Destaques</a></li>
+                <li><a href="indicacoes.html" data-i18n="nav.indicacoes">Indicações</a></li>
+                <li><a href="mapa.html" data-i18n="nav.mapa">Mapa</a></li>
+                <li><a href="catalogo.html" data-i18n="nav.catalogo">Catálogo</a></li>
+                <li><a href="sobre.html" class = "ativo" data-i18n="nav.sobre">Sobre</a></li>
             </ul>
         </nav>
 
@@ -36,20 +40,20 @@
 
     <main>
         <section>
-            <h2>Sobre o Projeto</h2>
-            <p>
+            <h2 data-i18n="sobre.projeto">Sobre o Projeto</h2>
+            <p data-i18n="sobre.p1">
                 O Cine Brasilis nasceu como um projeto acadêmico da disciplina
                 <strong>Padrões Web (ICSM49)</strong> da Universidade Tecnológica Federal do Paraná
                 (UTFPR), sob orientação do Prof. Leonelo Dell Anhol Almeida. A proposta era colocar
                 em prática os padrões e boas práticas do desenvolvimento web, integrando dados reais
                 do cinema por meio da API TMDB (The Movie Database).
             </p>
-            <p>
+            <p data-i18n="sobre.p2">
                 Concluída a disciplina, o projeto deixou de ser apenas um trabalho de turma. Hoje o
                 Cine Brasilis é mantido de forma independente, que segue evoluindo a plataforma
                 para além do escopo acadêmico original.
             </p>
-            <p class="tmdb-atribuicao">
+            <p class="tmdb-atribuicao" data-i18n="sobre.tmdb">
                 Os dados, sinopses e imagens dos filmes são fornecidos pela API do
                 <strong>TMDB (The Movie Database)</strong>. Este produto usa a API do TMDB,
                 mas não é endossado nem certificado pelo TMDB.
@@ -57,30 +61,30 @@
         </section>
 
         <section class="missao-destaque">
-            <h3><span class="missao-icone">🎬</span> Por que manter o cinema nacional vivo</h3>
-            <p>
+            <h3><span class="missao-icone">🎬</span> <span data-i18n="sobre.missaoTitulo">Por que manter o cinema nacional vivo</span></h3>
+            <p data-i18n="sobre.missao1">
                 O cinema brasileiro conta quem nós somos: nossas histórias, sotaques, paisagens e
                 contradições. Ainda assim, boa parte dessa produção permanece dispersa, pouco
                 catalogada e distante do público. O <strong>propósito central do Cine Brasilis</strong>
                 é exatamente esse — reunir, organizar e dar visibilidade às obras nacionais, ajudando
                 a <strong>preservar a memória e impulsionar a descoberta</strong> do nosso cinema.
             </p>
-            <p>
+            <p data-i18n="sobre.missao2">
                 Essa missão nasceu do próprio texto-base da disciplina de Padrões Web, que propunha um
                 tema de relevância cultural, e foi ela que o projeto abraçou como sua razão de existir.
             </p>
         </section>
 
         <section>
-            <h3>Como começou</h3>
-            <p>
+            <h3 data-i18n="sobre.comecouTitulo">Como começou</h3>
+            <p data-i18n="sobre.comecou1">
                 Durante a fase acadêmica, a equipe adotou a metodologia Kanban para organizar e acompanhar o andamento das
                 tarefas ao longo do projeto. A escolha se justifica pela flexibilidade do método,
                 que permite visualizar o fluxo de trabalho em tempo real, identificar gargalos
                 e adaptar prioridades sem a rigidez de ciclos fixos - adequado ao ritmo de uma
                 equipe acadêmica com entregas incrementais.
             </p>
-            <p>
+            <p data-i18n="sobre.comecou2">
                 A etapa de prototipagem foi composta por um mapa do site, representando em formato
                 de fluxograma os caminhos possíveis de navegação do usuário, e por um wireframe,
                 utilizado para definir a estrutura e a disposição do conteúdo em cada página
@@ -89,28 +93,28 @@
         </section>
 
         <section>
-            <h3>Metodologia de Indicações</h3>
-            <p>
+            <h3 data-i18n="sobre.metodTitulo">Metodologia de Indicações</h3>
+            <p data-i18n="sobre.metod1">
                 A ideia por trás das indicações é simples: se você gosta de um filme estrangeiro,
                 provavelmente vai curtir produções brasileiras que contam histórias com a mesma pegada.
                 Para encontrar essas semelhanças, o Cine Brasilis compara os filmes olhando para
                 três aspectos:
             </p>
             <ul class="metodologia-lista">
-                <li>
+                <li data-i18n="sobre.metodEnredo">
                     <strong>Enredo:</strong> as palavras da sinopse de cada obra são analisadas para
                     aproximar filmes que tratam de temas e histórias parecidas.
                 </li>
-                <li>
+                <li data-i18n="sobre.metodGenero">
                     <strong>Gênero:</strong> produções do mesmo gênero têm preferência — uma animação
                     puxa animações, um faroeste puxa filmes de cangaço, e assim por diante.
                 </li>
-                <li>
+                <li data-i18n="sobre.metodPop">
                     <strong>Popularidade:</strong> quando dois filmes ficam empatados, o mais conhecido
                     aparece primeiro, servindo de boa porta de entrada.
                 </li>
             </ul>
-            <p>
+            <p data-i18n="sobre.metod2">
                 A partir dos filmes que você marca como favoritos, o site cruza esses critérios e monta
                 uma lista de produções nacionais na mesma sintonia — muitas vezes revelando obras que
                 você talvez não conheceria de outra forma.
@@ -118,8 +122,8 @@
         </section>
 
         <section>
-            <h3>Curadoria e subjetividade</h3>
-            <p>
+            <h3 data-i18n="sobre.curadoriaTitulo">Curadoria e subjetividade</h3>
+            <p data-i18n="sobre.curadoria">
                 Algumas seleções e compilações — em especial as dos <strong>Destaques</strong> — têm
                 caráter subjetivo do mantenedor e podem refletir preferências pessoais ou um recorte
                 parcial. Isso <strong>não significa exclusão de conteúdo</strong>: nenhum material é
@@ -130,17 +134,17 @@
         </section>
 
         <section>
-            <h3>Contato</h3>
+            <h3 data-i18n="sobre.contatoTitulo">Contato</h3>
             <p>
-                Dúvidas, comentários ou sugestões? Escreva para
+                <span data-i18n="sobre.contatoPre">Dúvidas, comentários ou sugestões? Escreva para</span>
                 <a href="mailto:cinebrasilisco@gmail.com">cinebrasilisco@gmail.com</a>.
             </p>
         </section>
 
         <section>
-            <h3>Equipe</h3>
+            <h3 data-i18n="sobre.equipe">Equipe</h3>
 
-            <h4 class="equipe-subtitulo">Mantenedor atual</h4>
+            <h4 class="equipe-subtitulo" data-i18n="sobre.mantenedor">Mantenedor atual</h4>
             <div class="equipe-grid">
                 <div class="membro-card membro-card--mantenedor">
                     <div class="foto-container">
@@ -156,7 +160,7 @@
                 </div>
             </div>
 
-            <h4 class="equipe-subtitulo">Colaboradores durante o projeto de Padrões Web</h4>
+            <h4 class="equipe-subtitulo" data-i18n="sobre.colaboradores">Colaboradores durante o projeto de Padrões Web</h4>
             <div class="equipe-grid">
                 <!-- Integrante 1 -->
                 <div class="membro-card">
@@ -206,16 +210,17 @@
 
     <footer>
         <nav class="footer-nav" aria-label="Navegação do rodapé">
-            <a href="home.html">Início</a>
-            <a href="destaques.html">Destaques</a>
-            <a href="indicacoes.html">Indicações</a>
-            <a href="mapa.html">Mapa</a>
-            <a href="catalogo.html">Catálogo</a>
-            <a href="sobre.html">Sobre</a>
+            <a href="home.html" data-i18n="nav.inicio">Início</a>
+            <a href="destaques.html" data-i18n="nav.destaques">Destaques</a>
+            <a href="indicacoes.html" data-i18n="nav.indicacoes">Indicações</a>
+            <a href="mapa.html" data-i18n="nav.mapa">Mapa</a>
+            <a href="catalogo.html" data-i18n="nav.catalogo">Catálogo</a>
+            <a href="sobre.html" data-i18n="nav.sobre">Sobre</a>
         </nav>
-        <p><strong>Cine Brasilis</strong> — Valorizando o cinema brasileiro</p>
-        <p class="footer-direitos">Todos os direitos reservados.</p>
+        <p><strong>Cine Brasilis</strong> — <span data-i18n="footer.tagline">Valorizando o cinema brasileiro</span></p>
+        <p class="footer-direitos" data-i18n="footer.direitos">Todos os direitos reservados.</p>
     </footer>
+    <script src="../js/i18n.js"></script>
     <script src="../js/global.js"></script>
     <!-- GoatCounter (analytics de acessos, sem cookies) -->
     <script data-goatcounter="https://cinebrasilis.goatcounter.com/count"

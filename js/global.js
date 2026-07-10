@@ -25,10 +25,42 @@ function definirTema(novoTema) {
     atualizarSwitchTema();
 }
 
+// Gerenciamento de Idioma (PT / EN)
+(function inicializarIdioma() {
+    const salvo = localStorage.getItem("cinebrasilis_idioma");
+    document.documentElement.setAttribute("data-idioma", salvo === "en" ? "en" : "pt");
+})();
+
+function atualizarSwitchIdioma() {
+    const atual = idiomaAtual();
+    document.querySelectorAll(".idioma-opcao").forEach((opcao) => {
+        const ativo = opcao.dataset.idioma === atual;
+        opcao.classList.toggle("ativo", ativo);
+        opcao.setAttribute("aria-pressed", String(ativo));
+    });
+}
+
+function definirIdioma(novo) {
+    if (novo !== "pt" && novo !== "en") return;
+    document.documentElement.setAttribute("data-idioma", novo);
+    localStorage.setItem("cinebrasilis_idioma", novo);
+    atualizarSwitchIdioma();
+    traduzirPagina();
+    // Cada página pode reagir (re-renderizar conteúdo dinâmico)
+    if (typeof window.aoTrocarIdioma === "function") window.aoTrocarIdioma();
+}
+
 document.addEventListener("DOMContentLoaded", () => {
     atualizarSwitchTema();
     document.querySelectorAll(".tema-opcao").forEach((opcao) => {
         opcao.addEventListener("click", () => definirTema(opcao.dataset.tema));
+    });
+
+    // Idioma: traduz estáticos e liga o switch
+    if (typeof traduzirPagina === "function") traduzirPagina();
+    atualizarSwitchIdioma();
+    document.querySelectorAll(".idioma-opcao").forEach((opcao) => {
+        opcao.addEventListener("click", () => definirIdioma(opcao.dataset.idioma));
     });
 });
 
@@ -63,7 +95,7 @@ function criarCardFilme(filme) {
                 <span class="filme-ano">${filme.ano}</span>
                 ${filme.diretor ? `• <span class="filme-diretor">${filme.diretor}</span>` : ""}
             </p>
-            <p class="filme-generos">${filme.genero ? filme.genero.join(", ") : ""}</p>
+            <p class="filme-generos">${filme.genero ? traduzirGeneros(filme.genero).join(", ") : ""}</p>
             <p class="filme-meta-card">${avaliacao}${duracao}</p>
         </div>
     `;

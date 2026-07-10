@@ -15,20 +15,24 @@
                 <img src="../img/logo.svg" alt="Cine Brasilis" style="height:60px;">
                 <h1>Cine Brasilis</h1>
             </div>
+            <div id="idioma-switch" class="idioma-switch" role="group" aria-label="Language / Idioma">
+                <button class="idioma-opcao" data-idioma="pt" aria-label="Português">PT</button>
+                <button class="idioma-opcao" data-idioma="en" aria-label="English">EN</button>
+            </div>
             <div id="tema-switch" class="tema-switch" role="group" aria-label="Selecionar tema">
-                <button class="tema-opcao" data-tema="light" aria-label="Modo claro"><svg class="tema-icone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg><span>Claro</span></button>
-                <button class="tema-opcao" data-tema="dark" aria-label="Modo escuro"><svg class="tema-icone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg><span>Escuro</span></button>
+                <button class="tema-opcao" data-tema="light" aria-label="Modo claro"><svg class="tema-icone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg><span data-i18n="tema.claro">Claro</span></button>
+                <button class="tema-opcao" data-tema="dark" aria-label="Modo escuro"><svg class="tema-icone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg><span data-i18n="tema.escuro">Escuro</span></button>
             </div>
         </div>
         
         <nav>
             <ul>
-                <li><a href="home.html">Início</a></li>
-                <li><a href="destaques.html">Destaques</a></li>
-                <li><a href="indicacoes.html">Indicações</a></li>
-                <li><a href="mapa.html">Mapa</a></li>
-                <li><a href="catalogo.html" class = "ativo">Catálogo</a></li>
-                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="home.html" data-i18n="nav.inicio">Início</a></li>
+                <li><a href="destaques.html" data-i18n="nav.destaques">Destaques</a></li>
+                <li><a href="indicacoes.html" data-i18n="nav.indicacoes">Indicações</a></li>
+                <li><a href="mapa.html" data-i18n="nav.mapa">Mapa</a></li>
+                <li><a href="catalogo.html" class = "ativo" data-i18n="nav.catalogo">Catálogo</a></li>
+                <li><a href="sobre.html" data-i18n="nav.sobre">Sobre</a></li>
             </ul>
         </nav>
 
@@ -109,17 +113,18 @@
 
     <footer>
         <nav class="footer-nav" aria-label="Navegação do rodapé">
-            <a href="home.html">Início</a>
-            <a href="destaques.html">Destaques</a>
-            <a href="indicacoes.html">Indicações</a>
-            <a href="mapa.html">Mapa</a>
-            <a href="catalogo.html">Catálogo</a>
-            <a href="sobre.html">Sobre</a>
+            <a href="home.html" data-i18n="nav.inicio">Início</a>
+            <a href="destaques.html" data-i18n="nav.destaques">Destaques</a>
+            <a href="indicacoes.html" data-i18n="nav.indicacoes">Indicações</a>
+            <a href="mapa.html" data-i18n="nav.mapa">Mapa</a>
+            <a href="catalogo.html" data-i18n="nav.catalogo">Catálogo</a>
+            <a href="sobre.html" data-i18n="nav.sobre">Sobre</a>
         </nav>
-        <p><strong>Cine Brasilis</strong> — Valorizando o cinema brasileiro</p>
-        <p class="footer-direitos">Todos os direitos reservados.</p>
+        <p><strong>Cine Brasilis</strong> — <span data-i18n="footer.tagline">Valorizando o cinema brasileiro</span></p>
+        <p class="footer-direitos" data-i18n="footer.direitos">Todos os direitos reservados.</p>
     </footer>
     <!-- Script com funções globais primeiro -->
+    <script src="../js/i18n.js"></script>
     <script src="../js/global.js"></script>
     <!-- Script desta página depois -->
     <script src="../js/catalogo.js"></script>

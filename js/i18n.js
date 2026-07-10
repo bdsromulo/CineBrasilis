@@ -1,0 +1,226 @@
+"use strict";
+
+// Internacionalização (PT/EN). Textos estáticos usam data-i18n="chave".
+// Conteúdo dinâmico (gêneros, rótulos) usa as funções t() / traduzirGenero().
+
+const I18N = {
+    pt: {
+        // Navegação
+        "nav.inicio": "Início", "nav.destaques": "Destaques",
+        "nav.indicacoes": "Indicações", "nav.mapa": "Mapa",
+        "nav.catalogo": "Catálogo", "nav.sobre": "Sobre",
+        // Tema / idioma
+        "tema.claro": "Claro", "tema.escuro": "Escuro",
+        // Rodapé
+        "footer.tagline": "Valorizando o cinema brasileiro",
+        "footer.direitos": "Todos os direitos reservados.",
+        // Home
+        "home.bemvindo": "Bem-vindo ao Cine Brasilis",
+        "home.intro1": "O Cine Brasilis é um site dedicado à valorização e divulgação do cinema brasileiro. Aqui você encontra um catálogo de filmes nacionais com informações detalhadas sobre cada obra, além de sugestões personalizadas, destaques e um mapa interativo que revela a riqueza e diversidade regional da nossa cinematografia.",
+        "home.intro2": "Navegue pelo catálogo, descubra filmes por estado, explore os destaques do momento ou receba indicações baseadas nos seus gostos. O Cine Brasilis é o seu guia para conhecer o melhor do cinema nacional.",
+        "home.acervoLabel": "produções brasileiras catalogadas",
+        "home.receberIndic": "Receber indicações",
+        "home.explorarCat": "Explorar o catálogo",
+        "home.exploreTitulo": "Explore o Cine Brasilis",
+        "home.cardDestaques": "Destaques",
+        "home.cardDestaquesDesc": "Lançamentos, filmes mais populares e melhor avaliados do cinema nacional.",
+        "home.cardIndicacoes": "Indicações",
+        "home.cardIndicacoesDesc": "Sugestões de filmes brasileiros com base nos seus gostos e em obras estrangeiras semelhantes.",
+        "home.cardMapa": "Mapa",
+        "home.cardMapaDesc": "Explore o cinema brasileiro por estado e descubra a diversidade regional das produções nacionais.",
+        "home.cardCatalogo": "Catálogo",
+        "home.cardCatalogoDesc": "Lista completa de filmes com poster, título, avaliação e informações detalhadas de cada obra.",
+        "home.cardSobre": "Sobre",
+        "home.cardSobreDesc": "Conheça mais sobre o projeto e seus integrantes.",
+        // Destaques
+        "dest.titulo": "Descubra o Cinema Nacional",
+        "dest.sub": "Os maiores destaques organizados em seleções especiais para você maratonar.",
+        "dest.carregando": "Carregando galerias...",
+        "cat.Clichês Famosos": "Clichês Famosos",
+        "cat.Aclamados pela Crítica": "Aclamados pela Crítica",
+        "cat.Lançamentos Recentes": "Lançamentos Recentes",
+        "cat.Para Não Dormir a Noite": "Para Não Dormir a Noite",
+        "cat.Brasil Animado": "Brasil Animado",
+        "cat.(Muito) Trapalhões": "(Muito) Trapalhões",
+        "cat.Cristãos Cinéfilos": "Cristãos Cinéfilos",
+        "cat.Fã Clube da Klara Castanho": "Fã Clube da Klara Castanho",
+        // Indicações
+        "indic.titulo": "Indicações",
+        "indic.intro": "Escolha até 5 filmes internacionais que você gosta. A partir das suas escolhas, o Cine Brasilis cruza gênero, temas e época para sugerir produções brasileiras com a mesma pegada.",
+        "indic.comofunciona": "Como funciona: toque em Iniciar, marque seus favoritos e gere as recomendações.",
+        "indic.iniciar": "Iniciar",
+        "indic.modalTitulo": "Escolha seus filmes favoritos",
+        "indic.limpar": "Limpar",
+        "indic.gerar": "Gerar indicações",
+        "indic.buscarPh": "Buscar filme por título...",
+        "indic.apenasLongas": "Me indique apenas longa-metragens",
+        "indic.vazioPool": "Nenhum filme encontrado.",
+        "indic.baseSelecionados": "Com base nos filmes que você selecionou:",
+        "indic.recomendados": "Recomendados para você",
+        "indic.selecionadosContador": "selecionados",
+        "indic.semResultado": "Não encontramos produções brasileiras semelhantes o suficiente. Tente outras combinações.",
+        // Detalhe
+        "det.diretor": "Diretor", "det.produtora": "Produtora",
+        "det.regiao": "Região", "det.estado": "Estado",
+        "det.lancamento": "Lançamento",
+        "det.sinopse": "Sinopse", "det.elenco": "Elenco",
+        "det.premios": "Prêmios", "det.tags": "Tags", "det.trailer": "Trailer",
+        "det.similares": "Filmes Similares",
+        "det.verImdb": "Ver no IMDB", "det.verLetterboxd": "Ver no Letterboxd",
+        "det.semAvaliacao": "Sem avaliação", "det.semSinopse": "Sem sinopse no momento.",
+        "det.votos": "votos", "det.min": "min",
+        "det.naoInformado": "Não informado", "det.semTags": "Sem tags",
+        "det.infoIndisponivel": "Informação não disponível",
+        // Sobre
+        "sobre.projeto": "Sobre o Projeto",
+        "sobre.p1": "O Cine Brasilis nasceu como um projeto acadêmico da disciplina Padrões Web (ICSM49) da Universidade Tecnológica Federal do Paraná (UTFPR), sob orientação do Prof. Leonelo Dell Anhol Almeida. A proposta era colocar em prática os padrões e boas práticas do desenvolvimento web, integrando dados reais do cinema por meio da API TMDB (The Movie Database).",
+        "sobre.p2": "Concluída a disciplina, o projeto deixou de ser apenas um trabalho de turma. Hoje o Cine Brasilis é mantido de forma independente, que segue evoluindo a plataforma para além do escopo acadêmico original.",
+        "sobre.tmdb": "Os dados, sinopses e imagens dos filmes são fornecidos pela API do TMDB (The Movie Database). Este produto usa a API do TMDB, mas não é endossado nem certificado pelo TMDB.",
+        "sobre.missaoTitulo": "Por que manter o cinema nacional vivo",
+        "sobre.missao1": "O cinema brasileiro conta quem nós somos: nossas histórias, sotaques, paisagens e contradições. Ainda assim, boa parte dessa produção permanece dispersa, pouco catalogada e distante do público. O propósito central do Cine Brasilis é exatamente esse — reunir, organizar e dar visibilidade às obras nacionais, ajudando a preservar a memória e impulsionar a descoberta do nosso cinema.",
+        "sobre.missao2": "Essa missão nasceu do próprio texto-base da disciplina de Padrões Web, que propunha um tema de relevância cultural, e foi ela que o projeto abraçou como sua razão de existir.",
+        "sobre.comecouTitulo": "Como começou",
+        "sobre.comecou1": "Durante a fase acadêmica, a equipe adotou a metodologia Kanban para organizar e acompanhar o andamento das tarefas ao longo do projeto. A escolha se justifica pela flexibilidade do método, que permite visualizar o fluxo de trabalho em tempo real, identificar gargalos e adaptar prioridades sem a rigidez de ciclos fixos - adequado ao ritmo de uma equipe acadêmica com entregas incrementais.",
+        "sobre.comecou2": "A etapa de prototipagem foi composta por um mapa do site, representando em formato de fluxograma os caminhos possíveis de navegação do usuário, e por um wireframe, utilizado para definir a estrutura e a disposição do conteúdo em cada página antes da implementação.",
+        "sobre.metodTitulo": "Metodologia de Indicações",
+        "sobre.metod1": "A ideia por trás das indicações é simples: se você gosta de um filme estrangeiro, provavelmente vai curtir produções brasileiras que contam histórias com a mesma pegada. Para encontrar essas semelhanças, o Cine Brasilis compara os filmes olhando para três aspectos:",
+        "sobre.metodEnredo": "Enredo: as palavras da sinopse de cada obra são analisadas para aproximar filmes que tratam de temas e histórias parecidas.",
+        "sobre.metodGenero": "Gênero: produções do mesmo gênero têm preferência — uma animação puxa animações, um faroeste puxa filmes de cangaço, e assim por diante.",
+        "sobre.metodPop": "Popularidade: quando dois filmes ficam empatados, o mais conhecido aparece primeiro, servindo de boa porta de entrada.",
+        "sobre.metod2": "A partir dos filmes que você marca como favoritos, o site cruza esses critérios e monta uma lista de produções nacionais na mesma sintonia — muitas vezes revelando obras que você talvez não conheceria de outra forma.",
+        "sobre.curadoriaTitulo": "Curadoria e subjetividade",
+        "sobre.curadoria": "Algumas seleções e compilações — em especial as dos Destaques — têm caráter subjetivo do mantenedor e podem refletir preferências pessoais ou um recorte parcial. Isso não significa exclusão de conteúdo: nenhum material é retirado do catálogo do site, e as ferramentas de busca e indicação trabalham com a totalidade dos dados disponíveis. As curadorias são apenas uma camada editorial por cima de um acervo completo.",
+        "sobre.contatoTitulo": "Contato",
+        "sobre.contatoPre": "Dúvidas, comentários ou sugestões? Escreva para",
+        "sobre.equipe": "Equipe",
+        "sobre.mantenedor": "Mantenedor atual",
+        "sobre.colaboradores": "Colaboradores durante o projeto de Padrões Web",
+        // Catálogo
+        "cat.titulo": "Catálogo", "cat.buscarPh": "Buscar por título...",
+    },
+    en: {
+        "nav.inicio": "Home", "nav.destaques": "Highlights",
+        "nav.indicacoes": "Recommendations", "nav.mapa": "Map",
+        "nav.catalogo": "Catalog", "nav.sobre": "About",
+        "tema.claro": "Light", "tema.escuro": "Dark",
+        "footer.tagline": "Celebrating Brazilian cinema",
+        "footer.direitos": "All rights reserved.",
+        "home.bemvindo": "Welcome to Cine Brasilis",
+        "home.intro1": "Cine Brasilis is a site dedicated to celebrating and promoting Brazilian cinema. Here you'll find a catalog of national films with detailed information about each work, plus personalized suggestions, highlights and an interactive map that reveals the richness and regional diversity of our filmmaking.",
+        "home.intro2": "Browse the catalog, discover films by state, explore current highlights or get recommendations based on your taste. Cine Brasilis is your guide to the best of Brazilian cinema.",
+        "home.acervoLabel": "Brazilian productions cataloged",
+        "home.receberIndic": "Get recommendations",
+        "home.explorarCat": "Browse the catalog",
+        "home.exploreTitulo": "Explore Cine Brasilis",
+        "home.cardDestaques": "Highlights",
+        "home.cardDestaquesDesc": "New releases, most popular and best-rated Brazilian films.",
+        "home.cardIndicacoes": "Recommendations",
+        "home.cardIndicacoesDesc": "Brazilian film suggestions based on your taste and similar foreign works.",
+        "home.cardMapa": "Map",
+        "home.cardMapaDesc": "Explore Brazilian cinema by state and discover the regional diversity of national productions.",
+        "home.cardCatalogo": "Catalog",
+        "home.cardCatalogoDesc": "Full list of films with poster, title, rating and detailed information on each work.",
+        "home.cardSobre": "About",
+        "home.cardSobreDesc": "Learn more about the project and its team.",
+        "dest.titulo": "Discover Brazilian Cinema",
+        "dest.sub": "The biggest highlights organized into special selections for you to binge.",
+        "dest.carregando": "Loading galleries...",
+        "cat.Clichês Famosos": "Famous Classics",
+        "cat.Aclamados pela Crítica": "Critically Acclaimed",
+        "cat.Lançamentos Recentes": "Recent Releases",
+        "cat.Para Não Dormir a Noite": "To Keep You Up at Night",
+        "cat.Brasil Animado": "Animated Brazil",
+        "cat.(Muito) Trapalhões": "(Very) Trapalhões",
+        "cat.Cristãos Cinéfilos": "Faith on Film",
+        "cat.Fã Clube da Klara Castanho": "Klara Castanho Fan Club",
+        "indic.titulo": "Recommendations",
+        "indic.intro": "Choose up to 5 international films you like. From your picks, Cine Brasilis crosses genre, themes and era to suggest Brazilian productions with the same vibe.",
+        "indic.comofunciona": "How it works: tap Start, mark your favorites and generate the recommendations.",
+        "indic.iniciar": "Start",
+        "indic.modalTitulo": "Choose your favorite films",
+        "indic.limpar": "Clear",
+        "indic.gerar": "Generate",
+        "indic.buscarPh": "Search film by title...",
+        "indic.apenasLongas": "Only recommend feature films",
+        "indic.vazioPool": "No films found.",
+        "indic.baseSelecionados": "Based on the films you selected:",
+        "indic.recomendados": "Recommended for you",
+        "indic.selecionadosContador": "selected",
+        "indic.semResultado": "We couldn't find Brazilian productions similar enough. Try other combinations.",
+        "det.diretor": "Director", "det.produtora": "Production Co.",
+        "det.regiao": "Region", "det.estado": "State",
+        "det.lancamento": "Release",
+        "det.sinopse": "Synopsis", "det.elenco": "Cast",
+        "det.premios": "Awards", "det.tags": "Tags", "det.trailer": "Trailer",
+        "det.similares": "Similar Films",
+        "det.verImdb": "View on IMDB", "det.verLetterboxd": "View on Letterboxd",
+        "det.semAvaliacao": "No rating", "det.semSinopse": "No synopsis available yet.",
+        "det.votos": "votes", "det.min": "min",
+        "det.naoInformado": "Not available", "det.semTags": "No tags",
+        "det.infoIndisponivel": "Information not available",
+        "sobre.projeto": "About the Project",
+        "sobre.p1": "Cine Brasilis began as an academic project for the Web Standards course (ICSM49) at the Federal University of Technology – Paraná (UTFPR), advised by Prof. Leonelo Dell Anhol Almeida. The goal was to put web development standards and best practices into practice, integrating real film data through the TMDB (The Movie Database) API.",
+        "sobre.p2": "Once the course ended, the project stopped being just a class assignment. Today Cine Brasilis is maintained independently, and keeps evolving the platform beyond its original academic scope.",
+        "sobre.tmdb": "Film data, synopses and images are provided by the TMDB (The Movie Database) API. This product uses the TMDB API but is not endorsed or certified by TMDB.",
+        "sobre.missaoTitulo": "Why keep Brazilian cinema alive",
+        "sobre.missao1": "Brazilian cinema tells who we are: our stories, accents, landscapes and contradictions. Even so, much of this production remains scattered, poorly cataloged and far from the public. Cine Brasilis' central purpose is exactly that — to gather, organize and give visibility to national works, helping preserve their memory and drive the discovery of our cinema.",
+        "sobre.missao2": "This mission grew out of the Web Standards course's own brief, which called for a culturally relevant theme — and it's the one the project embraced as its reason to exist.",
+        "sobre.comecouTitulo": "How it started",
+        "sobre.comecou1": "During the academic phase, the team adopted the Kanban methodology to organize and track the progress of tasks throughout the project. The choice is justified by the method's flexibility, which lets you visualize the workflow in real time, spot bottlenecks and adapt priorities without the rigidity of fixed cycles — a good fit for an academic team with incremental deliveries.",
+        "sobre.comecou2": "The prototyping stage consisted of a site map, representing the user's possible navigation paths as a flowchart, and a wireframe, used to define the structure and layout of the content on each page before implementation.",
+        "sobre.metodTitulo": "Recommendation Methodology",
+        "sobre.metod1": "The idea behind the recommendations is simple: if you like a foreign film, you'll probably enjoy Brazilian productions that tell stories with the same vibe. To find these similarities, Cine Brasilis compares films by looking at three aspects:",
+        "sobre.metodEnredo": "Plot: the words in each work's synopsis are analyzed to bring together films dealing with similar themes and stories.",
+        "sobre.metodGenero": "Genre: productions of the same genre are favored — an animation pulls animations, a western pulls cangaço films, and so on.",
+        "sobre.metodPop": "Popularity: when two films tie, the better-known one appears first, serving as a good entry point.",
+        "sobre.metod2": "From the films you mark as favorites, the site crosses these criteria and builds a list of Brazilian productions on the same wavelength — often revealing works you might not have found otherwise.",
+        "sobre.curadoriaTitulo": "Curation and subjectivity",
+        "sobre.curadoria": "Some selections and compilations — especially those in the Highlights — are subjective to the maintainer and may reflect personal preferences or a partial view. This does not mean any content is excluded: no material is removed from the site's catalog, and the search and recommendation tools work with all available data. The curations are merely an editorial layer on top of a complete collection.",
+        "sobre.contatoTitulo": "Contact",
+        "sobre.contatoPre": "Questions, comments or suggestions? Write to",
+        "sobre.equipe": "Team",
+        "sobre.mantenedor": "Current maintainer",
+        "sobre.colaboradores": "Contributors during the Web Standards project",
+        "cat.titulo": "Catalog", "cat.buscarPh": "Search by title...",
+    }
+};
+
+// Gêneros TMDB (PT -> EN)
+const GENEROS_EN = {
+    "Ação": "Action", "Aventura": "Adventure", "Animação": "Animation",
+    "Comédia": "Comedy", "Crime": "Crime", "Documentário": "Documentary",
+    "Drama": "Drama", "Família": "Family", "Fantasia": "Fantasy",
+    "História": "History", "Terror": "Horror", "Música": "Music",
+    "Mistério": "Mystery", "Romance": "Romance", "Ficção científica": "Science Fiction",
+    "Cinema TV": "TV Movie", "Thriller": "Thriller", "Suspense": "Thriller",
+    "Guerra": "War", "Faroeste": "Western",
+};
+
+function idiomaAtual() {
+    return document.documentElement.getAttribute("data-idioma") === "en" ? "en" : "pt";
+}
+
+function t(chave) {
+    const l = idiomaAtual();
+    return (I18N[l] && I18N[l][chave]) || I18N.pt[chave] || chave;
+}
+
+function traduzirGenero(g) {
+    if (idiomaAtual() !== "en") return g;
+    return GENEROS_EN[g] || g;
+}
+
+function traduzirGeneros(lista) {
+    return (lista || []).map(traduzirGenero);
+}
+
+// Aplica as traduções em elementos com data-i18n / data-i18n-ph
+function traduzirPagina(root) {
+    root = root || document;
+    root.querySelectorAll("[data-i18n]").forEach(el => {
+        el.textContent = t(el.getAttribute("data-i18n"));
+    });
+    root.querySelectorAll("[data-i18n-ph]").forEach(el => {
+        el.setAttribute("placeholder", t(el.getAttribute("data-i18n-ph")));
+    });
+}

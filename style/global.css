@@ -119,6 +119,41 @@ header {
     flex-shrink: 0;
 }
 
+/* Switch de idioma (PT/EN), espelho do switch de tema, à esquerda */
+.idioma-switch {
+    position: absolute;
+    left: 0;
+    display: inline-flex;
+    align-items: center;
+    gap: 2px;
+    background: rgba(255, 255, 255, 0.10);
+    border: 1px solid rgba(255, 255, 255, 0.22);
+    border-radius: 30px;
+    padding: 2px;
+    backdrop-filter: blur(6px);
+}
+.idioma-opcao {
+    background: transparent;
+    border: none;
+    color: rgba(255, 255, 255, 0.65);
+    border-radius: 24px;
+    padding: 5px 11px;
+    font-family: var(--fonte-corpo);
+    font-size: 0.8rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: color 0.2s ease, background 0.25s ease, box-shadow 0.25s ease;
+}
+.idioma-opcao:hover {
+    color: #fff;
+}
+.idioma-opcao.ativo {
+    background: #fff;
+    color: var(--cor-marinho);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.28);
+    cursor: default;
+}
+
 .tema-opcao:hover {
     color: #fff;
 }
@@ -262,7 +297,8 @@ footer p {
         gap: 12px;
     }
 
-    .tema-switch {
+    .tema-switch,
+    .idioma-switch {
         position: static;
     }
 
