@@ -143,18 +143,20 @@ body.modal-aberto {
     width: 36px;
     height: 36px;
     flex-shrink: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     background: transparent;
     border: 1px solid var(--cor-borda);
     border-radius: 8px;
-    font-size: 1.1rem;
-    line-height: 1;
     cursor: pointer;
-    color: var(--cor-texto);
-    transition: background 0.2s, border-color 0.2s;
+    color: var(--cor-texto-suave);
+    transition: background 0.2s, border-color 0.2s, color 0.2s;
 }
 .btn-config:hover {
     background: var(--cor-card-hover);
     border-color: var(--cor-acento);
+    color: var(--cor-acento);
 }
 .config-dropdown {
     position: absolute;
