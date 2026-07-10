@@ -93,7 +93,7 @@ header {
     background: rgba(255, 255, 255, 0.10);
     border: 1px solid rgba(255, 255, 255, 0.22);
     border-radius: 30px;
-    padding: 3px;
+    padding: 2px;
     backdrop-filter: blur(6px);
 }
 
@@ -102,15 +102,21 @@ header {
     border: none;
     color: rgba(255, 255, 255, 0.65);
     border-radius: 24px;
-    padding: 6px 14px;
+    padding: 5px 10px;
     font-family: var(--fonte-corpo);
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     font-weight: 600;
     cursor: pointer;
     display: inline-flex;
     align-items: center;
-    gap: 6px;
+    gap: 5px;
     transition: color 0.2s ease, background 0.25s ease, box-shadow 0.25s ease;
+}
+
+.tema-icone {
+    width: 14px;
+    height: 14px;
+    flex-shrink: 0;
 }
 
 .tema-opcao:hover {
