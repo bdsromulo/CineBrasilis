@@ -1,6 +1,5 @@
-<svg width="80" height="80" viewBox="0 0 680 680" role="img" xmlns="http://www.w3.org/2000/svg">
+<svg width="80" height="80" viewBox="110 110 460 460" role="img" xmlns="http://www.w3.org/2000/svg">
   <title>Logo Cine Brasilis</title>
-  <rect x="0" y="0" width="680" height="680" rx="40" fill="#0a1628"/>
 
   <circle cx="340" cy="340" r="220" fill="#009C3B"/>
   <polygon points="340,140 540,340 340,540 140,340" fill="#FFDF00"/>
