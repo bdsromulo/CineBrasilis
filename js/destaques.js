@@ -122,11 +122,24 @@ function montarCategorias() {
         "Os Dez Mandamentos: O Filme", "Nada a Perder",
         "Nada a Perder 2: Segundos Depois do Início", "O Pagador de Promessas",
     ]);
-    const marcadores = ["jesus", "cristo", "crist", "bibli", "evangel", "mandament", "santa dulce", "padre", "milagre"];
+    // Cunho exclusivamente católico/evangélico (exclui espiritismo e não-cristãos)
+    const marcCristaos = ["jesus", "cristo", "crist", "biblia", "evangel", "mandament",
+                          "catolic", "igreja", "padre", "santa dulce"];
+    const marcExcluir  = ["espirit", "kardec", "chico xavier", "umbanda", "candomble",
+                          "reencarna", "psicograf", "medium"];
+    const titulosExcluir = new Set([
+        "kardec", "faroeste caboclo", "nosso lar", "nosso lar 2: os mensageiros",
+        "chico xavier", "as maes de chico xavier", "as cartas de chico xavier",
+        "data limite segundo chico xavier", "divaldo: o mensageiro da paz",
+        "bezerra de menezes: o diario de um espirito",
+        "o espiritismo de kardec aos dias de hoje",
+    ].map(normalizar));
     const ehCristao = (f) => {
         if (temGenero(f, "Comédia")) return false; // evita sátiras (Porta dos Fundos etc.)
+        if (titulosExcluir.has(normalizar(f.titulo))) return false;
         const campos = normalizar([f.titulo, f.sinopse, (f.tags || []).join(" ")].join(" "));
-        return marcadores.some(m => campos.includes(m));
+        if (marcExcluir.some(m => campos.includes(m))) return false; // fora espiritismo etc.
+        return marcCristaos.some(m => campos.includes(m));
     };
     cats.push(["Cristãos Cinéfilos", completar(
         cristaosFixos,

@@ -155,6 +155,12 @@ def gerar_similares():
             for idx in top
         ]
 
+    # Vinculos manuais: associacoes diretas assumem score maximo e 1o lugar
+    import vinculos_manuais as vm
+    nac_por_tmdb = {f.get("tmdb_id"): f for f in nacionais}
+    n_manuais = vm.aplicar(internacionais, nac_por_tmdb)
+    print(f"Vinculos manuais aplicados: {n_manuais}")
+
     print("Salvando internacionais.json...")
     with open(PATH_INT, "w", encoding="utf-8") as f:
         json.dump(internacionais, f, ensure_ascii=False, indent=2)
