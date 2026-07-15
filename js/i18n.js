@@ -95,6 +95,18 @@ const I18N = {
         "sobre.equipe": "Equipe",
         "sobre.mantenedor": "Mantenedor atual",
         "sobre.colaboradores": "Colaboradores durante o projeto de Padrões Web",
+        // Cafezinho — só em PT. O modo EN esconde o bloco inteiro pelo CSS,
+        // então não há (nem deve haver) equivalente em I18N.en.
+        "cafe.pilula": "Me pague um cafezinho",
+        "cafe.titulo": "Me pague um cafezinho",
+        "cafe.texto": "Se o Cine Brasilis te fez descobrir um filme que você não conhecia, dá pra agradecer com um cafezinho. É opcional, e o site continua o mesmo sem isso.",
+        "cafe.chaveLabel": "Chave PIX (copia e cola)",
+        "cafe.copiar": "Copiar",
+        "cafe.copiado": "Copiado!",
+        "cafe.copiarFalhou": "Copie manualmente",
+        "cafe.ocultar": "Ocultar",
+        "cafe.secaoTitulo": "Me pague um cafezinho",
+        "cafe.secaoTexto": "O Cine Brasilis é aberto, sem anúncios e sem cadastro. Se ele te ajudou a encontrar algum filme brasileiro que valeu a pena, você pode retribuir com um cafezinho — via PIX, no QR Code ou na chave abaixo. É totalmente opcional: nada aqui muda para quem não contribuir.",
         // Catálogo
         "cat.titulo": "Catálogo", "cat.buscarPh": "Buscar por título...",
         "cat.subtitulo": "Explore mais de 25 mil produções brasileiras",

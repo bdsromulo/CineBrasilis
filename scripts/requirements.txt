@@ -8,3 +8,5 @@ numpy
 scikit-learn
 sentence-transformers
 torch
+# QR Code do PIX (gerar_qr_pix.py)
+segno

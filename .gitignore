@@ -16,6 +16,11 @@ scripts/.cache/
 Thumbs.db
 desktop.ini
 
+# Material de contribuicao (uso pessoal, fora do site)
+# O QR servido em img/pix-qr.svg e gerado por scripts/gerar_qr_pix.py a partir
+# do payload copia e cola, entao nada daqui precisa ir para o repositorio.
+contribute/
+
 # Editor
 .vscode/
 .idea/

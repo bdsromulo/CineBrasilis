@@ -326,3 +326,214 @@ footer p {
         padding: 5% 6%;
     }
 }
+
+/* ==========================================================================
+   Cafezinho — pílula flutuante de contribuição (PT apenas)
+   ========================================================================== */
+
+/* Cores da pílula: verde no tema claro, amarelo no escuro — os dois já são da
+   paleta do site (bandeira). A troca não é enfeite: amarelo sobre fundo claro
+   quase some, e verde sobre fundo escuro rende pouco. Cada tema usa a cor que
+   de fato salta nele.
+   A tinta de cada uma é escolhida por contraste, não por gosto: ver o bloco
+   [data-theme="dark"] logo abaixo. */
+:root {
+    --cafezinho-fundo: #007A2E;
+    --cafezinho-fundo-hover: #00913a;
+    --cafezinho-tinta: #ffffff;
+}
+
+/* Amarelo é claro demais para tinta branca, então aqui a tinta é o azul-marinho
+   do site. */
+[data-theme="dark"] {
+    --cafezinho-fundo: #FFDF00;
+    --cafezinho-fundo-hover: #ffe835;
+    --cafezinho-tinta: #0a1628;
+}
+
+/* O idioma vive em <html data-idioma>, então esconder tudo no modo EN é uma
+   regra só. Como o atributo é definido antes do CSS pintar, nada pisca na
+   tela antes de sumir. */
+html[data-idioma="en"] .cafezinho,
+html[data-idioma="en"] .cafezinho-secao {
+    display: none;
+}
+
+.cafezinho {
+    position: fixed;
+    right: 1.25rem;
+    bottom: 1.25rem;
+    z-index: 900;
+    display: flex;
+    align-items: center;
+    gap: 0.15rem;
+    padding: 0.3rem 0.4rem 0.3rem 0.85rem;
+    background-color: var(--cafezinho-fundo);
+    border: none;
+    border-radius: 999px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.28);
+    font-family: var(--fonte-corpo);
+}
+
+.cafezinho[hidden] {
+    display: none;
+}
+
+.cafezinho:hover {
+    background-color: var(--cafezinho-fundo-hover);
+}
+
+.cafezinho-abrir,
+.cafezinho-fechar {
+    display: flex;
+    align-items: center;
+    background: none;
+    border: none;
+    color: var(--cafezinho-tinta);
+    font-family: inherit;
+    cursor: pointer;
+    border-radius: 999px;
+}
+
+.cafezinho-abrir {
+    gap: 0.5rem;
+    padding: 0.25rem 0.35rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.cafezinho-icone {
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+}
+
+.cafezinho-fechar {
+    justify-content: center;
+    width: 26px;
+    height: 26px;
+    padding: 0;
+    font-size: 1.1rem;
+    line-height: 1;
+    opacity: 0.65;
+}
+
+/* Sobre a pílula colorida, o × se apaga por opacidade — clarear ou escurecer
+   dependeria do tema. */
+.cafezinho-fechar:hover {
+    background-color: rgba(0, 0, 0, 0.15);
+    opacity: 1;
+}
+
+/* Painel com o QR e a chave, ancorado acima da pílula */
+.cafezinho-painel {
+    position: absolute;
+    right: 0;
+    bottom: calc(100% + 0.6rem);
+    width: 17rem;
+    padding: 1.1rem;
+    background-color: var(--cor-card);
+    border: 1px solid var(--cor-borda);
+    border-radius: var(--raio-card);
+    box-shadow: 0 8px 28px rgba(0, 0, 0, 0.22);
+    text-align: center;
+}
+
+.cafezinho-painel[hidden] {
+    display: none;
+}
+
+.cafezinho-painel h2 {
+    margin: 0 0 0.5rem;
+    font-size: 1.05rem;
+}
+
+.cafezinho-texto {
+    margin: 0 0 0.9rem;
+    font-size: 0.82rem;
+    line-height: 1.45;
+    color: var(--cor-texto-suave);
+}
+
+/* Um QR só é legível com módulos escuros sobre fundo claro, então a placa
+   branca fica fixa mesmo no tema escuro — de propósito. */
+.cafezinho-qr {
+    display: block;
+    width: 10.5rem;
+    height: 10.5rem;
+    margin: 0 auto 0.9rem;
+    padding: 0.4rem;
+    background-color: #ffffff;
+    border-radius: 6px;
+}
+
+.cafezinho-chave {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    margin-bottom: 0.5rem;
+}
+
+.cafezinho-chave code {
+    flex: 1;
+    overflow: hidden;
+    padding: 0.4rem 0.5rem;
+    background-color: var(--cor-fundo);
+    border: 1px solid var(--cor-borda);
+    border-radius: 5px;
+    font-size: 0.7rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-align: left;
+    color: var(--cor-texto-suave);
+}
+
+.cafezinho-copiar {
+    flex-shrink: 0;
+    padding: 0.42rem 0.7rem;
+    background-color: var(--cor-acento);
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    font-family: inherit;
+    font-size: 0.78rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.cafezinho-copiar:hover {
+    background-color: var(--cor-acento-hover);
+}
+
+/* Seção equivalente dentro da página Sobre */
+.cafezinho-secao .cafezinho-qr {
+    margin-left: 0;
+}
+
+.cafezinho-secao .cafezinho-chave {
+    max-width: 26rem;
+}
+
+@media (max-width: 480px) {
+    .cafezinho {
+        right: 0.7rem;
+        bottom: 0.7rem;
+    }
+
+    .cafezinho-abrir {
+        font-size: 0.8rem;
+    }
+
+    /* Ancorar à direita estouraria a tela em telas estreitas, então o painel
+       passa a ocupar a largura toda. Com position:fixed o bottom passa a ser
+       medido contra a viewport, e não contra a pílula — daí a distância fixa
+       aqui em vez do calc(100% + ...) usado no desktop, que jogaria o painel
+       uma tela inteira para cima. */
+    .cafezinho-painel {
+        position: fixed;
+        right: 0.7rem;
+        left: 0.7rem;
+        bottom: 3.6rem;
+        width: auto;
+    }
+}
