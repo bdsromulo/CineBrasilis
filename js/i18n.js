@@ -15,7 +15,7 @@ const I18N = {
         "footer.tagline": "Valorizando o cinema brasileiro",
         "footer.direitos": "Todos os direitos reservados.",
         // Home
-        "home.bemvindo": "Bem-vindo ao Cine Brasilis",
+        "home.bemvindo": "Boas vindas ao Cine Brasilis",
         "home.intro1": "O Cine Brasilis é um site dedicado à valorização e divulgação do cinema brasileiro. Aqui você encontra um catálogo de filmes nacionais com informações detalhadas sobre cada obra, além de sugestões personalizadas, destaques e um mapa interativo que revela a riqueza e diversidade regional da nossa cinematografia.",
         "home.intro2": "Navegue pelo catálogo, descubra filmes por estado, explore os destaques do momento ou receba indicações baseadas nos seus gostos. O Cine Brasilis é o seu guia para conhecer o melhor do cinema nacional.",
         "home.acervoLabel": "produções brasileiras catalogadas",
