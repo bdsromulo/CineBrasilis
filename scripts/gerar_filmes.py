@@ -6,7 +6,7 @@ e gera js/filmes.json + scripts/filmes.xlsx.
 Fluxo em duas fases independentes:
 
   FASE 1 - Coleta de IDs
-    Pagina o /discover mês a mês (1945 -> hoje) e salva todos os IDs
+    Pagina o /discover mês a mês (1895 -> hoje) e salva todos os IDs
     únicos em ids_coletados.json. Se esse arquivo já existir, a fase 1
     é pulada completamente.
 
@@ -70,7 +70,7 @@ IDS_FILE      = os.path.join(SCRIPT_DIR, "ids_coletados.json")   # fase 1 - perm
 JSONL_PARCIAL = os.path.join(SCRIPT_DIR, "filmes_parcial.jsonl") # fase 2 - filmes processados
 CHECKPOINT    = os.path.join(SCRIPT_DIR, ".checkpoint.json")     # fase 2 - quantos IDs já processados
 
-ANO_INICIO   = 1945
+ANO_INICIO   = 1895
 ANO_FIM      = date.today().year
 RATE_DELAY   = 0.27
 ELENCO_LIMIT = 10

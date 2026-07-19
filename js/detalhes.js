@@ -154,7 +154,20 @@ function preencherPagina(filme) {
     // Listas
     preencherLista("genero",  traduzirGeneros(filme.genero));
     preencherLista("elenco",  filme.elenco);
-    preencherLista("premios", filme.premios);
+    // Onde Assistir (YouTube grátis + providers TMDB/JustWatch)
+    preencherOndeAssistir(filme);
+
+    // Prêmios: a seção só aparece quando o filme realmente tem prêmios
+    const premiosLista = document.getElementById("premios");
+    if (premiosLista) {
+        const secaoPremios = premiosLista.closest(".filme-secao");
+        if (filme.premios && filme.premios.length > 0) {
+            preencherLista("premios", filme.premios);
+            if (secaoPremios) secaoPremios.style.display = "";
+        } else if (secaoPremios) {
+            secaoPremios.style.display = "none";
+        }
+    }
     preencherTags(filme.tags);
 
     // Trailer
@@ -212,6 +225,98 @@ function preencherTags(tags) {
 }
 
 // Função auxiliar para preencher ULs com LIs
+const LOGO_PROVIDER_BASE = "https://image.tmdb.org/t/p/w92";
+
+function criarGrupoProviders(rotulo, provedores) {
+    const grupo = document.createElement("div");
+    grupo.className = "oa-grupo";
+
+    const titulo = document.createElement("h3");
+    titulo.className = "oa-grupo-titulo";
+    titulo.textContent = rotulo;
+    grupo.appendChild(titulo);
+
+    const lista = document.createElement("ul");
+    lista.className = "oa-lista";
+    provedores.forEach(p => {
+        const li = document.createElement("li");
+        li.className = "oa-provider";
+        li.title = p.nome;
+        if (p.logo) {
+            const img = document.createElement("img");
+            img.src = `${LOGO_PROVIDER_BASE}${p.logo}`;
+            img.alt = p.nome;
+            img.loading = "lazy";
+            li.appendChild(img);
+        } else {
+            li.textContent = p.nome;
+        }
+        lista.appendChild(li);
+    });
+    grupo.appendChild(lista);
+    return grupo;
+}
+
+function preencherOndeAssistir(filme) {
+    const secao     = document.getElementById("secao-onde-assistir");
+    const container = document.getElementById("onde-assistir");
+    if (!secao || !container) return;
+
+    container.innerHTML = "";
+    const oa = filme.onde_assistir || {};
+    let temConteudo = false;
+
+    // Link gratuito no YouTube (destaque)
+    if (filme.youtube_gratis) {
+        const botao = document.createElement("a");
+        botao.className = "oa-youtube-btn";
+        botao.href = filme.youtube_gratis;
+        botao.target = "_blank";
+        botao.rel = "noopener";
+        botao.textContent = `▶ ${t("det.oaGratisYoutube")}`;
+        container.appendChild(botao);
+        temConteudo = true;
+    }
+
+    // Grupos de providers (dados JustWatch via TMDB)
+    const gratis = (oa.free || []).concat(oa.ads || []);
+    const grupos = [
+        [t("det.oaStreaming"), oa.flatrate || []],
+        [t("det.oaGratis"),    gratis],
+        [t("det.oaAlugar"),    oa.rent || []],
+        [t("det.oaComprar"),   oa.buy || []]
+    ];
+    let temProviders = false;
+    grupos.forEach(([rotulo, provedores]) => {
+        if (provedores.length > 0) {
+            container.appendChild(criarGrupoProviders(rotulo, provedores));
+            temProviders = true;
+            temConteudo = true;
+        }
+    });
+
+    // Sem nenhuma opção de onde assistir: mostra o estado vazio (pipoca triste)
+    if (!temConteudo) {
+        const vazio = document.createElement("div");
+        vazio.className = "oa-vazio";
+        vazio.innerHTML =
+            '<span class="oa-vazio-icone" aria-hidden="true">🍿😢</span>' +
+            `<p class="oa-vazio-texto">${t("det.oaVazio")}</p>`;
+        container.appendChild(vazio);
+    }
+
+    // Atribuição JustWatch: obrigatória sempre que os providers aparecem
+    const fonte = document.getElementById("onde-assistir-fonte");
+    if (fonte) {
+        fonte.style.display = temProviders ? "" : "none";
+        const linkJw = document.getElementById("justwatch-link");
+        if (linkJw && oa.link) linkJw.href = oa.link;
+    }
+
+    // A seção "Onde Assistir" fica sempre visível
+    secao.style.display = "";
+}
+
 function preencherLista(elementoId, arrayDeItems) {
     const lista = document.getElementById(elementoId);
     if (!lista) return;
