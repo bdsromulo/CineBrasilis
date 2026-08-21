@@ -25,10 +25,10 @@ import gerar_filmes as g
 sys.stdout.reconfigure(encoding="utf-8")
 
 SAIDA = os.path.join(g.PROJECT_ROOT, "data", "internacionais.json")
-TARGET_TOTAL = 1150          # teto do acervo internacional apos a expansao
+TARGET_TOTAL = 1500          # teto do acervo internacional apos a expansao
 A24_COMPANY_ID = 41077       # id da A24 no TMDB
 DATA_INI = "2022-01-01"
-DATA_FIM = "2026-08-31"
+DATA_FIM = "2026-12-31"
 
 # Titulos especificos pedidos / que faltavam. (titulo, ano) — ano None = sem filtro
 CURADOS_NOVOS = [
@@ -142,13 +142,19 @@ def main():
         if tid:
             add([tid])
 
-    print("Varredura de populares recentes (2022 -> ago/2026)...")
+    print("Varredura de populares recentes (2022 -> dez/2026)...")
     recentes = {"primary_release_date.gte": DATA_INI, "primary_release_date.lte": DATA_FIM}
-    add(discover("vote_count.desc", extra=recentes, paginas=10, vote_min=40))
-    add(discover("popularity.desc", extra=recentes, paginas=6))
+    add(discover("vote_count.desc", extra=recentes, paginas=20, vote_min=25))
+    add(discover("popularity.desc", extra=recentes, paginas=15))
 
     print("Varredura A24...")
-    add(discover("popularity.desc", extra={"with_companies": str(A24_COMPANY_ID)}, paginas=5))
+    add(discover("popularity.desc", extra={"with_companies": str(A24_COMPANY_ID)}, paginas=8))
+
+    print("Varredura de classicos por decada (fora da janela recente)...")
+    for gte, lte in [("1960-01-01", "1979-12-31"), ("1980-01-01", "1999-12-31"),
+                     ("2000-01-01", "2011-12-31"), ("2012-01-01", "2021-12-31")]:
+        janela = {"primary_release_date.gte": gte, "primary_release_date.lte": lte}
+        add(discover("vote_count.desc", extra=janela, paginas=8, vote_min=200))
 
     print(f"Candidatos novos unicos: {len(ordem)}")
 
