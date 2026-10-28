@@ -26,3 +26,6 @@ contribute/
 .idea/
 *.swp
 *.swo
+
+scripts/sinopses_log.txt
+scripts/sinopses_err.txt
