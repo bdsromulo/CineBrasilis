@@ -102,6 +102,9 @@ def requisicao(url, params=None, tentativas=4):
                 continue
             if r.status_code == 200:
                 return r.json()
+            if r.status_code == 404:
+                # Recurso nao existe (filme deletado etc.) — retry nao resolve
+                return None
             print(f"\n  [HTTP {r.status_code}] {url} (tentativa {tentativa}/{tentativas})")
         except requests.RequestException as e:
             print(f"\n  [Erro de rede] {e} (tentativa {tentativa}/{tentativas})")
