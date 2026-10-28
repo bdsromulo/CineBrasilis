@@ -3,6 +3,13 @@ buscar_youtube_gratis.py
 Procura versões completas e gratuitas dos filmes do acervo no YouTube via
 yt-dlp (mesmo princípio do BaixaTrack: busca ytsearch, sem chave de API).
 
+⚠ PROTOCOLO (leia antes de rodar): volume alto de buscas em pouco tempo
+dispara soft block do YouTube. Este script só deve ser executado quando
+instruído diretamente pelo usuário ou com permissão explícita para uma
+rodada em massa — nunca por iniciativa própria durante atualizações de
+acervo (para isso, o botão "Procurar no YouTube" da página de detalhes
+cobre o usuário em tempo real, sem API).
+
 Critérios para aceitar um vídeo como "o filme completo":
   1. Duração conhecida do filme (campo duracao > 0) e metragem Longa ou Média;
   2. Duração do vídeo bate com a do filme (tolerância ±8% ou ±4 min,

@@ -1,6 +1,6 @@
 """
 atualizar_recentes.py
-(a) Busca filmes brasileiros lancados entre julho e setembro de 2026 e os
+(a) Busca filmes brasileiros lancados entre julho e outubro de 2026 e os
     adiciona ao filmes.json (sem duplicar os ja existentes).
 (b) Classifica TODOS os filmes da base em Curta / Media / Longa pela duracao.
 
@@ -23,6 +23,7 @@ INTERVALOS = [
     ("2026-07-01", "2026-07-31"),
     ("2026-08-01", "2026-08-31"),
     ("2026-09-01", "2026-09-30"),
+    ("2026-10-01", "2026-10-31"),
 ]
 
 
@@ -43,7 +44,7 @@ def main():
     print(f"Base atual: {len(filmes)} filmes\n")
 
     # (a) Coleta e adiciona recentes
-    print("[a] Coletando IDs de julho a setembro de 2026...")
+    print("[a] Coletando IDs de julho a outubro de 2026...")
     ids = coletar_ids_recentes()
     novos = [i for i in ids if i not in por_tmdb]
     print(f"\n{len(ids)} IDs no periodo, {len(novos)} novos a adicionar.\n")

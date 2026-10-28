@@ -32,6 +32,19 @@
   "Indicado: Óscar de Melhor Atriz (1999)",
   "Indicado: Óscar de melhor filme estrangeiro (1999)"
  ],
+ "11703": [
+  "Vencedor: National Board of Review: Top Ten Films",
+  "Vencedor: Óscar de melhor ator (1986)",
+  "Indicado: Óscar de melhor argumento adaptado (1986)",
+  "Indicado: Óscar de melhor ator (1986)",
+  "Indicado: Óscar de melhor filme (1986)",
+  "Indicado: Óscar de melhor realizador (1986)"
+ ],
+ "59990": [
+  "Vencedor: Palma de Ouro (1962)",
+  "Indicado: International Submission to the Academy Awards (1963)",
+  "Indicado: Óscar de melhor filme estrangeiro (1963)"
+ ],
  "82103": [
   "Vencedor: Best Actress Award (Karlovy Vary IFF) (2000)",
   "Vencedor: Crystal Globe (2000)",
@@ -50,18 +63,8 @@
  "67062": [
   "Vencedor: Leopardo de Ouro (1967)"
  ],
- "11703": [
-  "Vencedor: National Board of Review: Top Ten Films",
-  "Vencedor: Óscar de melhor ator (1986)",
-  "Indicado: Óscar de melhor argumento adaptado (1986)",
-  "Indicado: Óscar de melhor ator (1986)",
-  "Indicado: Óscar de melhor filme (1986)",
-  "Indicado: Óscar de melhor realizador (1986)"
- ],
- "59990": [
-  "Vencedor: Palma de Ouro (1962)",
-  "Indicado: International Submission to the Academy Awards (1963)",
-  "Indicado: Óscar de melhor filme estrangeiro (1963)"
+ "7347": [
+  "Vencedor: Urso de Ouro (2008)"
  ],
  "40423": [
   "Vencedor: Palma de Ouro (1959)",
@@ -69,28 +72,11 @@
   "Indicado: International Submission to the Academy Awards (1960)",
   "Indicado: Óscar de melhor filme estrangeiro (1960)"
  ],
- "7347": [
-  "Vencedor: Urso de Ouro (2008)"
- ],
  "53960": [
   "Vencedor: Sundance Jury Prize Latin American Cinema (2002)"
  ],
  "123833": [
   "Vencedor: Sundance Jury Prize Latin American Cinema (2001)"
- ],
- "223706": [
-  "Vencedor: Annecy Cristal for a Feature Film (2014)",
-  "Vencedor: CICFF Programmer's Choice Award (2015)",
-  "Indicado: Óscar de melhor filme de animação (2016)"
- ],
- "265297": [
-  "Vencedor: Audience Award of the San Sebastián International Film Festival (2014)",
-  "Vencedor: Tromsø International Film Festival's audience award (2015)",
-  "Indicado: European Film Award – People's Choice Award for Best European Film (2015)",
-  "Indicado: Oscar de melhor documentário de longa-metragem (2015)"
- ],
- "259719": [
-  "Vencedor: Grande Prêmio do Cinema Brasileiro 2015"
  ],
  "195560": [
   "Vencedor: Grand Prix do Júri (1978)"
@@ -111,20 +97,23 @@
  "130462": [
   "Vencedor: Sundance Special Jury Prize Latin American Cinema (2001)"
  ],
+ "223706": [
+  "Vencedor: Annecy Cristal for a Feature Film (2014)",
+  "Vencedor: CICFF Programmer's Choice Award (2015)",
+  "Indicado: Óscar de melhor filme de animação (2016)"
+ ],
+ "265297": [
+  "Vencedor: Audience Award of the San Sebastián International Film Festival (2014)",
+  "Vencedor: Tromsø International Film Festival's audience award (2015)",
+  "Indicado: European Film Award – People's Choice Award for Best European Film (2015)",
+  "Indicado: Oscar de melhor documentário de longa-metragem (2015)"
+ ],
+ "259719": [
+  "Vencedor: Grande Prêmio do Cinema Brasileiro 2015"
+ ],
  "310569": [
   "Vencedor: Sundance Film Festival World Cinema Dramatic Special Jury Award (2015)",
   "Indicado: International Submission to the Academy Awards (2016)"
- ],
- "453270": [
-  "Vencedor: David di Donatello for Best Director (2018)",
-  "Indicado: David di Donatello for Best Director (2018)",
-  "Indicado: International Submission to the Academy Awards (2018)"
- ],
- "500854": [
-  "Vencedor: Teddy Award (2018)"
- ],
- "519241": [
-  "Vencedor: prémio"
  ],
  "528112": [
   "Vencedor: CICFF Children's Jury Award for Best Animated Feature Film (2018)",
@@ -133,6 +122,17 @@
  ],
  "434370": [
   "Vencedor: Silver Mirror (2017)"
+ ],
+ "519241": [
+  "Vencedor: prémio"
+ ],
+ "453270": [
+  "Vencedor: David di Donatello for Best Director (2018)",
+  "Indicado: David di Donatello for Best Director (2018)",
+  "Indicado: International Submission to the Academy Awards (2018)"
+ ],
+ "500854": [
+  "Vencedor: Teddy Award (2018)"
  ],
  "577102": [
   "Vencedor: Teddy Award"
@@ -157,15 +157,15 @@
  "625518": [
   "Vencedor: Golden Shell (2019)"
  ],
- "683598": [
-  "Vencedor: É Tudo Verdade"
- ],
  "665783": [
   "Vencedor: Iris Prize (2020)"
  ],
  "680017": [
   "Vencedor: Platino Award for Best First Feature Film (2022)",
   "Vencedor: Platino Award for Best Supporting Actor (2022)"
+ ],
+ "683598": [
+  "Vencedor: É Tudo Verdade"
  ],
  "715718": [
   "Vencedor: Festival de Cinema de Nova Iorque"
@@ -190,6 +190,17 @@
  ],
  "1234602": [
   "Vencedor: FIPRESCI Prize at Berlinale"
+ ],
+ "1172265": [
+  "Vencedor: Grand Prix do Júri (2025)"
+ ],
+ "1220564": [
+  "Vencedor: APRECI Award for Best International Premiere (2025)",
+  "Vencedor: FIPRESCI Prize of the Festival de Cannes",
+  "Vencedor: Golden Globe Award de melhor filme em língua estrangeira (2026)",
+  "Indicado: FIPRESCI Grand Prix (2025)",
+  "Indicado: Óscar de melhor filme (2026)",
+  "Indicado: Óscar de melhor filme estrangeiro (2026)"
  ],
  "638497": [
   "Vencedor: Prémios Emmy do Primetime"
@@ -225,22 +236,20 @@
  "1265860": [
   "Vencedor: WILDsound FEEDBACK Film and Screenplay Festival"
  ],
- "1172265": [
-  "Vencedor: Grand Prix do Júri (2025)"
- ],
- "1220564": [
-  "Vencedor: APRECI Award for Best International Premiere (2025)",
-  "Vencedor: FIPRESCI Prize of the Festival de Cannes",
-  "Vencedor: Golden Globe Award de melhor filme em língua estrangeira (2026)",
-  "Indicado: FIPRESCI Grand Prix (2025)",
-  "Indicado: Óscar de melhor filme (2026)",
-  "Indicado: Óscar de melhor filme estrangeiro (2026)"
- ],
  "448933": [
   "Vencedor: CICFF Professional Jury Award for Best Live-Action Feature Film (2017)"
  ],
  "1269662": [
   "Vencedor: Festival do Rio (2025)"
+ ],
+ "1714804": [
+  "Vencedor: prémio cinematográfico"
+ ],
+ "1652393": [
+  "Vencedor: New York Movie Awards (2026)"
+ ],
+ "1509968": [
+  "Vencedor: Melhor Direção em Curta Internacional - Los Angeles Brazilian Film Festival 2025"
  ],
  "14421": [
   "Indicado: International Submission to the Academy Awards (2008)"
@@ -291,6 +300,9 @@
  "55145": [
   "Indicado: International Submission to the Academy Awards (1992)"
  ],
+ "101693": [
+  "Indicado: International Submission to the Academy Awards (1975)"
+ ],
  "32254": [
   "Indicado: International Submission to the Academy Awards (2010)"
  ],
@@ -309,17 +321,14 @@
  "194849": [
   "Indicado: International Submission to the Academy Awards (1979)"
  ],
- "101693": [
-  "Indicado: International Submission to the Academy Awards (1975)"
- ],
- "167931": [
-  "Indicado: International Submission to the Academy Awards (1990)"
+ "135624": [
+  "Indicado: International Submission to the Academy Awards (1985)"
  ],
  "397113": [
   "Indicado: International Submission to the Academy Awards (2019)"
  ],
- "135624": [
-  "Indicado: International Submission to the Academy Awards (1985)"
+ "258979": [
+  "Indicado: International Submission to the Academy Awards (1989)"
  ],
  "8440": [
   "Indicado: International Submission to the Academy Awards (2004)"
@@ -372,14 +381,8 @@
  "199434": [
   "Indicado: 1954 Cannes Film Festival"
  ],
- "314029": [
-  "Indicado: IFFR audience award (2016)"
- ],
- "366517": [
-  "Indicado: International Submission to the Academy Awards (2017)"
- ],
- "258979": [
-  "Indicado: International Submission to the Academy Awards (1989)"
+ "167931": [
+  "Indicado: International Submission to the Academy Awards (1990)"
  ],
  "244962": [
   "Indicado: Oscar de melhor curta-metragem em Live Action (2001)"
@@ -387,16 +390,22 @@
  "237791": [
   "Indicado: International Submission to the Academy Awards (2015)"
  ],
- "429210": [
-  "Indicado: International Submission to the Academy Awards (2018)"
- ],
- "453356": [
-  "Indicado: IFFR audience award (2018)"
+ "314029": [
+  "Indicado: IFFR audience award (2016)"
  ],
  "315205": [
   "Indicado: IFFR audience award (2018)"
  ],
  "490039": [
+  "Indicado: IFFR audience award (2018)"
+ ],
+ "362876": [
+  "Indicado: IFFR audience award"
+ ],
+ "519134": [
+  "Indicado: É Tudo Verdade"
+ ],
+ "492994": [
   "Indicado: IFFR audience award (2018)"
  ],
  "540014": [
@@ -423,13 +432,13 @@
  "575817": [
   "Indicado: Berlinale Documentary Award (2019)"
  ],
- "362876": [
-  "Indicado: IFFR audience award"
+ "366517": [
+  "Indicado: International Submission to the Academy Awards (2017)"
  ],
- "519134": [
-  "Indicado: É Tudo Verdade"
+ "429210": [
+  "Indicado: International Submission to the Academy Awards (2018)"
  ],
- "492994": [
+ "453356": [
   "Indicado: IFFR audience award (2018)"
  ],
  "548544": [
